@@ -22,6 +22,29 @@ const forms = () => {
 
         return await res.text();
     }
+
+    try {
+        const avatarLabel = document.querySelector('.profile__settings-avatar');
+
+        if (avatarLabel) {
+            const avatarInput = avatarLabel.querySelector('input'),
+                  avatarImg = avatarLabel.querySelector('.avatar-wrap img');
+
+            avatarInput.addEventListener("change", function () {
+                if (this.files[0]) {
+                    const fr = new FileReader();
+    
+                    fr.addEventListener("load", function () {
+                        avatarImg.src = fr.result;
+                    }, false);
+    
+                    fr.readAsDataURL(this.files[0]);
+                }
+            });
+        }
+    } catch (e) {
+        console.log(e.stack);
+    }
     
     try {
         const checkboxFields = document.querySelectorAll('.checkbox-field');
@@ -51,7 +74,7 @@ const forms = () => {
     }
 
     try {
-        const formAjax = document.querySelectorAll('form.form'),
+        const formAjax = document.querySelectorAll('form.form, form.form-ajax'),
               modal = document.querySelector('.modal'),
               modalSuccess = document.querySelector('.modal__success'),
               modalItems = document.querySelectorAll('.modal__item'),

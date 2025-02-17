@@ -15,7 +15,7 @@
 <article class="catalog__list-item <?=$class ?: ''?>">
     <div class="image">
         <a href="<?=$link?>" class="preview">
-            <img src="<?=$image['sizes']['medium']?>" alt="<?=$title?>">
+            <img src="<?=$image ? $image['sizes']['medium'] : THEME_IMAGES.'no-image.jpg'?>" alt="<?=$title?>">
         </a>
         <?php if ($brand && get_field('logo', 'brand_'.$brand->term_id)) : ?>
             <img src="<?=get_field('logo', 'brand_'.$brand->term_id)['sizes']['thumbnail']?>" alt="<?=$brand->name?>" class="brand">

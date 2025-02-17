@@ -508,8 +508,12 @@
                             <?php endif; ?>
                         <?php endif; ?>
                         <?php if ($sect == 'settings') : ?>
-                            <div class="profile__settings elem_animate top">
+                            <form action="<?=admin_url('admin-ajax.php')?>?action=userupdate" class="profile__settings elem_animate top form-ajax" data-success="save">
+                                <input type="text" name="profile-user" value="<?=USER_ID?>" hidden>
+
                                 <label class="profile__settings-avatar">
+                                    <input type="file" name="profile-avatar" hidden>
+
                                     <div class="avatar-wrap">
                                         <?=getUserAvatar(1)?>
                                     </div>
@@ -521,19 +525,16 @@
                                         <div class="form-wrap">
                                             <label class="form-label">
                                                 <span class="text_fz12">Ваше имя</span>
-                                                <input type="text" name="profile-name" value="<?=get_user_option('user_firstname', USER_ID)?>" required>
+                                                <input type="text" name="profile-name" value="<?=get_user_option('user_firstname', USER_ID)?>">
                                             </label>
                                             <label class="form-label">
                                                 <span class="text_fz12">Телефон</span>
-                                                <input type="tel" name="profile-hone" placeholder="+7 (___) ___-__-__" value="<?=get_user_meta(USER_ID, 'phone', true)?>" required>
+                                                <input type="tel" name="profile-phone" placeholder="+7 (___) ___-__-__" value="<?=get_user_meta(USER_ID, 'phone', true)?>" required>
                                             </label>
                                             <label class="form-label">
                                                 <span class="text_fz12">Email</span>
                                                 <input type="email" name="profile-email" value="<?=get_user_option('user_email', USER_ID)?>" required>
                                             </label>
-                                            <div class="form-label">
-                                                <?=outBtn('Сохранить изменения')?>
-                                            </div>
                                         </div>
                                     </div>
                                     <div class="profile__settings-block">
@@ -561,7 +562,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </form>
                         <?php endif; ?>
                     </div>
                 </div>

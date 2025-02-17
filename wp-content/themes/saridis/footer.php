@@ -272,6 +272,18 @@
                 </div>
             </div>
         </div>
+        <div class="modal__item modal__success-save">
+            <div class="modal__close"></div>
+
+            <div class="modal__wrap">
+                <div class="form">
+                    <strong class="form-head text_fz24 text_upper text_center">
+                       Выши изменения сохранены!
+                       <img src="<?=THEME_IMAGES?>icons/success.svg" alt="Ваша заявка успешно отправлена">
+                    </strong>
+                </div>
+            </div>
+        </div>
     </div>
 
     <?php

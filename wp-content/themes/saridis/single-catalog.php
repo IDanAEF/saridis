@@ -21,7 +21,7 @@
     <section class="single-catalog__main page__block pt0">
         <div class="container">
             <?php
-                $gallery = get_field('gallery') ?: (get_field('preview-image') ? [get_field('preview-image')] : '');
+                $gallery = get_field('gallery') ?: (get_field('preview-image') ? [get_field('preview-image')] : [THEME_IMAGES.'no-image.jpg']);
             ?>
             <div class="single-catalog__left elem_animate right">
                 <div class="single-catalog__slider">

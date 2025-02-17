@@ -316,8 +316,64 @@
     add_action('wp_ajax_neworder', 'neworder');
     add_action('wp_ajax_nopriv_neworder', 'neworder');
 
+    function userupdate(){
+        if (checkCaptcha()) {
+            $changeArgs = [
+                'ID' => $_POST['profile-user'],
+                'first_name' => $_POST['profile-name'],
+                'user_email' => $_POST['profile-email'],
+            ];
 
-    /* v------ Для вёрстки ------v */
+            $customArgs = [
+                'phone' => $_POST['profile-phone'],
+                'inn' => $_POST['profile-inn'],
+                'city' => $_POST['profile-city'],
+                'street' => $_POST['profile-street'],
+                'company' => $_POST['profile-company']
+            ];
+
+            if (isset($_FILES['profile-avatar']) && $_FILES['profile-avatar']) {
+                if (!function_exists('wp_handle_upload'))
+                    require_once(ABSPATH.'wp-admin/includes/file.php');
+
+                $file = &$_FILES['profile-avatar'];
+                $overrides = ['test_form' => false];
+
+                $movefile = wp_handle_upload($file, $overrides);
+                
+                if ($movefile && empty($movefile['error'])) {
+                    $attachment = array(
+                        'guid' => $movefile['file'], 
+                        'post_mime_type' => $movefile['type'],
+                        'post_title' => preg_replace('/.*\//', '', $movefile['file']),
+                        'post_content' => '',
+                        'post_status' => 'inherit'
+                    );
+
+                    $attach_id = wp_insert_attachment($attachment, $movefile['file']);
+
+                    require_once( ABSPATH . 'wp-admin/includes/image.php' );
+
+                    $attach_data = wp_generate_attachment_metadata($attach_id, $movefile['file']);
+                    wp_update_attachment_metadata($attach_id, $attach_data);
+
+                    $customArgs['avatar-image'] = $attach_id;
+                }
+            }
+
+            wp_update_user($changeArgs);
+
+            foreach($customArgs as $argKey => $arg) {
+                update_user_meta($_POST['profile-user'], $argKey, $arg);
+            }
+        }
+
+        die();
+    }
+    add_action('wp_ajax_userupdate', 'userupdate');
+    add_action('wp_ajax_nopriv_userupdate', 'userupdate');
+
+
 
     function getClearText($text) {
         return str_replace('"', '', strip_tags($text));
