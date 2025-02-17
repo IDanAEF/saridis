@@ -1,0 +1,96 @@
+.cart
+    &__form 
+        flex: 1
+        display: grid
+        grid-template: auto / 1fr 26.5vw
+        gap: 40px
+        &.hide
+            display: none !important
+        &-block 
+            border: 1px solid #e6e6e6
+            border-radius: 10px
+            padding: 50px
+            background: $white
+            & > strong
+                margin-bottom: 24px
+                display: block
+    &__content
+        &-main 
+            display: flex
+            align-items: flex-start
+            gap: 40px
+            .cart__list 
+                flex: 1
+                &.hide
+                    display: none !important
+        &-side
+            width: 22.13vw
+            max-width: 425px
+            background: $white
+            border: 1px solid #e6e6e6
+            border-radius: 8px
+            padding: 24px
+            & > strong 
+                margin-bottom: 10px
+            .btn 
+                margin-top: 20px
+                width: 100%
+    &__list
+        border: 1px solid #e6e6e6
+        border-radius: 8px
+        padding: 0px 30px
+        &-bott 
+            padding: 15px 0px
+        &-row 
+            border-bottom: 1px solid #e6e6e6
+            display: flex
+            align-items: center
+            gap: 20px
+            padding: 12px 0px
+            .col
+                flex: 1
+                display: flex
+                align-items: center
+                &:first-child
+                    flex: none
+                    width: 33%
+            .name 
+                img 
+                    width: 100px
+                    height: 100px
+                    min-width: 100px
+                    object-fit: cover
+                    margin-right: 20px
+            .price
+                .old
+                    margin-left: 2px
+                    text-decoration: line-through
+                    color: #999
+                &-result 
+                    margin-right: 15px
+            .btn
+                margin-left: auto
+                white-space: nowrap
+            .delete
+                margin-left: 24px
+                width: 24px
+                min-width: 24px
+                cursor: pointer
+                &.mla
+                    margin-left: auto
+            .isset
+                border-radius: 4px
+                padding: 4px 8px
+                text-align: center
+                white-space: nowrap
+                &.in
+                    color: $white
+                    background: $color
+                &.out
+                    color: #ea4b48
+                    background: rgba(234, 75, 72, 0.2)
+            &.head
+                padding: 16px 0px
+                color: #808080
+            &:last-child
+                border-bottom: none !important

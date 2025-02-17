@@ -1,0 +1,468 @@
+*
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+    -webkit-text-size-adjust: none
+    &::-webkit-scrollbar
+        width: 8px
+        height: 5px
+    &::-webkit-scrollbar-track
+        background: $white
+    &::-webkit-scrollbar-thumb 
+        background-color: $color
+body
+    font-family: 'Montserrat', sans-serif
+    background: #fcfcfc
+    color: $black
+    min-height: 100vh
+    display: flex
+    flex-direction: column
+    font-size: 16px
+    line-height: 1.3
+    font-weight: 500
+a 
+    color: inherit
+    text-decoration: none
+    transition: 0.3s all
+    &:not(.no-hover)
+        &:hover, &.active
+            color: $color
+strong 
+    font-weight: 700
+html, body 
+    &.fixed
+        overflow: hidden
+.page-wrap
+    overflow: hidden
+    display: flex
+    flex-direction: column
+    flex: 1
+    &.offset
+        padding-top: 120px
+footer
+    margin-top: auto
+main 
+    position: relative
+    flex: 1
+img, svg 
+    max-width: 100%
+    max-height: 100%
+    width: auto
+    height: auto
+    object-fit: contain
+picture
+    display: flex
+.container
+    position: relative
+    margin: 0 auto
+    width: 100%
+    max-width: 1920px
+    padding-right: 50px
+    padding-left: 50px
+.img
+    &_bg
+        position: absolute
+        width: 100%
+        height: 100%
+        object-fit: cover
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        z-index: 0
+        pointer-events: none
+.default-text
+    h2, h3, h4, h5, h6, p, table, ul, ol
+        &:last-child
+            margin-bottom: 0 !important
+        &:first-child
+            margin-top: 0 !important
+    h2
+        margin-top: 30px
+        margin-bottom: 20px
+    h3, h4, h5, h6
+        margin-top: 20px
+        margin-bottom: 15px
+    p, img 
+        margin: 15px 0px
+    img 
+        display: block
+        width: 100%
+    table
+        border-collapse: collapse
+        width: 100%
+        max-width: 100%
+        margin: 20px 0px
+        td 
+            border: 1px solid $black
+            padding: 10px
+    ol, ul 
+        margin: 20px 0px
+        padding-left: 1em
+    a 
+        text-decoration: underline
+.text_white
+    table
+        td 
+            border: 1px solid $white
+h1 
+    margin: 0
+h1, h2 
+    font-weight: 900
+    font-size: 40px
+    word-break: break-word
+    text-transform: uppercase
+h3 
+    font-size: 30px
+h4
+    font-size: 24px
+h5
+    font-size: 20px
+h6 
+    font-size: 18px
+.text 
+    &_normal
+        font-style: normal
+    &_italic
+        font-style: italic
+    &_center
+        text-align: center
+    &_black
+        color: $black
+    &_white
+        color: $white
+    &_color 
+        color: $color
+    &_gray
+        color: $gray
+    &_underline
+        text-decoration: underline
+    &_upper 
+        text-transform: uppercase
+    &_nowrap
+        white-space: nowrap
+    &_lbreak
+        word-break: break-word
+    &_ff
+        &Mont 
+            font-family: 'Montserrat', sans-serif
+    &_fw 
+        &100
+            font-weight: 100
+        &200
+            font-weight: 200
+        &300
+            font-weight: 300
+        &400
+            font-weight: 400
+        &500
+            font-weight: 500
+        &600
+            font-weight: 600
+        &700
+            font-weight: 700
+        &800
+            font-weight: 800
+        &900
+            font-weight: 900
+    &_fz 
+        &12
+            font-size: 12px
+        &14
+            font-size: 14px
+        &16
+            font-size: 16px
+        &18
+            font-size: 18px
+        &20
+            font-size: 20px
+        &22
+            font-size: 22px
+        &24
+            font-size: 24px
+        &30
+            font-size: 30px
+        &40
+            font-size: 40px
+        &120
+            font-size: 120px
+            line-height: 1.1
+.btn 
+    position: relative
+    display: flex
+    align-items: center
+    justify-content: center
+    text-align: center
+    border: none
+    width: fit-content
+    max-width: 100%
+    transition: 0.4s all
+    padding: 15px 30px
+    border-radius: 10px
+    color: $white !important
+    background: $color
+    outline: none
+    cursor: pointer
+    font-weight: 600
+    span 
+        display: flex
+        align-items: center
+        pointer-events: none
+        img 
+            width: 20px
+            min-width: 20px
+            margin-left: 12px
+            transition: 0.4s filter
+            filter: brightness(0) invert(1)
+    &:hover, &.active
+        background: $gray 
+        color: $color !important
+        span 
+            img 
+                filter: none
+    &.border
+        border: 1px solid $black
+        background: none
+        color: $black !important
+        span 
+            img
+                filter: brightness(0)
+        &:hover, &.active
+            color: $white !important
+            background: $black
+            span 
+                img
+                    filter: brightness(0) invert(1)
+        &-white 
+            border: 1px solid $white
+            background: none
+            color: $white !important
+            &:hover, &.active
+                color: $color !important
+                background: $white
+    &.middle
+        margin-left: auto
+        margin-right: auto
+    &.round
+        border-radius: 40px
+    &.disable
+        filter: grayscale(1)
+        opacity: 0.5
+        pointer-events: none
+.elem
+    &_animate 
+        transition: 1.4s all
+        &:not(.opacity)
+            transform: rotateX(90deg)
+        &.opacity
+            opacity: 0
+            &.anim 
+                opacity: 1
+        &:not(.opacity)
+            &.anim
+                transform: rotateX(00deg)
+        &.left, &.right, &.top, &.bott
+            transition: 1.4s all
+            opacity: 0
+            &.anim 
+                opacity: 1
+        &.top
+            transform: translate3d(0, 60px, 0)
+            &.anim
+                transform: translate3d(0, 0, 0)
+        &.bott
+            transform: translate3d(0, -60px, 0)
+            &.anim
+                transform: translate3d(0, 0, 0)
+        &.right
+            transform: translate3d(-60px, 0, 0)
+            &.anim
+                transform: translate3d(0, 0, 0)
+        &.left
+            transform: translate3d(60px, 0, 0)
+            &.anim
+                transform: translate3d(0, 0, 0)
+        &.custom 
+            transform: none
+            &.anim 
+                transform: none
+.slider
+    &-list
+        position: relative
+        user-select: none
+        touch-action: pan-y
+        -webkit-tap-highlight-color: transparent
+        cursor: grab
+        max-width: 100%
+        &.grabbing
+            cursor: grabbing
+    &-track 
+        transition: transform 0.5s ease 0s
+        display: flex
+        width: fit-content
+        &.fast 
+            transition: none
+            pointer-events: none
+    &-toggle 
+        display: flex
+        align-items: center
+        gap: 20px
+        span 
+            opacity: 0.7
+            display: flex
+            align-items: center
+            cursor: pointer
+            &:hover 
+                opacity: 1
+            &.active
+                opacity: 1
+                &::after
+                    content: ''
+                    width: 123px
+                    height: 1px
+                    margin-left: 12px
+                    background: $white
+.form
+    padding: 30px
+    border-radius: 24px
+    background: $white
+    &.p0
+        padding: 0 !important
+    &-head
+        display: block
+        margin-bottom: 15px
+        &:last-child
+            margin-bottom: 0 !important
+        & > span 
+            margin-top: 10px
+            display: block
+            text-transform: none
+        & > img 
+            width: 94px
+            height: 94px
+            display: block
+            margin: 15px auto 0
+    &-label 
+        display: block
+        margin-bottom: 15px
+        &:last-child
+            margin-bottom: 0 !important
+        & > span 
+            display: block
+            margin-bottom: 5px
+            color: #a9a9a9
+        .btn 
+            width: 100%
+            &.fit
+                width: fit-content
+        input, textarea 
+            border-radius: 10px
+            padding: 15px
+            background: $gray
+            border: none
+            width: 100%
+        textarea
+            height: 123px
+            resize: none
+            &.big
+                height: 200px
+    &-privacy
+        display: flex
+        align-items: flex-start
+        color: #a9a9a9
+        img 
+            width: 24px
+            min-width: 24px
+            margin-right: 10px
+    &-row 
+        margin-bottom: 15px
+        display: grid
+        grid-template: auto / 1fr 1fr
+        gap: 30px
+        .form-label
+            margin: 0 !important
+.wishlist-btn
+    text-align: center
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 50px
+    height: 50px
+    min-width: 50px
+    border-radius: 100%
+    background: rgba(209, 209, 209, 0.3)
+    transition: 0.4s background
+    cursor: pointer
+    img 
+        width: 50%
+        transition: 0.4s filter
+    &:hover, &.active
+        background: $color
+        img 
+            filter: brightness(0) invert(1)
+.counter
+    display: flex
+    align-items: center
+    gap: 10px
+    width: fit-content
+    border: 1px solid #e6e6e6
+    border-radius: 170px
+    padding: 8px
+    &-result 
+        min-width: 27px
+        pointer-events: none
+    &-oper
+        width: 32px
+        height: 32px
+        min-width: 32px
+        cursor: pointer
+        transition: 0.4s transform
+        &:hover 
+            transform: scale(0.8)
+.checkbox-field
+    &-item 
+        display: flex
+        align-items: center
+        margin-bottom: 10px
+        cursor: pointer
+        transition: 0.4s color
+        span 
+            span 
+                color: #808080
+        .dot
+            display: flex
+            align-items: center
+            justify-content: center
+            width: 20px
+            height: 20px
+            min-width: 20px
+            margin-right: 8px
+            border-radius: 100%
+            border: 1px solid #ccc
+            background: $white
+            transition: 0.4s border
+            &::before 
+                content: ''
+                width: 60%
+                height: 60%
+                background: $color
+                transition: 0.4s opacity
+                border-radius: 100%
+                opacity: 0
+        &:hover
+            color: $color
+        &.active
+            .dot
+                &::before
+                    opacity: 1
+.infinite-line
+    animation: infinite-line 5s linear infinite
+@keyframes infinite-line
+    0%
+        transform: translateX(0%)
+    100%
+        transform: translateX(-100%)
+[data-call-modal]
+    cursor: pointer
+.showhide-item
+    &.hide
+        display: none !important

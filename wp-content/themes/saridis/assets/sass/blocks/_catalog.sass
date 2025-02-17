@@ -1,0 +1,224 @@
+.catalog
+    .filter
+        &-price 
+            display: block
+            margin: 20px 0px
+        &-range 
+            margin-top: 8px
+            &-line 
+                position: relative
+                height: 6px
+                background: #e6e6e6
+                width: 100%
+                margin-bottom: 10px
+                .line 
+                    position: absolute
+                    left: 0
+                    top: 50%
+                    transform: translateY(-50%)
+                    height: 100%
+                    z-index: 0
+                    pointer-events: none
+                    background: $color
+                    left: 0
+                    right: 0
+                input[type="range"]
+                    position: absolute
+                    width: 100%
+                    height: 6px
+                    top: 0px
+                    background: none
+                    pointer-events: none
+                    -webkit-appearance: none
+                    -moz-appearance: none
+                    box-shadow: none
+                    padding: 0 !important
+                    border: none !important
+                    transition: none !important
+                    border-radius: 0 !important
+                    cursor: pointer
+                    &::-webkit-slider-thumb
+                        height: 20px
+                        width: 20px
+                        border-radius: 100%
+                        background: $white
+                        border: 2px solid $color
+                        pointer-events: auto
+                        -webkit-appearance: none
+                    &::-moz-range-thumb
+                        height: 20px
+                        width: 20px
+                        border-radius: 100%
+                        background: $white
+                        border: 2px solid $color
+                        pointer-events: auto
+                        -moz-appearance: none
+    &__main 
+        display: flex
+        align-items: flex-start
+    &__info 
+        display: flex
+        align-items: center
+        justify-content: space-between
+        margin-bottom: 30px
+    &__filter
+        width: 16.25vw
+        max-width: 312px
+        margin-right: 7.81vw
+        &-call, &-close 
+            display: none
+        &-close 
+            width: 20px
+            height: 20px
+            position: absolute
+            right: 10px
+            top: 10px
+            align-items: center
+            justify-content: center
+            cursor: pointer
+            &::before, &::after 
+                content: ''
+                width: 100%
+                height: 2px
+                background: $black
+                position: absolute
+                pointer-events: none
+            &::before 
+                transform: rotate(45deg)
+            &::after
+                transform: rotate(-45deg)
+        &-remove
+            display: flex
+            align-items: center
+            margin-top: 30px
+            cursor: pointer
+            transition: 0.4s color
+            img 
+                width: 24px
+                min-width: 24px
+                margin-left: 14px
+                transition: 0.4s filter
+                filter: brightness(0)
+            &:hover 
+                color: $color
+                img 
+                    filter: none
+        &-btn 
+            width: 100%
+            margin-bottom: 24px
+            &.mobile
+                display: none
+        &-block 
+            border-bottom: 1px solid #e6e6e6
+            margin-bottom: 20px
+            &:last-child
+                margin-bottom: 0 !important
+            .top
+                display: flex
+                align-items: center
+                justify-content: space-between
+                gap: 20px
+                padding-bottom: 20px
+                cursor: pointer
+                img 
+                    width: 14px
+                    min-width: 14px
+                    transition: 0.4s transform
+                    transform: rotate(180deg)
+                &.active
+                    img 
+                        transform: rotate(0deg)
+            .bott
+                transition: 0.4s all
+                max-height: 0
+                overflow: hidden
+                &.active
+                    max-height: 1500px
+        &-brand 
+            padding: 6px 16px 6px 10px
+            background: #f2f2f2
+            border-radius: 30px
+            gap: 20px
+            justify-content: space-between
+            transition: 0.4s background
+            span 
+                display: flex
+                align-items: center
+                img 
+                    width: 34px
+                    height: 34px
+                    min-width: 34px
+                    margin-right: 10px
+                    border-radius: 100%
+                    object-fit: cover
+            &:hover, &.active
+                color: $white
+                background: #b9c350
+    &__right
+        flex: 1
+    &__list 
+        display: grid
+        grid-template: auto / repeat(3, 1fr)
+        gap: 30px
+        &.four
+            grid-template: auto / repeat(4, 1fr)
+        &-item 
+            padding: 20px
+            border: 1px solid rgba(0, 0, 0, 0.1)
+            border-radius: 12px
+            display: flex
+            flex-direction: column
+            background: $white
+            &.hide
+                display: none !important
+            .image
+                position: relative
+                display: flex
+                align-items: center
+                justify-content: center
+                width: 100%
+                .preview
+                    width: 17.65vw
+                    height: 13.48vw
+                    max-width: 339px
+                    max-height: 259px
+                    img 
+                        width: 100%
+                        height: 100%
+                .brand
+                    position: absolute
+                    z-index: 1
+                    pointer-events: none
+                    left: 0
+                    top: 0
+                    width: 5.57vw
+                    max-width: 107px
+                .wishlist-btn
+                    position: absolute
+                    z-index: 1
+                    top: 0
+                    right: 0
+                    width: 42px
+                    height: 42px
+                    min-width: 42px
+            .text
+                margin-bottom: auto
+                margin-top: 30px
+                .cats, .size
+                    color: #959595
+                .size
+                    margin-top: 10px
+            .bott
+                display: flex
+                align-items: center
+                justify-content: flex-end
+                margin-top: 10px
+                .counter
+                    margin-left: 30px
+                .old-price
+                    margin-right: 10px
+                    text-decoration: line-through
+                    color: #b3b3b3
+    &__more
+        margin-left: auto
+        margin-right: auto

@@ -1,0 +1,57 @@
+@media (min-width: 1920px)
+    .about
+        &__promo 
+            &-text 
+                margin-left: 225px
+                .default-text
+                    margin-left: 140px
+@media (max-width: 1700px)
+    .about
+        .img_bg
+            transform: translate(-50%,-50%)
+        &__promo 
+            padding: 100px 0px 50px
+            min-height: 750px
+            &-text 
+                margin-left: 0
+                .default-text
+                    width: 38vw
+                    margin-bottom: 16px
+            &-image 
+                bottom: -12.5vw
+@media (max-width: 1200px)
+    .about
+        &__promo 
+            min-height: 630px
+            &-text 
+                .default-text 
+                    margin-left: 0
+            &-image 
+                bottom: -15vw
+                width: 77vw
+                right: -7vw
+@media (max-width: 992px)
+    .about
+        &__promo 
+            &-text 
+                .default-text
+                    width: 48vw
+            &-image 
+                bottom: -15vw
+                width: 91vw
+                right: -30vw
+@media (max-width: 576px)
+    .about
+        &__promo 
+            padding: 100px 0px 0px
+            & > .container
+                padding-bottom: 250px
+            &-text 
+                .default-text
+                    padding-left: 50px
+                    width: 100%
+            &-image 
+                width: 496px
+                bottom: -69px
+                right: 50%
+                transform: translateX(44%)

@@ -1,0 +1,153 @@
+.single-recipe
+    &__main
+        display: flex
+        align-items: flex-start
+    &__left 
+        width: 65.26vw
+        max-width: 1253px
+    &__right 
+        flex: 1
+        margin-left: 40px
+        padding: 50px
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05)
+        border-radius: 10px
+        &-item 
+            padding: 20px 0px
+            border-top: 1px solid #e6e6e6
+            border-bottom: 1px solid #e6e6e6
+            & > strong 
+                display: block
+                margin-bottom: 20px
+            &:first-child
+                border-top: none !important
+                padding-top: 0 !important
+            &:last-child
+                border-bottom: none !important
+                padding-bottom: 0 !important
+    &__gallery
+        display: grid
+        grid-template: auto / repeat(4, 1fr)
+        gap: 8px
+        a
+            width: 100%
+            display: flex
+        img
+            border-radius: 6px
+            width: 100%
+            height: 4.89vw
+            max-height: 94px
+            object-fit: cover
+    &__recent
+        display: flex
+        align-items: flex-start
+        margin-bottom: 16px
+        img
+            border-radius: 6px
+            width: 5.20vw
+            height: 4.16vw
+            max-width: 100px
+            max-height: 80px
+            object-fit: cover
+            margin-right: 12px
+        .text
+            strong 
+                display: block
+                margin-bottom: 5px
+            span 
+                color: #666
+        &:last-child
+            margin-bottom: 0 !important
+    &__image 
+        width: 100%
+        height: 42.76vw
+        max-height: 821px
+        object-fit: cover
+        margin-bottom: 52px
+        border-radius: 40px
+    &__head
+        padding-bottom: 24px
+        margin-bottom: 24px
+        border-bottom: 1px solid #e5e5e5
+        display: flex
+        align-items: center
+        justify-content: space-between
+    &__user 
+        display: flex
+        align-items: center
+        .avatar
+            width: 50px
+            height: 50px
+            min-width: 50px
+            border-radius: 100%
+            position: relative
+            overflow: hidden
+            margin-right: 12px
+        .text
+            .name
+                margin-bottom: 5px
+            .meta
+                display: flex
+                align-items: center
+                gap: 6px
+                color: #808080
+    &__descr
+        margin-bottom: 32px
+        color: #808080
+        h1, h2, h3, h4, h5, h6
+            color: $black
+            font-weight: 500
+            text-transform: unset
+    &__steps
+        &-item 
+            margin-bottom: 32px
+            display: flex
+            align-items: flex-start
+            img 
+                border-radius: 8px
+                margin-right: 30px
+                width: 11.97vw
+                height: 10.05vw
+                max-width: 230px
+                max-height: 193px
+                object-fit: cover
+            .text
+                h2
+                    margin-bottom: 30px
+                    color: rgba(0, 0, 0, 0.1)
+            &:last-child
+                margin-bottom: 0 !important
+    &__reviews
+        & > strong 
+            display: block
+    &__comments
+        & > strong 
+            display: block
+        &-list
+            .comment
+                &-item 
+                    display: flex
+                    align-items: flex-start
+                    padding-bottom: 24px
+                    margin-bottom: 24px
+                    border-bottom: 1px solid #e6e6e6
+                    .avatar-wrap
+                        width: 40px
+                        height: 40px
+                        min-width: 40px
+                        position: relative
+                        margin-right: 12px
+                        border-radius: 100%
+                        overflow: hidden
+                    &:last-child
+                        margin-bottom: 0 !important
+                        padding-bottom: 0 !important
+                        border-bottom: none !important
+                &-top 
+                    display: flex
+                    align-items: center
+                    gap: 6px
+                &-descr 
+                    color: #666
+                    margin-top: 5px
+                &-date 
+                    color: #999

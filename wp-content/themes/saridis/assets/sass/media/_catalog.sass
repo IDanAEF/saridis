@@ -1,0 +1,92 @@
+@media (min-width: 1920px)
+    .catalog
+        &__left
+            margin-right: 150px
+@media (max-width: 1700px)
+    .catalog
+        &__filter 
+            width: 20vw
+            margin-right: 2vw
+        &__list 
+            gap: 10px
+            &-item
+                .image
+                    .brand 
+                        width: 7vw
+@media (max-width: 1200px)
+    .catalog
+        &__filter 
+            position: fixed
+            z-index: 11
+            left: 0
+            top: 0
+            background: $white
+            height: 100%
+            max-width: unset
+            width: 400px
+            padding: 40px 30px
+            overflow: auto
+            opacity: 0
+            visibility: hidden
+            transition: 0.4s all
+            &.active 
+                opacity: 1
+                visibility: visible
+            &-close 
+                display: flex
+            &-btn
+                &.desk
+                    display: none
+                &.mobile
+                    display: flex
+            &-call 
+                display: flex
+                margin-bottom: 20px
+        &__info 
+            margin-bottom: 20px
+        &__list 
+            &.four
+                grid-template: auto / repeat(3, 1fr)
+            &-item
+                padding: 15px 8px
+                .image
+                    .brand
+                        width: 10vw
+                    .preview
+                        width: 24vw
+                        height: 19vw
+                    .wishlist-btn
+                        width: 34px
+                        height: 34px
+                        min-width: 34px
+                .text
+                    margin-top: 10px
+                .bott
+                    .counter
+                        margin-left: 10px
+@media (max-width: 576px)
+    .catalog
+        &__filter 
+            width: 100%
+        &__list
+            grid-template: auto / 1fr 1fr
+            &.four
+                grid-template: auto / 1fr 1fr
+            &-item 
+                .image
+                    .preview
+                        width: 35vw
+                        height: 27vw
+                    .brand
+                        width: 17vw
+@media (max-width: 370px)
+    .catalog
+        &__list
+            grid-template: auto / 1fr
+            &.four
+                grid-template: auto / 1fr
+            &-item 
+                .image
+                    .preview
+                        width: 70vw
+                        height: 52vw

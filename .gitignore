@@ -1,0 +1,6 @@
+*.rar
+.idea
+wp-content/cache
+node_modules
+
+!wp-content/uploads/wpcf7_uploads/*

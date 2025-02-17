@@ -1,0 +1,70 @@
+@media (min-width: 1920px)
+    .single-catalog
+        &__left
+            margin-right: 100px
+        &__slider
+            margin-right: 50px
+@media (max-width: 1400px)
+    .single-catalog
+        &__left
+            margin-right: 2vw
+        &__comments
+            padding: 30px
+@media (max-width: 1200px)
+    .single-catalog
+        &__slider 
+            .arrow 
+                &-prev 
+                    margin-bottom: 10px
+                &-next 
+                    margin-top: 10px
+        &__right 
+            .brand 
+                img
+                    width: 35px
+                    height: 35px
+                    min-width: 35px
+@media (max-width: 992px)
+    .single-catalog
+        &__bott 
+            .wishlist-btn
+                display: none
+            .btn 
+                padding: 15px
+@media (max-width: 768px)
+    .single-catalog
+        &__main 
+            .container 
+                flex-direction: column
+        &__left 
+            width: 100%
+            margin-right: 0
+            margin-bottom: 40px
+            max-width: 100%
+            flex-direction: column-reverse
+        &__slider 
+            margin-right: 0
+            margin-top: 12px
+            width: 100%
+            max-width: unset
+            height: auto
+            flex-direction: row
+            .arrow
+                display: none
+            &-track 
+                height: unset
+                width: fit-content
+                flex-direction: row
+                img 
+                    margin-bottom: 0
+                    margin-right: 10px
+                    width: 18vw
+                    height: 18vw
+                    max-height: unset
+                    max-width: unset
+        &__big 
+            width: 100%
+            height: 92vw
+            max-width: 100%
+        &__comments
+            padding: 15px

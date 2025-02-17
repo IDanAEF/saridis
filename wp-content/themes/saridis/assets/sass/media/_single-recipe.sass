@@ -1,0 +1,71 @@
+@media (max-width: 1700px)
+    .single-recipe
+        &__right 
+            padding: 30px
+@media (max-width: 1700px)
+    .single-recipe
+        &__image 
+            margin-bottom: 20px
+            border-radius: 20px
+        &__head
+            padding-bottom: 20px
+            margin-bottom: 20px
+        &__right 
+            margin-left: 20px
+            padding: 15px
+        &__gallery
+            img 
+                height: 5.7vw
+        &__steps 
+            &-item 
+                img 
+                    margin-right: 15px
+                .text
+                    h2 
+                        margin-bottom: 10px
+@media (max-width: 992px)
+    .single-recipe
+        &__main 
+            flex-direction: column
+        &__left 
+            width: 100%
+        &__right 
+            margin-left: 0
+            margin-top: 32px
+            width: 100%
+            &-item 
+                & > strong 
+                    margin-bottom: 10px
+        &__image 
+            height: 60vw
+        &__gallery
+            img 
+                height: 20vw
+                max-height: 190px
+        &__recent
+            img 
+                width: 100px
+                height: 80px
+        &__steps 
+            &-item 
+                img 
+                    width: 22vw
+                    height: 19vw
+@media (max-width: 576px)
+    .single-recipe
+        &__steps 
+            &-item 
+                img 
+                    width: 120px
+                    height: 100px
+@media (max-width: 400px)
+    .single-recipe
+        &__steps 
+            &-item
+                flex-direction: column
+                img 
+                    margin-right: 0
+                    margin-bottom: 12px
+        &__right 
+            box-shadow: none
+            padding: 0

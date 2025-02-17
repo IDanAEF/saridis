@@ -1,0 +1,19 @@
+@media (max-width: 1200px)
+    .contacts
+        &__content
+            &-row 
+                grid-template: auto / 1fr
+            &-row, &-text 
+                gap: 20px
+@media (max-width: 768px)
+    .contacts
+        &__content
+            &-map 
+                height: 300px
+@media (max-width: 576px)
+    .contacts
+        &__content
+            &-text 
+                grid-template: auto / 1fr
+            &-item 
+                margin-bottom: 20px

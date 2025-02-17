@@ -1,0 +1,28 @@
+.contacts
+    &__content
+        &-row,  &-text
+            display: grid
+            grid-template: auto / 1fr 1fr 
+            gap: 40px
+        &-item 
+            margin-bottom: 32px
+            display: flex
+            align-items: flex-start
+            img 
+                width: 24px
+                min-width: 24px
+                margin-right: 10px
+            .text 
+                & > span 
+                    display: block
+                    margin-bottom: 10px
+                a 
+                    display: flex
+                    align-items: center
+            &:last-child
+                margin-bottom: 0 !important
+        &-map 
+            height: 391px
+            border-radius: 40px
+            overflow: hidden
+            box-shadow: 0 12px 13px 2px rgba(0, 0, 0, 0.1)

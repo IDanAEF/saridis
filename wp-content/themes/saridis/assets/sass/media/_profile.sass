@@ -1,0 +1,135 @@
+@media (min-width: 1920px)
+    .profile
+        &__settings
+            &-avatar 
+                margin-right: 80px
+@media (max-width: 1400px)
+    .profile
+        &__blocks
+            margin-bottom: 15px
+            &-item 
+                padding: 20px
+        &__general, &__sidebar
+            margin-right: 15px
+        &__history
+            padding: 20px
+            &-detail
+                &-row 
+                    .info 
+                        .contacts
+                            margin-top: 20px
+                            a 
+                                margin-bottom: 10px
+            .body 
+                .row
+                    &.top
+                        margin-bottom: 0
+                        &::before
+                            width: calc(100% + 40px)
+                            left: -20px
+        &__sidebar
+            padding: 10px
+            &-item 
+                padding: 10px 15px
+                img 
+                    width: 20px
+                    height: 20px
+                    min-width: 20px
+@media (max-width: 1200px)
+    .profile
+        &__history
+            &-detail
+                &-row 
+                    .info, .title 
+                        padding: 15px
+        &__settings
+            padding: 20px
+            &-avatar 
+                margin-right: 15px
+                .avatar-wrap 
+                    margin-bottom: 10px
+                    width: 150px
+                    height: 150px
+@media (max-width: 992px)
+    .profile
+        &__settings, &__info
+            width: 100%
+        &__main 
+            flex-direction: column
+        &__sidebar
+            margin-bottom: 15px
+            margin-right: 0
+            width: 100%
+            max-width: 100%
+            display: grid
+            grid-template: auto / repeat(3, 1fr)
+@media (max-width: 768px)
+    .profile
+        &__history
+            &-detail 
+                &-row 
+                    grid-template: auto / 1fr
+        &__sidebar
+            grid-template: auto / 1fr 1fr
+        &__settings
+            &-block
+                margin-bottom: 30px
+                & > strong 
+                    margin-bottom: 10px
+@media (max-width: 576px)
+    .profile
+        &__sidebar
+            grid-template: auto / 1fr
+        &__settings
+            flex-direction: column
+            align-items: center
+            &-avatar 
+                margin-right: 0
+                margin-bottom: 30px
+            &-info 
+                width: 100%
+        &__blocks
+            flex-direction: column
+        &__general
+            width: 100%
+            max-width: 100%
+            margin-right: 0
+            margin-bottom: 15px
+        &__info, &__blocks
+            width: 100%
+        &__history
+            &-detail 
+                .head
+                    strong
+                        gap: 2px
+                &-range 
+                    &::before
+                        display: none
+                    .range-item
+                        &:last-child
+                            .circle
+                                &::after
+                                    display: none
+            .head
+                flex-direction: column
+                text-align: center
+                gap: 10px
+            .body
+                overflow: auto
+                .row
+                    min-width: 450px
+                    &.top
+                        &::before
+                            display: none
+@media (max-width: 400px)
+    .profile
+        &__history
+            &-detail
+                &-range
+                    flex-direction: column
+                    gap: 20px
+                    .range-item 
+                        gap: 5px
+                        &.active
+                            &::before 
+                                display: none

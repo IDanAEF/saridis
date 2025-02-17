@@ -1,0 +1,41 @@
+.about
+    &__promo 
+        padding: 120px 0px 150px
+        position: relative
+        min-height: 950px
+        display: flex
+        flex-direction: column
+        .container
+            flex: 1
+        .img_bg
+            transform: translate(-50%, -50%) rotateY(180deg)
+        &-text 
+            margin-left: 11.71vw
+            .default-text
+                margin-bottom: 32px
+                margin-left: 7.29vw
+                position: relative
+                z-index: 1
+                &:last-child
+                    margin-bottom: 0 !important
+            .text1
+                width: 31.25vw
+                max-width: 600px
+                line-height: 1.8
+                strong
+                    text-transform: uppercase
+                    font-size: 200%
+                    font-weight: 900
+                    line-height: 1.4
+            .text2
+                width: 26.04vw
+                max-width: 500px
+        &-image 
+            position: absolute
+            z-index: 0
+            width: 65vw
+            max-width: 1248px
+            max-height: unset
+            right: 0
+            bottom: -17vw
+            pointer-events: none

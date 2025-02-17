@@ -1,0 +1,145 @@
+.single-catalog
+    &__main 
+        .container
+            display: flex
+            align-items: flex-start
+    &__left
+        width: 48.54vw
+        max-width: 932px
+        margin-right: 5.2vw
+        display: flex
+        justify-content: space-between
+    &__big 
+        width: 39.94vw
+        height: 39.94vw
+        max-width: 767px
+        max-height: 767px
+        margin-left: auto
+        position: relative
+        img
+            position: absolute
+            top: 0
+            left: 0
+            width: 100%
+            height: 100%
+            transition: 0.4s opacity, 0.4s visibility
+            opacity: 0
+            visibility: hidden
+            &.active
+                opacity: 1
+                visibility: visible
+    &__slider
+        width: 5.72vw
+        height: 39.94vw
+        max-width: 110px
+        max-height: 767px
+        margin-right: 2.60vw
+        display: flex
+        flex-direction: column
+        align-items: center
+        flex: 1
+        .arrow
+            cursor: pointer
+            width: 34px
+            &-prev
+                margin-bottom: 20px
+            &-next 
+                margin-top: 20px
+                transform: rotate(180deg)
+        &-list 
+            flex: 1
+            overflow: hidden
+        &-track 
+            height: fit-content
+            transition: 0.4s transform
+            display: flex
+            flex-direction: column
+            align-items: center
+            img 
+                width: 100%
+                height: 5.72vw
+                max-height: 110px
+                object-fit: cover
+                margin-bottom: 12px
+                transition: 0.4s border
+                border: 2px solid rgba(0, 0, 0, 0)
+                cursor: pointer
+                &.active
+                    border: 2px solid $color
+    &__head
+        padding-bottom: 20px
+        margin-bottom: 20px
+        border-bottom: 1px solid #e6e6e6
+    &__descr
+        margin-bottom: 24px
+    &__params
+        &-item 
+            display: flex
+            align-items: center
+            justify-content: space-between
+            gap: 20px
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+            padding: 15px 0px
+            span 
+                &:last-child
+                    text-align: right
+                    color: #808080
+    &__right 
+        flex: 1
+        .isset
+            display: block
+            width: fit-content
+            margin-bottom: 8px
+            padding: 4px 8px
+            border-radius: 4px
+            &.in
+                background: $color
+                color: $white
+            &.out
+                background: rgba(234, 75, 72, 0.2)
+                color: #ea4b48
+        h1 
+            margin-bottom: 12px
+        .price
+            display: flex
+            align-items: center
+            .cut
+                margin-left: 12px
+                padding: 3px 10px
+                border-radius: 30px
+                background: rgba(234, 75, 72, 0.2)
+                color: #ea4b48
+            .old
+                margin-right: 5px
+                text-decoration: line-through
+                color: #b3b3b3
+        .brand
+            display: flex
+            align-items: center
+            margin-bottom: 16px
+            span 
+                margin-left: 8px
+                &:first-child
+                    margin-left: 0 !important
+            img
+                width: 50px
+                height: 50px
+                min-width: 50px
+                margin-left: 8px
+                border-radius: 100%
+                object-fit: cover
+    &__bott
+        display: flex
+        align-items: center
+        justify-content: space-between
+        gap: 12px 
+        margin-top: 42px
+        .btn 
+            flex: 1
+    &__comments
+        margin-top: 50px
+        border: 1px solid #e6e6e6
+        border-radius: 24px
+        padding: 50px
+        & > strong
+            display: block

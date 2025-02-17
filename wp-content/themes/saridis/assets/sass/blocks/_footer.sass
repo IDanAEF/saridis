@@ -1,0 +1,64 @@
+.footer
+    padding: 50px 0px 30px
+    &__bott
+        border-top: 1px solid rgba(0, 0, 0, 0.2)
+        margin-top: 20px
+        padding-top: 30px
+        display: flex
+        align-items: center
+        justify-content: space-between
+        gap: 20px
+    &__top
+        display: flex
+        align-items: flex-start
+        gap: 9.58vw
+    &__left 
+        width: 33%
+        max-width: 600px
+    &__right 
+        flex: 1
+        display: flex
+        align-items: flex-start
+        justify-content: space-between
+        gap: 20px
+    &__descr
+        margin-top: 32px
+    &__social
+        margin-top: 32px
+        gap: 13px
+        display: flex
+        align-items: center
+        a 
+            display: flex
+            align-items: center
+            justify-content: center
+            width: 55px
+            height: 55px
+            min-width: 55px
+            border-radius: 100%
+            background: rgba(0, 0, 0, 0.05)
+            img 
+                width: 28px
+                min-width: 28px
+                transform: 0.3s filter
+            &:hover 
+                background: $color
+                img 
+                    filter: brightness(0) invert(1)
+    &__menu
+        strong 
+            margin-bottom: 20px
+            display: block
+        ul 
+            list-style-type: none
+            display: flex
+            flex-direction: column
+            gap: 10px
+            li 
+                a 
+                    display: flex
+                    align-items: center
+                    gap: 12px
+                    img 
+                        width: 24px
+                        min-width: 24px
