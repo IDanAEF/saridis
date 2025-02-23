@@ -41,20 +41,30 @@
                         <?php endif; ?>
                     </div>
                     <div class="footer__right text_fz18 text_fw300">
-                        <div class="footer__menu">
-                            <strong class="text_fz20">Категории товаров</strong>
-                            <ul>
-                                <li><a href="/catalog/">Консервация</a></li>
-                                <li><a href="/catalog/">Кофе и чай</a></li>
-                                <li><a href="/catalog/">Макароны</a></li>
-                                <li><a href="/catalog/">Оливки</a></li>
-                                <li><a href="/catalog/">Оливковое масло</a></li>
-                                <li><a href="/catalog/">Прочие масла, соусы и уксусы</a></li>
-                                <li><a href="/catalog/">Сладости</a></li>
-                                <li><a href="/catalog/">Оливковое масло</a></li>
-                                <li><a href="/catalog/">Хлопья и гранолы</a></li>
-                            </ul>
-                        </div>
+                        <?php
+                            $cats = get_terms([
+                                'taxonomy' => 'cats',
+                                'hide_empty' => false,
+                            ]);
+
+                            if (isset($cats[0])) : ?>
+                            <div class="footer__menu">
+                                <strong class="text_fz20">Категории товаров</strong>
+                                <ul>
+                                    <?php
+                                        foreach($cats as $catsItem) {
+                                            ?>
+                                            <li>
+                                                <a href="<?=get_permalink(57)?>?filterCat=<?=$catsItem->term_id?>">
+                                                    <?=$catsItem->name?>
+                                                </a>
+                                            </li>
+                                            <?php
+                                        }
+                                    ?>
+                                </ul>
+                            </div>
+                        <?php endif; ?>
                         <?php if (isset($menuFooter2[0])) : ?>
                             <div class="footer__menu">
                                 <strong class="text_fz20">Меню</strong>
@@ -142,9 +152,6 @@
                                     </span>
                                 </label>
                             </div>
-                        </div>
-                        <div class="form-label text_center text_fz18" data-call-modal="register">
-                            Регистрация
                         </div>
                     </div>
                 </form>

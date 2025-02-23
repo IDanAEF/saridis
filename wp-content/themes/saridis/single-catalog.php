@@ -8,8 +8,8 @@
 
     global $post;
 
-    $cut = get_field('cut');
-    $price = get_field('price');
+    $cut = get_field('cut') ?: 0;
+    $price = get_field('price') ?: 0;
     $currPrice = round($cut != 0 ? ($price - (($price / 100) * $cut)) : $price);
 ?>
 <main class="single-catalog">
@@ -31,7 +31,7 @@
                             <?php
                                 foreach($gallery as $galleryKey => $galleryItem) {
                                     ?>
-                                    <img src="<?=$galleryItem['sizes']['thumbnail']?>" alt="<?=get_the_title()?>" class="<?=$galleryKey == 0 ? 'active' : ''?>">
+                                    <img src="<?=isset($galleryItem['sizes']) ? $galleryItem['sizes']['thumbnail'] : $galleryItem?>" alt="<?=get_the_title()?>" class="<?=$galleryKey == 0 ? 'active' : ''?>">
                                     <?php 
                                 }
                             ?>
@@ -44,7 +44,7 @@
                         foreach($gallery as $galleryKey => $galleryItem) {
                             ?>
                             <picture>
-                                <img src="<?=$galleryItem['sizes']['large']?>" alt="<?=get_the_title()?>" class="<?=$galleryKey == 0 ? 'active' : ''?>">
+                                <img src="<?=isset($galleryItem['sizes']) ? $galleryItem['sizes']['large'] : $galleryItem?>" alt="<?=get_the_title()?>" class="<?=$galleryKey == 0 ? 'active' : ''?>">
                             </picture>
                             <?php 
                         }
@@ -59,7 +59,7 @@
                     <h1 class="text_fz40">
                         <?=get_field('big-title') ?: get_the_title()?>
                     </h1>
-                    <?php if (IS_AUTH) : ?>
+                    <?php if (IS_AUTH && $currPrice != 0) : ?>
                         <div class="price">
                             <?php if ($cut != 0) : ?>
                                 <div class="old text_fz20">
@@ -136,11 +136,13 @@
                 <?php endif; ?>
                 <div class="single-catalog__bott cart-add-parent" data-id="<?=$post->ID?>">
                     <?php if (IS_AUTH) : ?>
-                        <?=outCounter()?>
-                        <?=outBtn('Добавить в корзину', 18, 'cart-add', '', 'data-call-modal="cart" data-id="'.$post->ID.'" data-price="'.$currPrice.'"')?>
+                        <?php if ($currPrice != 0) : ?>
+                            <?=outCounter()?>
+                            <?=outBtn('Добавить в корзину', 18, 'cart-add', '', 'data-call-modal="cart" data-id="'.$post->ID.'" data-price="'.$currPrice.'"')?>
+                        <?php endif; ?>
                         <?=outWishBtn($post->ID)?>
                     <?php else : ?>
-                        <?=outBtn('Зарегистрироваться', 18, '', '', 'data-call-modal="register"')?>
+                        <?=outBtn('Войти', 18, '', '', 'data-call-modal="auth"')?>
                     <?php endif; ?>
                 </div>
                 <?php
@@ -223,15 +225,7 @@
                     <?php
                         foreach($catalog as $catalogItem) {
                             get_template_part('includes/catalog-card', null, [
-                                'id' => $catalogItem->ID,
-                                'title' => $catalogItem->post_title,
-                                'image' => get_field('preview-image', $catalogItem->ID),
-                                'link' => get_permalink($catalogItem->ID),
-                                'brand' => get_field('brand', $catalogItem->ID),
-                                'cats' => get_field('cats', $catalogItem->ID),
-                                'price' => get_field('price', $catalogItem->ID),
-                                'cut' => get_field('cut', $catalogItem->ID),
-                                'size' => get_field('size', $catalogItem->ID)
+                                'id' => $catalogItem->ID
                             ]);
                         }
                     ?>

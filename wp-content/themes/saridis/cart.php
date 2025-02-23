@@ -21,6 +21,25 @@
             <h1 class="page__title text_color">
                 <?=get_the_title()?>
             </h1>
+            <div class="cart__top">
+                <a href="<?=get_permalink(57)?>" class="text_fw600">
+                    Назад к покупкам
+                </a>
+                <div class="cart__top-cut text_fw300">
+                    Размер скидки зависит от суммы заказа.
+                    <div class="cart__top-cut-list text_fz12 text_fw400">
+                        <span data-dir="to" data-price="40000" data-cut="10" class="active">
+                            До <strong>40 000 ₽</strong> - <strong class="text_color">10% скидки</strong>
+                        </span>
+                        <span data-dir="from" data-price="40000" data-cut="20">
+                            От <strong>40 000 ₽</strong> - <strong class="text_color">20% скидки</strong>
+                        </span>
+                        <span data-dir="from" data-price="70000" data-cut="40">
+                            От <strong>70 000 ₽</strong> - <strong class="text_color">40% скидки</strong>
+                        </span>
+                    </div>
+                </div>
+            </div>
             <div class="cart__content-main">
                 <?php
                     $cart = $cartIds ? get_posts([
@@ -50,8 +69,8 @@
                                     ? get_field('preview-image', $cartItem->ID)['sizes']['thumbnail'] 
                                     : THEME_IMAGES.'no-image.jpg';
 
-                                $price = get_field('price', $cartItem->ID);
-                                $cut = get_field('cut', $cartItem->ID);
+                                $price = get_field('price', $cartItem->ID) ?: 0;
+                                $cut = get_field('cut', $cartItem->ID) ?: 0;
                                 $currPrice = round($cut == 0 ? $price : ($price - (($price / 100) * $cut)));
                                 $resultPrice = $currPrice*$cartSimple[$cartItem->ID];
 
@@ -70,7 +89,7 @@
                                         <?php endif; ?>
                                     </div>
                                     <div class="col">
-                                        <?=outCounter($cartSimple[$cartItem->ID])?>
+                                        <?=outCounter($cartSimple[$cartItem->ID], 'responsive')?>
                                     </div>
                                     <div class="col">
                                         <div class="price-result cart-add-result">
@@ -136,10 +155,14 @@
                             </div>
                             <?php if ($fullPrice != $fullPriceCut) : ?>
                                 <div class="single-catalog__params-item">
-                                    <span class="text_fz400">Скидка:</span>
+                                    <span class="text_fz400">Скидки с товаров:</span>
                                     <span><span class="cut-price">-<?=$fullPrice - $fullPriceCut?></span> ₽</span>
                                 </div>
                             <?php endif; ?>
+                            <div class="single-catalog__params-item over-price-item">
+                                <span class="text_fz400">Персональная скидка:</span>
+                                <span><span class="over-price">10</span>%</span>
+                            </div>
                             <div class="single-catalog__params-item">
                                 <span class="text_fz400">Итого к оплате:</span>
                                 <span><span class="end-price"><?=$fullPriceCut?></span> ₽</span>

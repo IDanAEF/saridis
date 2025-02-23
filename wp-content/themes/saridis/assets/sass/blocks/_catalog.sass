@@ -133,7 +133,8 @@
                 max-height: 0
                 overflow: hidden
                 &.active
-                    max-height: 1500px
+                    max-height: 300px
+                    overflow: auto
         &-brand 
             padding: 6px 16px 6px 10px
             background: #f2f2f2
@@ -192,7 +193,9 @@
                     left: 0
                     top: 0
                     width: 5.57vw
+                    max-height: 3.5vw
                     max-width: 107px
+                    object-position: left
                 .wishlist-btn
                     position: absolute
                     z-index: 1
@@ -222,3 +225,57 @@
     &__more
         margin-left: auto
         margin-right: auto
+    &__rating 
+        display: flex
+        align-items: center
+        &-wrap 
+            position: relative
+            margin-left: 8px
+        &-list 
+            position: absolute
+            z-index: 5
+            left: 0
+            top: 100%
+            background: $white
+            border: 1px solid #e6e6e6
+            border-radius: 0 0 4px 4px
+            overflow: hidden
+            width: 100%
+            box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.05)
+            transition: 0.4s all
+            opacity: 0
+            visibility: hidden
+            span 
+                display: block
+                padding: 10px 16px
+                cursor: pointer
+                transition: 0.4s all
+                &:hover 
+                    background: $color 
+                    color: $white
+            &.active 
+                opacity: 1
+                visibility: visible
+        &-name
+            border: 1px solid #e6e6e6
+            border-radius: 4px
+            padding: 10px 16px
+            display: flex
+            align-items: center
+            justify-content: space-between
+            min-width: 220px
+            cursor: pointer
+            color: #4d4d4d
+            transition: 0.4s border-radius
+            img, span
+                pointer-events: none 
+            img 
+                width: 14px
+                min-width: 14px
+                margin-left: 5px
+                transition: 0.4s transform
+                transform: rotate(180deg)
+            &.active
+                border-radius: 4px 4px 0 0
+                img 
+                    transform: rotate(0deg)

@@ -106,12 +106,16 @@ const cart = () => {
         const cartRows = document.querySelectorAll('.cart__list-row.cart-add-parent'),
               cartPre = document.querySelector('.pre-price'),
               cartCut = document.querySelector('.cut-price'),
-              cartEnd = document.querySelector('.end-price');
+              cartEnd = document.querySelector('.end-price'),
+              overPriceItem = document.querySelector('.over-price-item'),
+              overPriceSpan = overPriceItem.querySelector('.over-price'),
+              overCutItems = document.querySelectorAll('.cart__top-cut-list > span');
 
         const rebuildPrice = () => {
             setTimeout(() => {
                 let prePrice = 0,
-                    cutPrice = 0;
+                    cutPrice = 0,
+                    overPrice = 0;
 
                 cartRows.forEach(rowItem => {
                     let counterRes = +rowItem.querySelector('.counter .counter-result').textContent.trim(),
@@ -123,11 +127,32 @@ const cart = () => {
                     cutPrice += innerCut;
                 });
 
+                overPrice = cutPrice;
+
+                overCutItems.forEach(cutItem => {
+                    let cutItemDir = cutItem.getAttribute('data-dir'),
+                        cutItemPrice = +cutItem.getAttribute('data-price'),
+                        cutItemPerc = +cutItem.getAttribute('data-cut');
+                    
+                    if (
+                        (cutItemDir == 'to' && cutItemPrice > cutPrice) || 
+                        (cutItemDir == 'from' && cutItemPrice <= cutPrice)
+                    ) {
+                        overCutItems.forEach(item => item.classList.remove('active'));
+                        cutItem.classList.add('active');
+                        
+                        overPriceSpan.textContent = cutItemPerc;
+                        overPrice = Math.round(cutPrice - (cutItemPerc * (cutPrice / 100)));
+                    }
+                });
+
                 cartPre.textContent = prePrice;
-                cartEnd.textContent = cutPrice;
+                cartEnd.textContent = overPrice;
                 if (cartCut) cartCut.textContent = prePrice - cutPrice;
             }, 200);
         }
+
+        rebuildPrice();
 
         cartRows.forEach(row => {
             const counterMinus = row.querySelector('.counter .counter-minus'),
@@ -207,7 +232,7 @@ const cart = () => {
                 setCookie('cart', JSON.stringify(newItems), {'max-age': 3600*24*31});
             }
 
-            if (counter) {
+            if (counter && counter.classList.contains('responsive')) {
                 counter.querySelector('.counter-minus').addEventListener('click', () => {
                     setTimeout(() => {
                         updateCart('responsive');

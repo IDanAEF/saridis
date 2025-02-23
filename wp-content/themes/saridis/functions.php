@@ -373,8 +373,6 @@
     add_action('wp_ajax_userupdate', 'userupdate');
     add_action('wp_ajax_nopriv_userupdate', 'userupdate');
 
-
-
     function getClearText($text) {
         return str_replace('"', '', strip_tags($text));
     }
@@ -405,9 +403,9 @@
             ';
     }
 
-    function outCounter($start = 1) {
+    function outCounter($start = 1, $class = '') {
         return '
-            <div class="counter">
+            <div class="counter '.$class.'">
                 <img src="'.THEME_IMAGES.'icons/minus.svg" alt="oper" class="counter-oper counter-minus">
                 <span class="counter-result text_fz18 text_center">
                     '.$start.'

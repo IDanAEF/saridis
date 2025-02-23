@@ -19,8 +19,34 @@
                     margin-bottom: 16px
             &-image 
                 bottom: -12.5vw
+        &__info 
+            &-cards 
+                &-item 
+                    img 
+                        max-height: 150px
+                &-garant 
+                    padding: 30px
+@media (max-width: 1400px)
+    .about
+        &__info 
+            &-cards
+                grid-template: auto / repeat(3, 1fr)
+                &-garant 
+                    grid-column: 2 / 4
+                    border-radius: 0 0 20px 20px
+                    min-height: 300px
+                    img 
+                        width: 25vw
 @media (max-width: 1200px)
     .about
+        &__info 
+            &-cards 
+                &-garant 
+                    min-height: 230px
+                &-item 
+                    padding: 15px
+                    img 
+                        max-height: 125px
         &__promo 
             min-height: 630px
             &-text 
@@ -35,6 +61,11 @@
         &__info 
             &-text 
                 width: 100%
+            &-cards
+                &-garant 
+                    grid-column: 1 / 4
+                    img 
+                        width: 29vw
         &__promo 
             &-text 
                 .default-text
@@ -43,6 +74,17 @@
                 bottom: -15vw
                 width: 91vw
                 right: -30vw
+@media (max-width: 768px)
+    .about
+        &__info 
+            &-cards
+                grid-template: auto / 1fr 1fr
+                &-garant 
+                    grid-column: 1 / 3
+                    padding: 15px
+                    min-height: 210px
+                    img 
+                        width: 34vw
 @media (max-width: 576px)
     .about
         &__promo 
@@ -58,3 +100,18 @@
                 bottom: -69px
                 right: 50%
                 transform: translateX(44%)
+        &__info 
+            &-cards 
+                &-item 
+                    img 
+                        max-height: 90px
+                &-garant 
+                    & > span 
+                        max-width: 350px
+@media (max-width: 400px)
+    .about 
+        &__info 
+            &-cards
+                grid-template: auto / 1fr
+                &-garant
+                    grid-column: unset

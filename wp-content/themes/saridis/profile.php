@@ -194,8 +194,8 @@
                                     $fullPrice = 0;
 
                                     foreach($orderCount as $orderId => $orderArr) {
-                                        $price = get_field('price', $orderId);
-                                        $cut = get_field('cut', $orderId);
+                                        $price = get_field('price', $orderId) ?: 0;
+                                        $cut = get_field('cut', $orderId) ?: 0;
                                         $currPrice = round($cut == 0 ? $price : ($price - (($price / 100) * $cut)));
 
                                         $fullPrice += $price * $orderArr['count'];
@@ -355,8 +355,8 @@
                                                     ? get_field('preview-image', $orderId)['sizes']['thumbnail'] 
                                                     : THEME_IMAGES.'no-image.jpg';
 
-                                                $price = get_field('price', $orderId);
-                                                $cut = get_field('cut', $orderId);
+                                                $price = get_field('price', $orderId) ?: 0;
+                                                $cut = get_field('cut', $orderId) ?: 0;
                                                 $currPrice = round($cut == 0 ? $price : ($price - (($price / 100) * $cut)));
                                                 ?>
                                                 <div class="cart__list-row wish-parent cart-add-parent">
@@ -415,8 +415,8 @@
                                                 ? get_field('preview-image', $favoriteItem->ID)['sizes']['thumbnail'] 
                                                 : THEME_IMAGES.'no-image.jpg';
 
-                                            $price = get_field('price', $favoriteItem->ID);
-                                            $cut = get_field('cut', $favoriteItem->ID);
+                                            $price = get_field('price', $favoriteItem->ID) ?: 0;
+                                            $cut = get_field('cut', $favoriteItem->ID) ?: 0;
                                             $currPrice = round($cut == 0 ? $price : ($price - (($price / 100) * $cut)));
                                             ?>
                                             <div class="cart__list-row wish-parent cart-add-parent">

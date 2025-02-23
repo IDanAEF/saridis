@@ -32,7 +32,7 @@
         ];
 
     $catalogArgs = [
-        'numberposts' => 9,
+        'numberposts' => -1,
         'category'    => 0,
         'orderby'     => 'date',
         'order'       => 'DESC',
@@ -42,7 +42,7 @@
     ];
     $catalogDef = get_posts($catalogArgs);
     $catalogAll = get_posts([
-        'numberposts' => 9,
+        'numberposts' => -1,
         'category'    => 0,
         'orderby'     => 'date',
         'order'       => 'DESC',
@@ -169,9 +169,23 @@
                     <h1 class="page__title text_color elem_animate bott">
                         <?=get_the_title()?>
                     </h1>
-                    <?=outBtn('Фильтр', '', 'round catalog__filter-call body-click-target', '', 'data-content="catalog-filter"', 'filter')?>
                     <div class="catalog__info text_fw300">
-                        <div></div>
+                        <?=outBtn('Фильтр', '', 'round catalog__filter-call body-click-target', '', 'data-content="catalog-filter"', 'filter')?>
+                        <div class="catalog__rating text_fz14 text_fw400">
+                            <span>Сортировать по:</span>
+                            <div class="catalog__rating-wrap">
+                                <div class="catalog__rating-name body-click-target">
+                                    <span>По умолчанию</span>
+                                    <img src="<?=THEME_IMAGES?>icons/up.svg" alt="up">
+                                </div>
+                                <div class="catalog__rating-list body-click-content">
+                                    <span data-sort="default">По умолчанию</span>
+                                    <span data-sort="rating">По рейтингу</span>
+                                    <span data-sort="price-up">Цена, по возрастанию</span>
+                                    <span data-sort="price-down">Цена, по убыванию</span>
+                                </div>
+                            </div>
+                        </div>
                         <span><strong><?=$catalogCount?></strong> Найденные результаты</span>
                     </div>
                     <div class="catalog__list elem_animate top">
@@ -181,14 +195,6 @@
                                 foreach($catalog as $catalogItem) {
                                     get_template_part('includes/catalog-card', null, [
                                         'id' => $catalogItem->ID,
-                                        'title' => $catalogItem->post_title,
-                                        'image' => get_field('preview-image', $catalogItem->ID),
-                                        'link' => get_permalink($catalogItem->ID),
-                                        'brand' => get_field('brand', $catalogItem->ID),
-                                        'cats' => get_field('cats', $catalogItem->ID),
-                                        'price' => get_field('price', $catalogItem->ID),
-                                        'cut' => get_field('cut', $catalogItem->ID),
-                                        'size' => get_field('size', $catalogItem->ID),
                                         'class' => 'hide'
                                     ]);
                                 }

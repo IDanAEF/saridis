@@ -21,12 +21,8 @@
             <?php
                 foreach($recipes as $recipe) {
                     get_template_part('includes/recipe-card', null, [
-                        'date' => get_field('preview-date', $recipe->ID) ?: get_the_date('d.m.Y', $recipe->ID),
-                        'title' => $recipe->post_title,
-                        'descr' => get_field('preview-descr', $recipe->ID),
-                        'userId' => $recipe->post_author,
-                        'image' => get_field('preview-image', $recipe->ID),
-                        'link' => get_permalink($recipe->ID)
+                        'id' => $recipe->ID,
+                        'userId' => $recipe->post_author
                     ]);
                 }
             ?>

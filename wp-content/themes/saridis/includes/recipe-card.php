@@ -1,10 +1,12 @@
 <?php
-    $date = $args['date'];
-    $title = $args['title'];
-    $descr = isset($args['descr']) ? $args['descr'] : '';
+    $id = isset($args['id']) ? $args['id'] : '';
     $userId = $args['userId'];
-    $image = $args['image'];
-    $link = $args['link'];
+
+    $date = get_field('preview-date', $id) ?: get_the_date('d.m.Y', $id);
+    $title = get_the_title($id);
+    $descr = get_field('preview-descr', $id);
+    $image = get_field('preview-image', $id);
+    $link = get_permalink($id);
 
     $userName = get_user_meta($userId, 'company', true) ?: get_user_option('display_name', $userId);
     $userAvatar = getUserAvatar($userId);

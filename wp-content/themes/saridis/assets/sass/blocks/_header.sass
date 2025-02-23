@@ -4,7 +4,7 @@
     background: rgba(128, 139, 35, 0.7)
     transform: translate3d(0, 0, 0)
     position: absolute
-    z-index: 10 
+    z-index: 11
     width: 100%
     left: 0
     top: 0
@@ -68,6 +68,16 @@
         width: 52px
         height: 52px
         min-width: 52px
+        img 
+            width: 100%
+            height: 100%
+        .close
+            display: none
+        &.active 
+            .close
+                display: block
+            .open
+                display: none
     &__favorite, &__cart
         display: flex
         position: relative
@@ -91,3 +101,77 @@
             display: flex
             align-items: center
             justify-content: center
+    &__mobile
+        position: fixed
+        z-index: 9
+        padding: 50px
+        background: #fff
+        width: 100%
+        top: 99px
+        left: 0
+        height: calc(100vh - 99px)
+        overflow: auto
+        opacity: 0
+        visibility: hidden
+        transition: 0.5s all
+        &.active
+            opacity: 1
+            visibility: visible
+        .footer__menu
+            margin-bottom: 40px
+            &:last-child
+                margin-bottom: 0 !important
+            ul
+                gap: 15px
+                li 
+                    a 
+                        img 
+                            width: 35px
+                            min-width: 35px
+    &__bar 
+        z-index: 10
+        background: $white
+        position: fixed
+        left: 0
+        bottom: 0
+        width: 100%
+        display: none
+        align-items: flex-end
+        justify-content: center
+        gap: 15px
+        padding: 10px 10px
+        .header
+            &__cart, &__favorite
+                display: flex !important
+                width: 20px
+                min-width: 20px
+                span 
+                    background: $color
+                    border: none
+                    color: $white
+                    top: -7px
+                    right: -10px
+        a, & > span 
+            display: flex
+            flex-direction: column
+            align-items: center
+            cursor: pointer
+            img 
+                width: 20px
+                filter: brightness(0)
+                transition: 0.4s filter
+            & > span 
+                margin-top: 7px
+            &:hover, &.active
+                img 
+                    filter: none
+        &-user 
+            .img-wrap
+                width: 24px
+                height: 24px
+                border-radius: 100%
+                overflow: hidden
+                position: relative
+                img 
+                    width: 100%
+                    filter: none !important

@@ -43,4 +43,44 @@
         padding-top: 150px
         &-text 
             max-width: 600px
-            width: 31.25vw
+        &-cards
+            display: grid
+            grid-template: auto / repeat(4, 1fr)
+            &-item 
+                display: flex
+                flex-direction: column
+                align-items: center
+                text-align: center
+                padding: 30px
+                border: 1px solid rgba(0, 0, 0, 0.1)
+                img
+                    margin-bottom: 10px
+                    max-height: 200px
+                span 
+                    opacity: 0.7
+            &-garant
+                display: flex
+                align-items: center
+                position: relative
+                grid-column: 3 / 5
+                background: $color
+                padding: 50px
+                border-radius: 0 0 20px 0
+                overflow: hidden
+                img 
+                    position: absolute
+                    bottom: 0
+                    right: 0
+                    z-index: 0
+                    width: 20.1vw
+                    max-width: 386px
+                    pointer-events: none
+                & > span 
+                    position: relative
+                    z-index: 1
+                    max-width: 450px
+                strong 
+                    font-size: 200%
+                    display: block
+                    font-weight: 900
+                    margin-top: 10px

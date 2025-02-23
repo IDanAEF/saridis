@@ -2,6 +2,11 @@
     .catalog
         &__left
             margin-right: 150px
+        &__list 
+            &-item 
+                .image 
+                    .brand 
+                        max-height: 68px
 @media (max-width: 1700px)
     .catalog
         &__filter 
@@ -13,8 +18,16 @@
                 .image
                     .brand 
                         width: 7vw
+                        max-height: 4vw
 @media (max-width: 1200px)
     .catalog
+        &__rating 
+            &-wrap 
+                margin-left: 0
+            &-name 
+                min-width: 200px
+            & > span 
+                display: none
         &__filter 
             position: fixed
             z-index: 11
@@ -41,7 +54,6 @@
                     display: flex
             &-call 
                 display: flex
-                margin-bottom: 20px
         &__info 
             margin-bottom: 20px
         &__list 
@@ -52,6 +64,7 @@
                 .image
                     .brand
                         width: 10vw
+                        max-height: 5vw
                     .preview
                         width: 24vw
                         height: 19vw
@@ -64,8 +77,26 @@
                 .bott
                     .counter
                         margin-left: 10px
+@media (max-width: 768px)
+    .catalog
+        &__rating 
+            &-name 
+                min-width: 180px
+                padding: 10px
+                img 
+                    width: 10px
+                    min-width: 10px
+            &-list 
+                span 
+                    padding: 10px
 @media (max-width: 576px)
     .catalog
+        &__info 
+            flex-wrap: wrap
+            gap: 10px
+            & > span 
+                width: 100%
+                text-align: right
         &__filter 
             width: 100%
         &__list
@@ -79,8 +110,16 @@
                         height: 27vw
                     .brand
                         width: 17vw
+                        max-height: 8.5vw
 @media (max-width: 370px)
     .catalog
+        &__filter
+            &-call 
+                padding: 12px 20px
+        &__rating 
+            font-size: 10px
+            &-name 
+                min-width: 156px
         &__list
             grid-template: auto / 1fr
             &.four
@@ -90,3 +129,6 @@
                     .preview
                         width: 70vw
                         height: 52vw
+                    .brand
+                        width: 31vw
+                        max-height: 17vw

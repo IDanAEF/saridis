@@ -1,24 +1,26 @@
 <?php
     $id = isset($args['id']) ? $args['id'] : '';
-    $title = isset($args['title']) ? $args['title'] : '';
-    $image = isset($args['image']) ? $args['image'] : '';
-    $link = isset($args['link']) ? $args['link'] : '';
-    $brand = isset($args['brand']) ? $args['brand'] : '';
-    $cats = isset($args['cats']) ? $args['cats'] : '';
-    $price = isset($args['price']) ? $args['price'] : '';
-    $cut = isset($args['cut']) ? $args['cut'] : '';
-    $size = isset($args['size']) ? $args['size'] : '';
     $class = isset($args['class']) ? $args['class'] : '';
+
+    $title = get_the_title($id);
+    $image = get_field('preview-image', $id);
+    $link = get_permalink($id);
+    $brand = get_field('brand', $id);
+    $cats = get_field('cats', $id);
+    $price = get_field('price', $id) ?: 0;
+    $cut = get_field('cut', $id) ?: 0;
+    $size = get_field('size', $id);
+    $rating = get_field('rating', $id) ?: 0;
 
     $currPrice = round($cut == 0 ? $price : ($price - (($price / 100) * $cut)));
 ?>
-<article class="catalog__list-item <?=$class ?: ''?>">
+<article class="catalog__list-item <?=$class ?: ''?>" data-price="<?=$currPrice?>" data-rating="<?=$rating?>">
     <div class="image">
         <a href="<?=$link?>" class="preview">
             <img src="<?=$image ? $image['sizes']['medium'] : THEME_IMAGES.'no-image.jpg'?>" alt="<?=$title?>">
         </a>
-        <?php if ($brand && get_field('logo', 'brand_'.$brand->term_id)) : ?>
-            <img src="<?=get_field('logo', 'brand_'.$brand->term_id)['sizes']['thumbnail']?>" alt="<?=$brand->name?>" class="brand">
+        <?php if ($brand && (get_field('logo', 'brand_'.$brand->term_id) || get_field('icon', 'brand_'.$brand->term_id))) : ?>
+            <img src="<?=get_field('logo', 'brand_'.$brand->term_id) ? get_field('logo', 'brand_'.$brand->term_id)['sizes']['thumbnail'] : get_field('icon', 'brand_'.$brand->term_id)['sizes']['thumbnail']?>" alt="<?=$brand->name?>" class="brand">
         <?php endif; ?>
         <?=outWishBtn($id)?>
     </div>
@@ -37,14 +39,16 @@
     </div>
     <div class="bott">
         <?php if (IS_AUTH) : ?>
-            <?php if ($cut != 0) : ?>
-                <div class="old-price">
-                    <?=$price?> ₽
-                </div>
+            <?php if ($currPrice != 0) : ?>
+                <?php if ($cut != 0) : ?>
+                    <div class="old-price">
+                        <?=$price?> ₽
+                    </div>
+                <?php endif; ?>
+                <strong class="price text_fz18">
+                    <?=$currPrice?> ₽
+                </strong>
             <?php endif; ?>
-            <strong class="price text_fz18">
-                <?=$currPrice?> ₽
-            </strong>
         <?php else : ?>
             <?=outBtn('Узнать цену', '', '', $link)?>
         <?php endif; ?>

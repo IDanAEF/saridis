@@ -94,6 +94,7 @@
                 <div class="home__cats-cards text_fz22 text_center">
                     <?php
                         foreach($cats as $catsItem) {
+                            if (!get_field('in-main', $catsItem->taxonomy.'_'.$catsItem->term_id) || !get_field('poster', $catsItem->taxonomy.'_'.$catsItem->term_id)) continue;
                             ?>
                             <a href="<?=get_permalink(57)?>?filterCat=<?=$catsItem->term_id?>" class="home__cats-cards-item no-hover elem_animate top">
                                 <picture>
@@ -109,45 +110,7 @@
             </div>
         </section>
     <?php endif; ?>
-    <?php
-        $ourCards = get_field('our-cards');
-        
-        if ($ourCards) : ?>
-        <section class="home__our page__block">
-            <div class="container">
-                <div class="home__our-text elem_animate right">
-                    <h2 class="page__block-title lined">
-                        <?=get_field('our-title') ? deleteP(get_field('our-title')) : '
-                            <strong>Почему выбирают</strong> <span class="text_color">наши продукты</span>
-                        '?>
-                    </h2>
-                    <?php if (get_field('our-descr')) : ?>
-                        <div class="default-text">
-                            <?=get_field('our-descr')?>
-                        </div>
-                    <?php endif; ?>
-                    <?=outBtn('Подробнее', '', 'border page__btn', get_permalink(57))?>
-                </div>
-                <div class="home__our-cards text_white">
-                    <?php
-                        foreach($ourCards as $card) {
-                            ?>
-                            <article class="home__our-cards-item elem_animate top">
-                                <div class="wrap">
-                                    <img src="<?=$card['icon']?>" alt="our-card">
-                                    <div class="text">
-                                        <strong class="text_fz20 text_fw600"><?=$card['name']?></strong>
-                                        <span><?=$card['descr']?></span>
-                                    </div>
-                                </div>
-                            </article>
-                            <?php
-                        }
-                    ?>
-                </div>
-            </div>
-        </section>
-    <?php endif; ?>
+    <?php get_template_part('includes/home-our') ?>
     <section class="home__how page__block">
         <div class="container">
             <div class="home__how-wrap">

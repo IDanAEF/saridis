@@ -94,3 +94,27 @@
                 color: #808080
             &:last-child
                 border-bottom: none !important
+    &__top 
+        margin-bottom: 20px
+        &-cut 
+            margin-top: 20px
+            &-list 
+                margin-top: 20px
+                display: flex
+                align-items: center
+                overflow: auto
+                padding-bottom: 10px
+                white-space: nowrap
+                gap: 10px
+                & > span 
+                    border: 1px solid #e6e6e6
+                    border-radius: 10px
+                    padding: 20px
+                    transition: 0.4s all
+                    .text_color 
+                        transition: 0.4s all
+                    &.active
+                        background: $color
+                        color: $white
+                        .text_color 
+                            color: $white

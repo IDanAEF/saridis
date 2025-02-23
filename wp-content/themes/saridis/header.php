@@ -166,7 +166,89 @@
                             <img src="<?=THEME_IMAGES?>icons/user.svg" alt="Профиль" class="default">
                         </span>
                     <?php endif; ?>
-                    <img src="<?=THEME_IMAGES?>icons/burger.svg" alt="Меню" class="header__burger">
+                    <div class="header__burger">
+                        <img src="<?=THEME_IMAGES?>icons/burger.svg" alt="Меню" class="open">
+                        <img src="<?=THEME_IMAGES?>icons/burger-close.svg" alt="Закрыть" class="close">
+                    </div>
                 </div>
             </div>
         </header>
+        <div class="header__mobile text_fz30">
+            <div class="footer__menu">
+                <ul>
+                    <?php
+                        foreach($menuHeader as $menuItem) {
+                            ?>
+                            <li>
+                                <a href="<?=$menuItem->url?>">
+                                    <?=$menuItem->title?>
+                                </a>
+                            </li>
+                            <?php
+                        }
+                    ?>
+                </ul>
+            </div>
+            <div class="footer__menu">
+                <strong class="text_fz40">Контакты</strong>
+                <ul>
+                    <li>
+                        <a href="<?=get_permalink(49)?>">
+                            <img src="<?=THEME_IMAGES?>icons/point.svg" alt="Контакты">
+                            <span>Наши магазины</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="tel:<?=getThinPhone(get_field('phone', 'option'))?>" class="text_nowrap">
+                            <img src="<?=THEME_IMAGES?>icons/phone-color.svg" alt="Телефон">
+                            <span><?=get_field('phone', 'option')?></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:<?=get_field('email', 'option')?>">
+                            <img src="<?=THEME_IMAGES?>icons/email.svg" alt="E-mail">
+                            <span><?=get_field('email', 'option')?></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header__bar text_fz12 text_fw400">
+            <?php if (IS_AUTH) : ?>
+                <a href="<?=get_home_url()?>/profile/?sect=favorite">
+                    <div class="header__favorite">
+                        <img src="<?=THEME_IMAGES?>icons/mobile-fav.svg" alt="В избранное">
+                        <?php if ($favCount > 0) : ?>
+                            <span><?=$favCount?></span>
+                        <?php endif; ?>
+                    </div>
+                    <span>Избранное</span>
+                </a>
+                <a href="/cart/">
+                    <div class="header__cart">
+                        <img src="<?=THEME_IMAGES?>icons/mobile-cart.svg" alt="Корзина">
+                        <?php if ($cartCount > 0) : ?>
+                            <span><?=$cartCount?></span>
+                        <?php endif; ?>
+                    </div>
+                    <span>Корзина</span>
+                </a>
+            <?php endif; ?>
+            <?php if (IS_AUTH) : ?>
+                <a href="<?=get_home_url()?>/profile/" class="header__bar-user no-hover">
+                    <div class="img-wrap">
+                        <?=getUserAvatar(USER_ID)?>
+                    </div>
+                    <span>Профиль</span>
+                </a>
+            <?php else : ?>
+                <span class="header__bar-user" data-call-modal="auth">
+                    <img src="<?=THEME_IMAGES?>icons/mobile-user.svg" alt="Профиль" class="default">
+                    <span>Войти</span>
+                </span>
+            <?php endif; ?>
+            <a href="<?=get_permalink(57)?>">
+                <img src="<?=THEME_IMAGES?>icons/mobile-cat.svg" alt="">
+                <span>Каталог</span>
+            </a>
+        </div>
