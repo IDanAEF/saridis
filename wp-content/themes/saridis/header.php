@@ -130,7 +130,7 @@
                     </a>
                 </div>
                 <div class="header__right">
-                    <a href="" class="header__search">
+                    <a href="<?=get_permalink(900)?>" class="header__search">
                         <img src="<?=THEME_IMAGES?>icons/search.svg" alt="Поиск">
                     </a>
                     <?php if (IS_AUTH) : ?>
@@ -214,6 +214,10 @@
             </div>
         </div>
         <div class="header__bar text_fz12 text_fw400">
+            <a href="<?=get_permalink(900)?>">
+                <img src="<?=THEME_IMAGES?>icons/mobile-search.svg" alt="Поиск">
+                <span>Поиск</span>
+            </a>
             <?php if (IS_AUTH) : ?>
                 <a href="<?=get_home_url()?>/profile/?sect=favorite">
                     <div class="header__favorite">

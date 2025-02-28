@@ -30,7 +30,7 @@ const other = () => {
                 bodyClickContent.forEach(item => contentElem != item && item.classList.contains('global-hide') ? item.classList.remove('active') : '');
                 bodyClickTarget.forEach(item => item.classList.contains('global-hide') && item != e.target ? item.classList.remove('active') : '');
                 
-                if (contentElem.classList.contains('body-click-content'))
+                if (contentElem && contentElem.classList.contains('body-click-content'))
                     contentElem.classList.toggle('active');
                 else 
                     e.target.parentElement.classList.remove('active');
@@ -135,20 +135,54 @@ const other = () => {
         counters.forEach(counterItem => {
             const counterMinus = counterItem.querySelector('.counter-minus'),
                   counterPlus = counterItem.querySelector('.counter-plus'),
-                  counterResult = counterItem.querySelector('.counter-result');
+                  counterResult = counterItem.querySelector('.counter-result'),
+                  counterInput = counterItem.querySelector('.counter-input'),
+                  counterList = counterItem.querySelector('.counter-list'),
+                  counterListItem = counterList ? counterList.querySelectorAll('span') : '';
 
             let count = +counterResult.textContent;
 
-            const setNum = (dir = 0) => {
+            const setNum = (dir = 0, personal = 0) => {
                 count += dir;
 
+                if (personal != 0) count = personal;
                 if (count < 1) count = 1;
 
                 counterResult.textContent = count;
+                if (counterInput) counterInput.value = count;
             }
 
             counterMinus.addEventListener('click', () => setNum(-1));
             counterPlus.addEventListener('click', () => setNum(1));
+
+            if (counterInput) {
+                counterInput.addEventListener('click', () => {
+                    setTimeout(() => {
+                        counterItem.classList.add('active');
+                    }, 200);
+                });
+                counterInput.addEventListener('blur', () => {
+                    counterItem.classList.remove('active');
+                });
+
+                counterInput.addEventListener('input', () => {
+                    count = +counterInput.value;
+
+                    if (count < 1) {
+                        count = 1;
+                        counterInput.value = 1;
+                    }
+                    counterResult.textContent = count;
+                });
+            }
+
+            if (counterList) {
+                counterListItem.forEach(listItem => {
+                    listItem.addEventListener('click', () => {
+                        setNum(0, +listItem.textContent.trim());
+                    });
+                });
+            }
         });
     } catch (e) {
         console.log(e.stack);

@@ -107,6 +107,8 @@ const cart = () => {
               cartPre = document.querySelector('.pre-price'),
               cartCut = document.querySelector('.cut-price'),
               cartEnd = document.querySelector('.end-price'),
+              cartInpOrderPrice = document.querySelector('input[name="order-price"]'),
+              cartInpOrderPersonal = document.querySelector('input[name="order-personal"]'),
               overPriceItem = document.querySelector('.over-price-item'),
               overPriceSpan = overPriceItem.querySelector('.over-price'),
               overCutItems = document.querySelectorAll('.cart__top-cut-list > span');
@@ -142,12 +144,14 @@ const cart = () => {
                         cutItem.classList.add('active');
                         
                         overPriceSpan.textContent = cutItemPerc;
+                        cartInpOrderPersonal.value = cutItemPerc;
                         overPrice = Math.round(cutPrice - (cutItemPerc * (cutPrice / 100)));
                     }
                 });
 
                 cartPre.textContent = prePrice;
                 cartEnd.textContent = overPrice;
+                cartInpOrderPrice.value = overPrice;
                 if (cartCut) cartCut.textContent = prePrice - cutPrice;
             }, 200);
         }
@@ -156,10 +160,22 @@ const cart = () => {
 
         cartRows.forEach(row => {
             const counterMinus = row.querySelector('.counter .counter-minus'),
-                  counterPlus = row.querySelector('.counter .counter-plus');
-                  
+                  counterPlus = row.querySelector('.counter .counter-plus'),
+                  counterInput = row.querySelector('.counter .counter-input'),
+                  counterListItems = row.querySelectorAll('.counter .counter-list span');
+            
             counterMinus.addEventListener('click', rebuildPrice);
             counterPlus.addEventListener('click', rebuildPrice);
+            counterListItems.forEach(listItem => {
+                listItem.addEventListener('click', rebuildPrice);
+            });
+
+            let inpTimeout;
+
+            counterInput.addEventListener('input', () => {
+                clearTimeout(inpTimeout);
+                inpTimeout = setTimeout(rebuildPrice, 200);
+            });
         });
     } catch (e) {
         console.log(e.stack);
@@ -233,6 +249,14 @@ const cart = () => {
             }
 
             if (counter && counter.classList.contains('responsive')) {
+                let inpTimeout;
+
+                counter.querySelector('.counter-input').addEventListener('input', () => {
+                    clearTimeout(inpTimeout);
+                    inpTimeout = setTimeout(() => {
+                        updateCart('responsive');
+                    }, 200);
+                });
                 counter.querySelector('.counter-minus').addEventListener('click', () => {
                     setTimeout(() => {
                         updateCart('responsive');
@@ -242,6 +266,13 @@ const cart = () => {
                     setTimeout(() => {
                         updateCart('responsive');
                     }, 200);
+                });
+                counter.querySelectorAll('.counter-list span').forEach(listItem => {
+                    listItem.addEventListener('click', () => {
+                        setTimeout(() => {
+                            updateCart('responsive');
+                        }, 200);
+                    });
                 });
             }
             deleteBtn && deleteBtn.addEventListener('click', () => updateCart('delete'));

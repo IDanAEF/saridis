@@ -380,6 +380,13 @@ h6
         gap: 30px
         .form-label
             margin: 0 !important
+    &-side 
+        display: flex
+        align-items: center
+        gap: 15px
+        .form-label
+            margin: 0 !important
+            flex: 1
 .wishlist-btn
     text-align: center
     display: flex
@@ -407,9 +414,29 @@ h6
     border: 1px solid #e6e6e6
     border-radius: 170px
     padding: 8px
+    background: $white
+    position: relative
+    cursor: pointer
     &-result 
         min-width: 27px
         pointer-events: none
+        display: none
+    &-input 
+        border: none
+        background: none
+        outline: none
+        min-width: 45px
+        width: 45px
+        text-align: center
+        box-shadow: none
+        appearance: none
+        -webkit-appearance: none
+        -moz-appearance: textfield
+        margin: 0
+        &::-webkit-inner-spin-button, &::-webkit-outer-spin-button
+            appearance: none
+            -webkit-appearance: none
+            margin: 0
     &-oper
         width: 32px
         height: 32px
@@ -418,6 +445,34 @@ h6
         transition: 0.4s transform
         &:hover 
             transform: scale(0.8)
+    &-list 
+        position: absolute
+        width: 100%
+        left: 0
+        top: 50%
+        background: $white
+        border: 1px solid #e6e6e6
+        border-top: none
+        border-radius: 0 0 10px 10px
+        overflow: hidden
+        text-align: center
+        padding-top: 25px
+        z-index: -1
+        box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.05)
+        opacity: 0
+        visibility: hidden
+        transition: 0.5s all
+        span 
+            display: block
+            padding: 5px
+            transition: 0.4s background
+            &:hover 
+                background: $gray
+    &.active
+        z-index: 2
+        .counter-list 
+            opacity: 1
+            visibility: visible
 .checkbox-field
     &-item 
         display: flex

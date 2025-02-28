@@ -114,24 +114,26 @@
                             ?>
                         </div>
                     </div>
-                    <div class="catalog__filter-block">
-                        <div class="top text_fz20 body-click-target not-global active">
-                            <span>Цена</span>
-                            <img src="<?=THEME_IMAGES?>icons/up.svg" alt="up">
-                        </div>
-                        <div class="bott checkbox-field radio text_fz14 text_fw400 body-click-content not-global active">
-                            <div class="filter-range">
-                                <div class="filter-range-line">
-                                    <span class="line"></span>
-                                    <input type="range" name="price-from" class="range-from" min="<?=$minPrice?>" max="<?=$maxPrice?>" value="<?=$getPriceFrom ?: $minPrice?>">
-                                    <input type="range" name="price-to" class="range-to" min="<?=$minPrice?>" max="<?=$maxPrice?>" value="<?=$getPriceTo ?: $maxPrice?>">
+                    <?php if (IS_AUTH) : ?>
+                        <div class="catalog__filter-block">
+                            <div class="top text_fz20 body-click-target not-global active">
+                                <span>Цена</span>
+                                <img src="<?=THEME_IMAGES?>icons/up.svg" alt="up">
+                            </div>
+                            <div class="bott checkbox-field radio text_fz14 text_fw400 body-click-content not-global active">
+                                <div class="filter-range">
+                                    <div class="filter-range-line">
+                                        <span class="line"></span>
+                                        <input type="range" name="price-from" class="range-from" min="<?=$minPrice?>" max="<?=$maxPrice?>" value="<?=$getPriceFrom ?: $minPrice?>">
+                                        <input type="range" name="price-to" class="range-to" min="<?=$minPrice?>" max="<?=$maxPrice?>" value="<?=$getPriceTo ?: $maxPrice?>">
+                                    </div>
+                                </div>
+                                <div class="filter-price text_fz14">
+                                    <span class="from-text"><?=$minPrice?></span> - <span class="to-text"><?=$maxPrice?></span> ₽
                                 </div>
                             </div>
-                            <div class="filter-price text_fz14">
-                                <span class="from-text"><?=$minPrice?></span> - <span class="to-text"><?=$maxPrice?></span> ₽
-                            </div>
                         </div>
-                    </div>
+                    <?php endif; ?>
                     <div class="catalog__filter-block">
                         <div class="top text_fz20 body-click-target not-global active">
                             <span>Бренд</span>

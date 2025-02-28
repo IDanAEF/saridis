@@ -185,21 +185,15 @@
                                 $histId = isset($_GET['id']) ? $_GET['id'] : '';
 
                                 if ($histId) {
-                                    $orderCount = json_decode(get_field('order-count', $histId), true);
-                                    $orderItems = get_field('order-items', $histId);
+                                    $orderInner = get_field('order-inner', $histId);
                                     $orderUser = get_field('order-user', $histId);
+                                    $orderPersonal = get_field('order-personal', $histId);
                                     $orderStatus = get_field('order-status', $histId) ? get_field('order-status', $histId)['value'] : 'get';
 
-                                    $cutPrice = 0;
                                     $fullPrice = 0;
 
-                                    foreach($orderCount as $orderId => $orderArr) {
-                                        $price = get_field('price', $orderId) ?: 0;
-                                        $cut = get_field('cut', $orderId) ?: 0;
-                                        $currPrice = round($cut == 0 ? $price : ($price - (($price / 100) * $cut)));
-
-                                        $fullPrice += $price * $orderArr['count'];
-                                        $cutPrice += $currPrice * $orderArr['count'];
+                                    foreach($orderInner as $orderArr) {
+                                        $fullPrice += $orderArr['sum'] * $orderArr['nums'];
                                     }
                                     ?>
                                     <div class="profile__history profile__history-detail elem_animate top">
@@ -212,7 +206,7 @@
                                                 </span>
                                                 <span>•</span>
                                                 <span class="count text_fz14 text_fw400">
-                                                    <?=count($orderItems)?> товаров
+                                                    <?=count($orderInner)?> товаров
                                                 </span>
                                             </strong>
                                             <a href="<?=get_home_url()?>/profile/?sect=history" class="text_color text_underline">Вернуться к списку</a>
@@ -281,15 +275,13 @@
                                                     <div class="info">
                                                         <div class="single-catalog__params text_fz14">
                                                             <div class="single-catalog__params-item">
-                                                                <span class="text_fz400">Промежуточный итог:</span>
+                                                                <span class="text_fz400">Промежуточный итог <br>(включая скидки на товары):</span>
                                                                 <span><?=$fullPrice?> ₽</span>
                                                             </div>
-                                                            <?php if ($fullPrice != $cutPrice) : ?>
-                                                                <div class="single-catalog__params-item">
-                                                                    <span class="text_fz400">Скидка:</span>
-                                                                    <span>-<?=$fullPrice - $cutPrice?> ₽</span>
-                                                                </div>
-                                                            <?php endif; ?>
+                                                            <div class="single-catalog__params-item">
+                                                                <span class="text_fz400">Персональная скидка:</span>
+                                                                <span><?=$orderPersonal?>%</span>
+                                                            </div>
                                                             <?php if (get_field('order-delivery', $histId)) : ?>
                                                                 <div class="single-catalog__params-item">
                                                                     <span class="text_fz400">Доставка:</span>
@@ -342,7 +334,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="cart__list elem_animate top">
+                                    <div class="cart__list">
                                         <div class="cart__list-row head text_fz14 text_upper">
                                             <div class="col">Продукты</div>
                                             <div class="col">Цены</div>
@@ -350,14 +342,11 @@
                                             <div class="col">Итог</div>
                                         </div>
                                         <?php
-                                            foreach($orderCount as $orderId => $orderArr) {
+                                            foreach($orderInner as $orderArr) {
+                                                $orderId = $orderArr['item'];
                                                 $image = get_field('preview-image', $orderId) 
-                                                    ? get_field('preview-image', $orderId)['sizes']['thumbnail'] 
+                                                    ? getImgSize(get_field('preview-image', $orderId)) 
                                                     : THEME_IMAGES.'no-image.jpg';
-
-                                                $price = get_field('price', $orderId) ?: 0;
-                                                $cut = get_field('cut', $orderId) ?: 0;
-                                                $currPrice = round($cut == 0 ? $price : ($price - (($price / 100) * $cut)));
                                                 ?>
                                                 <div class="cart__list-row wish-parent cart-add-parent">
                                                     <a href="<?=get_permalink($orderId)?>" class="col name">
@@ -365,17 +354,14 @@
                                                         <span><?=get_the_title($orderId)?></span>
                                                     </a>
                                                     <div class="col price">
-                                                        <span class="curr"><?=$currPrice?> ₽</span>
-                                                        <?php if ($cut) : ?>
-                                                            <span class="old"><?=$price?> ₽</span>
-                                                        <?php endif; ?>
+                                                        <span class="curr"><?=$orderArr['sum']?> ₽</span>
                                                     </div>
                                                     <div class="col">
-                                                        <?=$orderArr['count']?> шт.
+                                                        <?=$orderArr['nums']?> шт.
                                                     </div>
                                                     <div class="col">
                                                         <span class="price-result">
-                                                            <?=$currPrice * $orderArr['count']?> ₽
+                                                            <?=$orderArr['sum'] * $orderArr['nums']?> ₽
                                                         </span>
                                                     </div>
                                                 </div>
@@ -412,7 +398,7 @@
                                     <?php
                                         foreach($favorite as $favoriteItem) {
                                             $image = get_field('preview-image', $favoriteItem->ID) 
-                                                ? get_field('preview-image', $favoriteItem->ID)['sizes']['thumbnail'] 
+                                                ? getImgSize(get_field('preview-image', $favoriteItem->ID)) 
                                                 : THEME_IMAGES.'no-image.jpg';
 
                                             $price = get_field('price', $favoriteItem->ID) ?: 0;
@@ -468,7 +454,20 @@
                                     'suppress_filters' => true,
                                 ]);
 
-                                if (isset($lastHistory[0])) : ?>
+                                $isThere = false;
+
+                                if (isset($lastHistory[0])) {
+                                    foreach($lastHistory as $histElem) {
+                                        $orderStatus = get_field('order-status', $histElem->ID);
+
+                                        if ($orderStatus && $orderStatus['value'] != 'done') {
+                                            $isThere = true;
+                                            break;
+                                        }
+                                    }
+                                }
+
+                                if ($isThere) : ?>
                                 <div class="profile__history elem_animate top">
                                     <div class="head page__title">
                                         <strong class="text_fz20 text_fw500">Действующие заказы</strong>

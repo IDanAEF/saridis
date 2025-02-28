@@ -1,0 +1,7 @@
+.single-catalog__main {
+    position: relative;
+    z-index: 2;
+}
+.profile__general .avatar-wrap {
+    overflow: hidden;
+}

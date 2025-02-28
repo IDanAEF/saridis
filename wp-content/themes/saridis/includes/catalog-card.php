@@ -17,7 +17,7 @@
 <article class="catalog__list-item <?=$class ?: ''?>" data-price="<?=$currPrice?>" data-rating="<?=$rating?>">
     <div class="image">
         <a href="<?=$link?>" class="preview">
-            <img src="<?=$image ? $image['sizes']['medium'] : THEME_IMAGES.'no-image.jpg'?>" alt="<?=$title?>">
+            <img src="<?=$image ? getImgSize($image, 'medium') : THEME_IMAGES.'no-image.jpg'?>" alt="<?=$title?>">
         </a>
         <?php if ($brand && (get_field('logo', 'brand_'.$brand->term_id) || get_field('icon', 'brand_'.$brand->term_id))) : ?>
             <img src="<?=get_field('logo', 'brand_'.$brand->term_id) ? get_field('logo', 'brand_'.$brand->term_id)['sizes']['thumbnail'] : get_field('icon', 'brand_'.$brand->term_id)['sizes']['thumbnail']?>" alt="<?=$brand->name?>" class="brand">

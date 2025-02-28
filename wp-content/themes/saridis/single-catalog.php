@@ -21,7 +21,7 @@
     <section class="single-catalog__main page__block pt0">
         <div class="container">
             <?php
-                $gallery = get_field('gallery') ?: (get_field('preview-image') ? [get_field('preview-image')] : [THEME_IMAGES.'no-image.jpg']);
+                $gallery = get_field('gallery');
             ?>
             <div class="single-catalog__left elem_animate right">
                 <div class="single-catalog__slider">
@@ -29,10 +29,16 @@
                     <div class="single-catalog__slider-list">
                         <div class="single-catalog__slider-track">
                             <?php
-                                foreach($gallery as $galleryKey => $galleryItem) {
+                                if ($gallery) {
+                                    foreach($gallery as $galleryKey => $galleryItem) {
+                                        ?>
+                                        <img src="<?=getImgSize($galleryItem)?>" alt="<?=get_the_title()?>" class="<?=$galleryKey == 0 ? 'active' : ''?>">
+                                        <?php 
+                                    }
+                                } else {
                                     ?>
-                                    <img src="<?=isset($galleryItem['sizes']) ? $galleryItem['sizes']['thumbnail'] : $galleryItem?>" alt="<?=get_the_title()?>" class="<?=$galleryKey == 0 ? 'active' : ''?>">
-                                    <?php 
+                                    <img src="<?=get_field('preview-image') ? getImgSize(get_field('preview-image')) : THEME_IMAGES.'no-image.jpg'?>" alt="<?=get_the_title()?>" class="active">
+                                    <?php
                                 }
                             ?>
                         </div>
@@ -41,10 +47,18 @@
                 </div>
                 <div class="single-catalog__big">
                     <?php
-                        foreach($gallery as $galleryKey => $galleryItem) {
+                        if ($gallery) {
+                            foreach($gallery as $galleryKey => $galleryItem) {
+                                ?>
+                                <picture>
+                                    <img src="<?=getImgSize($galleryItem, 'large')?>" alt="<?=get_the_title()?>" class="<?=$galleryKey == 0 ? 'active' : ''?>">
+                                </picture>
+                                <?php 
+                            }
+                        } else {
                             ?>
                             <picture>
-                                <img src="<?=isset($galleryItem['sizes']) ? $galleryItem['sizes']['large'] : $galleryItem?>" alt="<?=get_the_title()?>" class="<?=$galleryKey == 0 ? 'active' : ''?>">
+                                <img src="<?=get_field('preview-image') ? getImgSize(get_field('preview-image'), 'large') : THEME_IMAGES.'no-image.jpg'?>" alt="<?=get_the_title()?>" class="active">
                             </picture>
                             <?php 
                         }
@@ -116,7 +130,7 @@
                         <?php endif; ?>
                         <?php if (get_field('size')) : ?>
                             <div class="single-catalog__params-item">
-                                <span>Объем:</span>
+                                <span>Объем/Вес:</span>
                                 <span class="text_fz400"><?=get_field('size')?></span>
                             </div>
                         <?php endif; ?>

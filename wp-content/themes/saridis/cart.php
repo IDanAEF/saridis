@@ -66,7 +66,7 @@
 
                             foreach($cart as $cartItem) {
                                 $image = get_field('preview-image', $cartItem->ID) 
-                                    ? get_field('preview-image', $cartItem->ID)['sizes']['thumbnail'] 
+                                    ? getImgSize(get_field('preview-image', $cartItem->ID)) 
                                     : THEME_IMAGES.'no-image.jpg';
 
                                 $price = get_field('price', $cartItem->ID) ?: 0;
@@ -107,6 +107,8 @@
                     </div>
                     <form action="<?=admin_url('admin-ajax.php')?>?action=neworder" class="cart__form hide">
                         <input type="text" name="order-user" value="<?=USER_ID?>" hidden>
+                        <input type="text" name="order-price" value="<?=$fullPriceCut?>" hidden>
+                        <input type="text" name="order-personal" value="10" hidden>
                         <input type="text" name="recaptcha" hidden>
 
                         <div class="cart__form-block">

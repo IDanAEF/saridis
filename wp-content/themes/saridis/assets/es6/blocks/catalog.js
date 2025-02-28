@@ -42,7 +42,9 @@ const catalog = () => {
             let catalogItems = catalogList.querySelectorAll('.catalog__list-item'),
                 catalogItemsDef = catalogList.innerHTML;
 
-            let row = window.innerWidth <= 576 ? 8 : 9,
+            let row = catalogList.classList.contains('four') 
+                    ? (window.innerWidth > 576 && window.innerWidth <= 1200 ? 9 : 8) 
+                    : (window.innerWidth <= 576 ? 8 : 9),
                 iter = 0,
                 count = catalogItems.length;
 

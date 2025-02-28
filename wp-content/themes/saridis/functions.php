@@ -238,23 +238,22 @@
 
     function neworder(){
         if (checkCaptcha()) {
-            $cartIds = [];
-            $cartSimple = [];
-            $cartPrice = 0;
+            $cartInner = [];
             $cartItems = isset($_COOKIE['cart']) && $_COOKIE['cart'] ? json_decode($_COOKIE['cart']) : [];
             
             foreach($cartItems as $cartItem) {
-                $cartIds[] = $cartItem[0];
-                $price = get_field('price', $cartItem[0]);
-                $cut = get_field('cut', $cartItem[0]);
-                $currPrice = round($cut == 0 ? $price : ($price - (($price / 100) * $cut)));
+                if ($cartItem[0]) {
+                    $price = get_field('price', $cartItem[0]);
+                    $cut = get_field('cut', $cartItem[0]);
+                    $currPrice = round($cut == 0 ? $price : ($price - (($price / 100) * $cut)));
 
-                $cartPrice += $currPrice * $cartItem[1];
-
-                $cartSimple[$cartItem[0]] = [
-                    'count' => $cartItem[1],
-                    'price' => $currPrice,
-                ];
+                    $cartInner[] = [
+                        'item' => $cartItem[0],
+                        'nums' => $cartItem[1],
+                        'sum' => $currPrice,
+                        'link' => get_home_url().'/wp-admin/post.php?post='.$cartItem[0].'&action=edit'
+                    ];
+                }
             }
 
             $names = [
@@ -264,7 +263,8 @@
                 'order-phone' => 'Номер телефона',
                 'order-email' => 'Email',
                 'order-city' => 'Город',
-                'order-street' => 'Улица'
+                'order-street' => 'Улица',
+                'order-personal' => 'Персональная скидка'
             ];
     
             $meta = [];
@@ -277,15 +277,13 @@
                 }
             }
 
-            $meta['order-price'] = $cartPrice;
-            $meta['order-items'] = $cartIds;
-            $meta['order-count'] = json_encode($cartSimple);
+            $meta['order-price'] = $_POST['order-price'];
             
-            $text .= "\nСумма заказа: ".$cartPrice."\n\n";
+            $text .= "\nСумма заказа: ".$_POST['order-price']."\n\n";
             $text .= "Товары:\n";
 
-            foreach($cartSimple as $cartId => $cartItem) {
-                $text .= get_the_title($cartId).", ".$cartItem['count']." шт., ".$cartItem['price']." руб.\n";
+            foreach($cartInner as $cartItem) {
+                $text .= get_the_title($cartItem['item']).", ".$cartItem['nums']." шт., ".$cartItem['sum']." руб.\n";
             }
     
             $post_data = [
@@ -297,6 +295,8 @@
                 'meta_input'    => $meta,
             ];
             $post_id = wp_insert_post($post_data);
+
+            if ($cartInner) update_field('field_67c201f65a712', $cartInner, $post_id);
 
             $text .= "\n\nСсылка в админ-панели: ".get_home_url()."/wp-admin/post.php?post=".$post_id."&action=edit";
     
@@ -385,6 +385,10 @@
         return str_replace(['(', ')', '-', ' '], '', $phone);
     }
 
+    function getImgSize($id, $size = 'thumbnail') {
+        return wp_get_attachment_image_url($id, $size);
+    }
+
     function outBtn($name = '', $fz = '', $classes = '', $link = '', $attr = '', $icon = '') {
         return $link ? '
                 <a href="'.$link.'" class="btn '.$classes.' text_fz'.($fz ?: 18).'" '.$attr.'>
@@ -405,12 +409,20 @@
 
     function outCounter($start = 1, $class = '') {
         return '
-            <div class="counter '.$class.'">
+            <div class="counter body-click-target global-hide '.$class.'">
                 <img src="'.THEME_IMAGES.'icons/minus.svg" alt="oper" class="counter-oper counter-minus">
                 <span class="counter-result text_fz18 text_center">
                     '.$start.'
                 </span>
+                <input type="number" class="counter-input" value="'.$start.'">
                 <img src="'.THEME_IMAGES.'icons/plus.svg" alt="oper" class="counter-oper counter-plus">
+                <div class="counter-list">
+                    <span>10</span>
+                    <span>50</span>
+                    <span>100</span>
+                    <span>500</span>
+                    <span>1000</span>
+                </div>
             </div>
         ';
     }

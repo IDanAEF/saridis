@@ -128,6 +128,25 @@
                 padding: 5px
         ol, ul 
             margin: 15px 0px
+    .counter
+        padding: 3px
+        border-radius: 100px
+        gap: 5px
+        &-oper 
+            width: 28px
+            height: 28px
+            min-width: 28px
+        &-result 
+            min-width: 20px
+            font-size: 12px
+        &-input 
+            font-size: 12px
+            width: 32px
+            min-width: 32px
+        &-list 
+            padding-top: 15px
+            span 
+                padding: 2px
     .page-wrap
         &.offset
             padding-top: 85px
@@ -165,16 +184,6 @@
     .container
         padding-left: 25px
         padding-right: 25px
-    .counter
-        padding: 0
-        border-radius: 100px
-        gap: 5px
-        &-oper 
-            width: 28px
-            height: 28px
-            min-width: 28px
-        &-result 
-            min-width: 20px
     .footer
         &__top, &__bott 
             flex-direction: column
@@ -252,3 +261,8 @@
             .btn 
                 &.fit 
                     width: 100%
+@media (max-width: 370px)
+    .header
+        &__bar 
+            gap: 10px
+            padding: 10px 5px
