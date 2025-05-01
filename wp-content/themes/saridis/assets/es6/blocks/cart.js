@@ -172,9 +172,13 @@ const cart = () => {
 
             let inpTimeout;
 
-            counterInput.addEventListener('input', () => {
+            counterInput.addEventListener('input', (e) => {
                 clearTimeout(inpTimeout);
-                inpTimeout = setTimeout(rebuildPrice, 200);
+
+                if (e.target.value) inpTimeout = setTimeout(rebuildPrice, 200);
+            });
+            counterInput.addEventListener('blur', () => {
+                setTimeout(rebuildPrice, 200);
             });
         });
     } catch (e) {
@@ -251,9 +255,17 @@ const cart = () => {
             if (counter && counter.classList.contains('responsive')) {
                 let inpTimeout;
 
-                counter.querySelector('.counter-input').addEventListener('input', () => {
+                counter.querySelector('.counter-input').addEventListener('input', (e) => {
                     clearTimeout(inpTimeout);
-                    inpTimeout = setTimeout(() => {
+
+                    if (e.target.value) {
+                        inpTimeout = setTimeout(() => {
+                            updateCart('responsive');
+                        }, 200);
+                    }
+                });
+                counter.querySelector('.counter-input').addEventListener('blur', (e) => {
+                    setTimeout(() => {
                         updateCart('responsive');
                     }, 200);
                 });

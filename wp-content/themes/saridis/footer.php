@@ -153,6 +153,9 @@
                                 </label>
                             </div>
                         </div>
+                        <div class="form-label text_center text_fz18" data-call-modal="register">
+                            Запрос на регистрацию
+                        </div>
                     </div>
                 </form>
             </div>
@@ -171,13 +174,17 @@
 
                     <div class="form-wrap">
                         <label class="form-label">
+                            <span class="text_fz14">Имя</span>
+                            <input type="text" name="regform-namepers" required>
+                        </label>
+                        <!-- <label class="form-label">
                             <span class="text_fz14">Название компании</span>
                             <input type="text" name="regform-name" required>
                         </label>
                         <label class="form-label">
                             <span class="text_fz14">ИНН</span>
                             <input type="text" name="regform-inn" required>
-                        </label>
+                        </label> -->
                         <label class="form-label">
                             <span class="text_fz14">Телефон</span>
                             <input type="tel" name="regform-phone" required>

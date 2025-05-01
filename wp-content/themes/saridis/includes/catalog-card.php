@@ -14,7 +14,7 @@
 
     $currPrice = round($cut == 0 ? $price : ($price - (($price / 100) * $cut)));
 ?>
-<article class="catalog__list-item <?=$class ?: ''?>" data-price="<?=$currPrice?>" data-rating="<?=$rating?>">
+<article class="catalog__list-item catalog-rel-item <?=$class ?: ''?>" data-price="<?=$currPrice?>" data-rating="<?=$rating?>">
     <div class="image">
         <a href="<?=$link?>" class="preview">
             <img src="<?=$image ? getImgSize($image, 'medium') : THEME_IMAGES.'no-image.jpg'?>" alt="<?=$title?>">
@@ -50,7 +50,7 @@
                 </strong>
             <?php endif; ?>
         <?php else : ?>
-            <?=outBtn('Узнать цену', '', '', $link)?>
+            <?=outBtn('Узнать цену', '', '', '', 'data-call-modal="register"')?>
         <?php endif; ?>
     </div>
 </article>

@@ -91,63 +91,145 @@
                         </div>
                     <?php endif; ?>
                 </div>
-                <?php
-                    $brand = get_field('brand');
-                    
-                    if ($brand || get_field('descr')) : ?>
-                    <div class="single-catalog__descr">
-                        <div class="top">
-                            <?php if ($brand) : ?>
-                                <div class="brand text_fz14 text_fw400">
-                                    <span>Бренд:</span>
-                                    <?php if (get_field('icon', 'brand_'.$brand->term_id)) : ?>
-                                        <img src="<?=get_field('icon', 'brand_'.$brand->term_id)['sizes']['thumbnail']?>" alt="<?=$brand->name?>">
-                                    <?php else : ?>
-                                        <span class="text_color text_fw500"> <?=$brand->name?></span>
-                                    <?php endif; ?>
+                <div class="single-catalog__tabs">
+                    <div class="top text_fz18">
+                        <span class="active">Описание</span>
+                        <span>Характеристики</span>
+                        <span>Отзывы</span>
+                    </div>
+                    <div class="contents">
+                        <?php
+                            $brand = get_field('brand');
+                        ?>
+                        <div class="single-catalog__descr contents-item active">
+                            <div class="top">
+                                <?php if ($brand) : ?>
+                                    <div class="brand text_fz14 text_fw400">
+                                        <span>Бренд:</span>
+                                        <?php if (get_field('icon', 'brand_'.$brand->term_id)) : ?>
+                                            <img src="<?=get_field('icon', 'brand_'.$brand->term_id)['sizes']['thumbnail']?>" alt="<?=$brand->name?>">
+                                        <?php else : ?>
+                                            <span class="text_color text_fw500"> <?=$brand->name?></span>
+                                        <?php endif; ?>
+                                    </div>
+                                <?php endif; ?>
+                            </div>
+                            <?php if (get_field('descr')) : ?>
+                                <div class="default-text text_fz14 text_fw400">
+                                    <?=get_field('descr')?>
                                 </div>
                             <?php endif; ?>
                         </div>
-                        <?php if (get_field('descr')) : ?>
-                            <div class="default-text text_fz14 text_fw400">
-                                <?=get_field('descr')?>
-                            </div>
-                        <?php endif; ?>
+                        <div class="single-catalog__params contents-item text_fz14">
+                            <?php 
+                                $itemsIn = strlen(get_field('items-in')) > 0 ? get_field('items-in') : 12;
+                                
+                                if (
+                                    get_field('factory') || 
+                                    get_field('size') || 
+                                    get_field('wrap') || 
+                                    $itemsIn != 0 || 
+                                    get_field('garanty')
+                                ) : ?>
+                                <?php if (get_field('factory')) : ?>
+                                    <div class="single-catalog__params-item">
+                                        <span>Производство:</span>
+                                        <span class="text_fz400"><?=get_field('factory')?></span>
+                                    </div>
+                                <?php endif; ?>
+                                <?php if (get_field('size')) : ?>
+                                    <div class="single-catalog__params-item">
+                                        <span>Объем/Вес:</span>
+                                        <span class="text_fz400"><?=get_field('size')?></span>
+                                    </div>
+                                <?php endif; ?>
+                                <?php if (get_field('wrap')) : ?>
+                                    <div class="single-catalog__params-item">
+                                        <span>Тип упаковки:</span>
+                                        <span class="text_fz400"><?=get_field('wrap')?></span>
+                                    </div>
+                                <?php endif; ?>
+                                <?php if (get_field('garanty')) : ?>
+                                    <div class="single-catalog__params-item">
+                                        <span>Срок годности:</span>
+                                        <span class="text_fz400"><?=get_field('garanty')?></span>
+                                    </div>
+                                <?php endif; ?>
+                                <?php if ($itemsIn != 0) : ?>
+                                    <div class="single-catalog__params-item">
+                                        <span>Количество шт. в упаковке:</span>
+                                        <span class="text_fz400"><?=$itemsIn?></span>
+                                    </div>
+                                <?php endif; ?>
+                            <?php endif; ?>
+                        </div>
+                        <div class="single-catalog__comments contents-item showhide-field" data-vis="4">
+                            <?php
+                                $comments = get_comments([
+                                    'no_found_rows' => true,
+                                    'orderby' => 'comment_date',
+                                    'order' => 'DESC',
+                                    'post_id' => $post->ID,
+                                    'status' => 'approve',
+                                    'count' => false,
+                                    'date_query' => null,
+                                    'hierarchical' => false,
+                                    'update_comment_meta_cache' => true,
+                                    'update_comment_post_cache' => false,
+                                ]);
+
+                                if (isset($comments[0])) : ?>
+                                <div class="single-recipe__comments-list text_fz14 showhide-list">
+                                    <?php
+                                        foreach($comments as $comm) {
+                                            ?>
+                                            <article class="comment-item showhide-item hide">
+                                                <div class="avatar-wrap">
+                                                    <?=getUserAvatar($comm->user_id)?>
+                                                </div>
+                                                <div class="comment-text">
+                                                    <div class="comment-top">
+                                                        <span class="comment-name"><?=get_user_meta($comm->user_id, 'company', true) ?: get_user_option('display_name', $comm->user_id)?></span>
+                                                        <span>•</span>
+                                                        <span class="comment-date">
+                                                            <?=date('d.m.Y H:i', strtotime($comm->comment_date))?>
+                                                        </span>
+                                                    </div>
+                                                    <div class="comment-descr">
+                                                        <?=$comm->comment_content?>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                            <?php
+                                        }
+                                    ?>
+                                </div>
+                                <?=outBtn('Показать ещё', '', 'border page__btn showhide-more')?>
+                            <?php endif; ?>
+                            <?php if (IS_AUTH) : ?>
+                                <div class="single-recipe__reviews page__block pb0<?=!isset($comments[0]) ? ' pt0' : ''?>">
+                                    <strong class="page__block-title text_fz24 text_fw500">
+                                        Оставить комментарий
+                                    </strong>
+                                    <form action="<?=admin_url('admin-ajax.php')?>?action=newcomment" class="form p0" data-success="comment">
+                                        <input type="text" name="feedreview-post" value="<?=$post->ID?>" hidden>
+                                        <input type="text" name="feedreview-user" value="<?=USER_ID?>" hidden>
+
+                                        <label class="form-label">
+                                            <span class="text_fz14">Комментарий</span>
+                                            <textarea name="feedreview-text" class="big"></textarea>
+                                        </label>
+                                        <div class="form-label">
+                                            <?=outBtn('Отправить', '', 'fit')?>
+                                        </div>
+
+                                        <input type="text" name="recaptcha" hidden>
+                                    </form>
+                                </div>
+                            <?php endif; ?>
+                        </div>
                     </div>
-                <?php endif; ?>
-                <?php if (
-                        get_field('factory') || 
-                        get_field('size') || 
-                        get_field('wrap') || 
-                        get_field('garanty')
-                    ) : ?>
-                    <div class="single-catalog__params text_fz14">
-                        <?php if (get_field('factory')) : ?>
-                            <div class="single-catalog__params-item">
-                                <span>Производство:</span>
-                                <span class="text_fz400"><?=get_field('factory')?></span>
-                            </div>
-                        <?php endif; ?>
-                        <?php if (get_field('size')) : ?>
-                            <div class="single-catalog__params-item">
-                                <span>Объем/Вес:</span>
-                                <span class="text_fz400"><?=get_field('size')?></span>
-                            </div>
-                        <?php endif; ?>
-                        <?php if (get_field('wrap')) : ?>
-                            <div class="single-catalog__params-item">
-                                <span>Тип упаковки:</span>
-                                <span class="text_fz400"><?=get_field('wrap')?></span>
-                            </div>
-                        <?php endif; ?>
-                        <?php if (get_field('garanty')) : ?>
-                            <div class="single-catalog__params-item">
-                                <span>Срок годности:</span>
-                                <span class="text_fz400"><?=get_field('garanty')?></span>
-                            </div>
-                        <?php endif; ?>
-                    </div>
-                <?php endif; ?>
+                </div>
                 <div class="single-catalog__bott cart-add-parent" data-id="<?=$post->ID?>">
                     <?php if (IS_AUTH) : ?>
                         <?php if ($currPrice != 0) : ?>
@@ -159,53 +241,6 @@
                         <?=outBtn('Войти', 18, '', '', 'data-call-modal="auth"')?>
                     <?php endif; ?>
                 </div>
-                <?php
-                    $comments = get_comments([
-                        'no_found_rows' => true,
-                        'orderby' => 'comment_date',
-                        'order' => 'DESC',
-                        'post_id' => $post->ID,
-                        'status' => 'approve',
-                        'count' => false,
-                        'date_query' => null,
-                        'hierarchical' => false,
-                        'update_comment_meta_cache' => true,
-                        'update_comment_post_cache' => false,
-                    ]);
-
-                    if (isset($comments[0])) : ?>
-                    <div class="single-catalog__comments showhide-field" data-vis="4">
-                        <strong class="page__block-title text_fz24 text_fw500">
-                            Комментарии
-                        </strong>
-                        <div class="single-recipe__comments-list text_fz14 showhide-list">
-                            <?php
-                                foreach($comments as $comm) {
-                                    ?>
-                                    <article class="comment-item showhide-item hide">
-                                        <div class="avatar-wrap">
-                                            <?=getUserAvatar($comm->user_id)?>
-                                        </div>
-                                        <div class="comment-text">
-                                            <div class="comment-top">
-                                                <span class="comment-name"><?=get_user_meta($comm->user_id, 'company', true) ?: get_user_option('display_name', $comm->user_id)?></span>
-                                                <span>•</span>
-                                                <span class="comment-date">
-                                                    <?=date('d.m.Y H:i', strtotime($comm->comment_date))?>
-                                                </span>
-                                            </div>
-                                            <div class="comment-descr">
-                                                <?=$comm->comment_content?>
-                                            </div>
-                                        </div>
-                                    </article>
-                                    <?php
-                                }
-                            ?>
-                        </div>
-                        <?=outBtn('Показать ещё', '', 'border page__btn showhide-more')?>
-                    </div>
-                <?php endif; ?>
             </div>
         </div>
     </section>

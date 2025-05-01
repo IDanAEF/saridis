@@ -137,10 +137,12 @@ const other = () => {
                   counterPlus = counterItem.querySelector('.counter-plus'),
                   counterResult = counterItem.querySelector('.counter-result'),
                   counterInput = counterItem.querySelector('.counter-input'),
+                  counterMulti = counterItem.querySelector('.counter-multi'),
                   counterList = counterItem.querySelector('.counter-list'),
                   counterListItem = counterList ? counterList.querySelectorAll('span') : '';
 
-            let count = +counterResult.textContent;
+            let count = +counterResult.textContent,
+                multi = counterMulti ? +counterMulti.getAttribute('data-multi') : 0;
 
             const setNum = (dir = 0, personal = 0) => {
                 count += dir;
@@ -150,6 +152,7 @@ const other = () => {
 
                 counterResult.textContent = count;
                 if (counterInput) counterInput.value = count;
+                if (counterMulti) counterMulti.querySelector('span').textContent = multi * count;
             }
 
             counterMinus.addEventListener('click', () => setNum(-1));
@@ -163,16 +166,28 @@ const other = () => {
                 });
                 counterInput.addEventListener('blur', () => {
                     counterItem.classList.remove('active');
+
+                    if (!counterInput.value) {
+                        count = 1;
+                        counterInput.value = 1;
+                        counterResult.textContent = 1;
+
+                        if (counterMulti) counterMulti.querySelector('span').textContent = multi * count;
+                    }
                 });
 
                 counterInput.addEventListener('input', () => {
-                    count = +counterInput.value;
+                    if (counterInput.value) {
+                        count = +counterInput.value;
 
-                    if (count < 1) {
-                        count = 1;
-                        counterInput.value = 1;
+                        if (count < 1) {
+                            count = 1;
+                            counterInput.value = 1;
+                        }
+                        counterResult.textContent = count;
+
+                        if (counterMulti) counterMulti.querySelector('span').textContent = multi * count;
                     }
-                    counterResult.textContent = count;
                 });
             }
 

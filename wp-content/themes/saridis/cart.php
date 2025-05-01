@@ -57,7 +57,7 @@
                         <div class="cart__list-row head text_fz14 text_upper">
                             <div class="col">Продукты</div>
                             <div class="col">Цены</div>
-                            <div class="col">Количество</div>
+                            <div class="col">Количество, уп.</div>
                             <div class="col">Итог</div>
                         </div>
                         <?php
@@ -76,6 +76,8 @@
 
                                 $fullPrice += $price*$cartSimple[$cartItem->ID];
                                 $fullPriceCut += $resultPrice;
+
+                                $itemsIn = strlen(get_field('items-in', $cartItem->ID)) > 0 ? get_field('items-in', $cartItem->ID) : 12;
                                 ?>
                                 <div class="cart__list-row cart-add-parent" data-id="<?=$cartItem->ID?>" data-price="<?=$price?>" data-cut="<?=$currPrice?>">
                                     <a href="<?=get_permalink($cartItem->ID)?>" class="col name">
@@ -87,11 +89,12 @@
                                         <?php if ($cut) : ?>
                                             <span class="old"><?=$price?> ₽</span>
                                         <?php endif; ?>
+                                        <span>&nbsp;- ед.</span>
                                     </div>
                                     <div class="col">
-                                        <?=outCounter($cartSimple[$cartItem->ID], 'responsive')?>
+                                        <?=outCounter($cartSimple[$cartItem->ID], 'responsive', $itemsIn)?>
                                     </div>
-                                    <div class="col">
+                                    <div class="col multi-top">
                                         <div class="price-result cart-add-result">
                                             <span class="price-result-span"><?=$resultPrice?></span> ₽
                                         </div>

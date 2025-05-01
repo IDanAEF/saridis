@@ -38,8 +38,8 @@
                         $found = false;
 
                         foreach($catalog as $catalogItem) {
-                            $titleLower = mb_strtolower(get_the_title($catalogItem->ID));
-                            $respLower = mb_strtolower($resp);
+                            $titleLower = str_replace('ё', 'е', mb_strtolower(get_the_title($catalogItem->ID)));
+                            $respLower = str_replace('ё', 'е', mb_strtolower($resp));
 
                             if (!$resp || ($resp && strpos($titleLower, $respLower) !== false)) {
                                 get_template_part('includes/catalog-card', null, [

@@ -47,6 +47,22 @@
             align-items: center
             gap: 20px
             padding: 12px 0px
+            .catalog__filter-block .top
+                padding-bottom: 5px
+            .wishlist-btn
+                margin-right: 10px
+            .detail-descr
+                &-wrap 
+                    width: 100%
+                &-text 
+                    margin-bottom: 20px
+                &-bott 
+                    display: flex
+                    align-items: center
+                    justify-content: space-between
+                    width: 100%
+                    .isset
+                        margin-left: 15px
             .col
                 flex: 1
                 display: flex
@@ -54,6 +70,8 @@
                 &:first-child
                     flex: none
                     width: 33%
+                &.right-border
+                    flex: none
             .name 
                 img 
                     width: 100px
@@ -62,6 +80,8 @@
                     object-fit: cover
                     margin-right: 20px
             .price
+                display: flex
+                align-items: center
                 .old
                     margin-left: 2px
                     text-decoration: line-through

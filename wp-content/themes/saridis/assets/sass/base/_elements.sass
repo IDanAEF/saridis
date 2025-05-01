@@ -417,6 +417,17 @@ h6
     background: $white
     position: relative
     cursor: pointer
+    &.is-multi
+        margin-bottom: 20px
+    &-multi 
+        position: absolute
+        top: 100%
+        left: 50%
+        transform: translateX(-50%)
+        z-index: -1
+        pointer-events: none
+        padding-top: 5px
+        color: gray
     &-result 
         min-width: 27px
         pointer-events: none

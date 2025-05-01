@@ -357,7 +357,7 @@
                                                         <span class="curr"><?=$orderArr['sum']?> ₽</span>
                                                     </div>
                                                     <div class="col">
-                                                        <?=$orderArr['nums']?> шт.
+                                                        <?=$orderArr['nums']?> уп.
                                                     </div>
                                                     <div class="col">
                                                         <span class="price-result">

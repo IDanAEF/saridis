@@ -283,7 +283,7 @@
             $text .= "Товары:\n";
 
             foreach($cartInner as $cartItem) {
-                $text .= get_the_title($cartItem['item']).", ".$cartItem['nums']." шт., ".$cartItem['sum']." руб.\n";
+                $text .= get_the_title($cartItem['item']).", ".$cartItem['nums']." уп., ".$cartItem['sum']." руб.\n";
             }
     
             $post_data = [
@@ -296,7 +296,7 @@
             ];
             $post_id = wp_insert_post($post_data);
 
-            if ($cartInner) update_field('field_67c201f65a712', $cartInner, $post_id);
+            if ($cartInner) update_field('field_67c221bf01a6b', $cartInner, $post_id);
 
             $text .= "\n\nСсылка в админ-панели: ".get_home_url()."/wp-admin/post.php?post=".$post_id."&action=edit";
     
@@ -407,15 +407,20 @@
             ';
     }
 
-    function outCounter($start = 1, $class = '') {
+    function outCounter($start = 1, $class = '', $multi = '') {
         return '
-            <div class="counter body-click-target global-hide '.$class.'">
+            <div class="counter '.($multi && $multi != 0 ? 'is-multi' : '').' body-click-target global-hide '.$class.'">
                 <img src="'.THEME_IMAGES.'icons/minus.svg" alt="oper" class="counter-oper counter-minus">
                 <span class="counter-result text_fz18 text_center">
                     '.$start.'
                 </span>
                 <input type="number" class="counter-input" value="'.$start.'">
                 <img src="'.THEME_IMAGES.'icons/plus.svg" alt="oper" class="counter-oper counter-plus">
+                '.($multi && $multi != 0 ? '
+                    <div class="counter-multi text_fz12" data-multi="12">
+                        <span>'.($multi * $start).'</span> шт.
+                    </div>
+                ' : '').'
                 <div class="counter-list">
                     <span>10</span>
                     <span>50</span>
@@ -442,3 +447,101 @@
         ? '<img src="'.wp_get_attachment_image_src(get_user_meta($userId, 'avatar-image', true), 'thumbnail')[0].'" class="img_bg">'
         : get_avatar($userId, 150, '', '', ['class' => 'img_bg']);
     }
+
+    function prods()  {
+        $items = [
+            [14, 'Оливковое масло Extra Virgin "Latzimas Gold" PDO', '1л', 'стекло', '12', '1543'],
+            [14, 'Оливковое масло Extra Virgin "Latzimas Gold" PDO', '1л', 'жесть', '12', '1543'],
+            [14, 'Оливковое масло Extra Virgin "Latzimas" PDO', '3л', 'жесть', '4', ''],
+            [14, 'Оливковое масло Extra Virgin "Latzimas" PDO', '4л', 'жесть', '4', ''],
+            [14, 'Оливковое масло Extra Virgin "Latzimas Gold" PDO', '5л', 'жесть', '4', '7130'],
+            [49, 'Оливковое масло Extra Virgin "KALAMATA ESTATE"   PDO', '0,5л', 'стекло', '12', '788'],
+            [49, 'Оливковое масло Extra Virgin "KALAMATA ESTATE"   PDO', '0,75л', 'стекло', '12', '1152'],
+            [49, 'Оливковое масло Extra Virgin "KALAMATA ESTATE"   PDO', '1л', 'стекло', '12', ''],
+            [49, 'Оливковое масло Extra Virgin "KALAMATA ESTATE"   PDO', '5л', 'жесть', '4', '6980'],
+            [15, 'Оливковое масло Extra virgin "SARIDIS"  1 л. PDO', '1л', 'жесть', '12', ''],
+            [15, 'Оливковое масло Extra virgin "SARIDIS"  1 л. PDO', '1л', 'стекло', '12', '1478'],
+            [15, 'Оливковое масло Extra virgin "SARIDIS"  1 л. PDO', '5л', 'жесть', '4', ''],
+            [53, 'Оливковое масло Extra Virgin "SITIA OF GOLD "   PDO', '0,5л', 'жесть', '24', '915'],
+            [53, 'Оливковое масло Extra Virgin "SITIA OF GOLD "   PDO', '1л', 'жесть', '12', '1660'],
+            [53, 'Оливковое масло Extra Virgin "SITIA OF GOLD "   PDO', '1,5л', 'жесть', '9', '2378'],
+            [53, 'Оливковое масло Extra Virgin "SITIA OF GOLD "   PDO', '3л', 'жесть', '4', '4525'],
+            [52, 'Оливковое масло Extra Virgin "MYLOPOTAMOS "   PDO', '1л', 'жесть', '12', '1660'],
+            [15, 'Масло оливковое Pomace "Saridis"', '1л', 'пластик', '12', '690'],
+            [15, 'Масло оливковое Pomace "Saridis"', '3л', 'жесть', '4', ''],
+            [15, 'Масло оливковое Pomace "Saridis"', '5л', 'жесть', '4', '3450'],
+            [50, 'Масло оливковое Pomace "Koko"', '1л', 'пластик', '12', '690'],
+            [50, 'Масло оливковое Pomace "Koko"', '3л', 'жесть', '4', '2070'],
+            [50, 'Масло оливковое Pomace "Koko"', '5л', 'жесть', '4', '3450'],
+        ];
+
+        foreach($items as $itemRow) {
+            $brandId = $itemRow[0];
+            $name = $itemRow[1];
+            $size = $itemRow[2];
+            $wrap = $itemRow[3];
+            $in = $itemRow[4] ? (int)$itemRow[4] : '';
+            $price = $itemRow[5] ? (int)$itemRow[5] : '';
+            $catId = 11;
+            $iss = $price ? 
+                    ['value' => 'in', 'label' => 'В наличии'] :
+                    ['value' => 'out', 'label' => 'Нет в наличии'];
+
+            $meta = [
+                'price' => $price && $in ? ($price*$in) : $price,
+                'isset' => $iss,
+                'size' => $size,
+                'wrap' => $wrap,
+                'items-in' => $in,
+                'cats' => get_term($catId, 'cats')
+            ];
+
+            $tax = [
+                'cats' => [$catId]
+            ];
+
+            if ($brandId) {
+                $meta['brand'] = get_term($brandId, 'brand');
+                $tax['brand'] = [$brandId];
+            }
+            
+            $post_data = [
+                'post_title'    => $name,
+                'post_status'   => 'publish',
+                'post_type'     => 'catalog',
+                'post_author'   => 1,
+                'ping_status'   => 'open',
+                'tax_input' => $tax,
+                'meta_input' => $meta,
+            ];
+            
+            // $post_id = wp_insert_post($post_data);
+        }
+
+        die();
+    }
+    add_action('wp_ajax_prods', 'prods');
+    add_action('wp_ajax_nopriv_prods', 'prods');
+
+    function prodsMeta()  {
+        $catalogAll = get_posts([
+            'numberposts' => -1,
+            'category'    => 0,
+            'orderby'     => 'date',
+            'order'       => 'DESC',
+            'post_type'   => 'catalog',
+            'suppress_filters' => true,
+        ]);
+
+        foreach($catalogAll as $item) {
+            $itemId = $item->ID;
+
+            if (!get_field('price', $itemId)) {
+                update_post_meta($itemId, 'price', 0);
+            }
+        }
+
+        die();
+    }
+    add_action('wp_ajax_prodsMeta', 'prodsMeta');
+    add_action('wp_ajax_nopriv_prodsMeta', 'prodsMeta');

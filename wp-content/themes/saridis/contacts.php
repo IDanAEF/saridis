@@ -33,6 +33,14 @@
                             </div>
                         </div>
                         <div class="contacts__content-item elem_animate top">
+                            <div class="text">
+                                <span>Наши дистрибьюторы:</span>
+                                <span>Notos Пятигорск ул. Производственная, 20 <a href="tel:+78793975549" class="text_color">+7 (879) 397-55-49</a></span>
+                                <span>Notos г. Ессентуки, ул. Пятигорская, 129 <a href="tel:+79383313040" class="text_color">+7 (938) 331-30-40</a></span>
+                                <span>Notos Ростов-на-Дону просп. Шолохова, 306 <a href="tel:+79281181451" class="text_color">+7 (928) 118-14-51</a></span>
+                            </div>
+                        </div>
+                        <div class="contacts__content-item elem_animate top">
                             <?=outBtn('В магазин', '', '', get_permalink(57))?>
                         </div>
                     </div>

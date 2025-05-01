@@ -5,3 +5,101 @@
 .profile__general .avatar-wrap {
     overflow: hidden;
 }
+.cart__list-row.big .col.name {
+    flex-direction: column;
+}
+.cart__list-row.big .col.name img {
+    width: 200px;
+    height: 200px;
+    min-width: 200px;
+    margin-bottom: 10px;
+}
+.catalog__filter-block .top span {
+    pointer-events: none;
+}
+.single-catalog__tabs > .top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.single-catalog__tabs > .top span {
+    padding: 15px 30px;
+    background: #fcfcfc;
+    color: #000;
+    transition: 0.4s all;
+    cursor: pointer;
+    border-top: 1px solid rgba(0, 0, 0, 0);
+}
+.single-catalog__tabs .contents-item:not(.active) {
+    display: none;
+}
+.single-catalog__tabs > .top span:hover {
+    border-top: 1px solid #8e9b28;
+}
+.single-catalog__tabs > .top span.active {
+    background: #8e9b28;
+    color: #fff;
+}
+.single-catalog__tabs .single-catalog__comments {
+    margin-top: 0;
+    padding: 0;
+    border-radius: 0;
+    border: none;
+}
+.pre-check-block .pre-check-item.hidden {
+    /* opacity: 0.5;
+    pointer-events: none;
+    user-select: none; */
+    display: none;
+}
+@media (max-width: 1400px) {
+    .cart__list-row.big .col.name {
+        flex-direction: row;
+    }
+    .cart__list-row.big .col.name img {
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 1200px) {
+    .single-catalog__tabs {
+        margin-bottom: 10px;
+    }
+    .single-catalog__tabs > .top span {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 992px) {
+    .single-catalog__tabs > .top span {
+        padding: 10px;
+    }
+}
+@media (max-width: 576px) {
+    .cart__list-row.big .col.name img {
+        width: 100px;
+        height: 100px;
+        min-width: 100px;
+    }
+    .catalog__format {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .catalog__format-wrap {
+        margin-top: 0;
+        margin-left: 10px;
+    }
+    .counter.is-multi {
+        margin-bottom: 0;
+    }
+    .counter-multi {
+        position: static;
+        transform: none;
+    }
+}
+@media (max-width: 400px) {
+    .single-catalog__tabs > .top span {
+        font-size: 12px;
+    }
+}

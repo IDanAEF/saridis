@@ -1,4 +1,42 @@
 const catalog = () => {
+    const getCookie = (name) =>  {
+        let matches = document.cookie.match(new RegExp(
+          "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+        ));
+
+        return matches ? decodeURIComponent(matches[1]) : undefined;
+    }
+
+    const setCookie = (name, value, options = {}) => {
+        options = {
+          path: '/',
+          // при необходимости добавьте другие значения по умолчанию
+          ...options
+        };
+      
+        if (options.expires instanceof Date) {
+          options.expires = options.expires.toUTCString();
+        }
+      
+        let updatedCookie = encodeURIComponent(name) + "=" + encodeURIComponent(value);
+      
+        for (let optionKey in options) {
+          updatedCookie += "; " + optionKey;
+          let optionValue = options[optionKey];
+          if (optionValue !== true) {
+            updatedCookie += "=" + optionValue;
+          }
+        }
+      
+        document.cookie = updatedCookie;
+    }
+
+    const deleteCookie = (name) => {
+        setCookie(name, "", {
+            'max-age': -1
+        })
+    }
+
     try {
         const rangeInput = document.querySelectorAll('.filter-range-line input'),
               priceInput = document.querySelectorAll('.filter-price .from-text, .filter-price .to-text'),
@@ -34,12 +72,43 @@ const catalog = () => {
     }
 
     try {
+        const catalogFormat = document.querySelectorAll('.catalog__format-wrap span');
+
+        catalogFormat.forEach(formatItem => {
+            let formatName = formatItem.getAttribute('data-format').trim();
+
+            formatItem.addEventListener('click', () => {
+                setCookie('catalogFormat', formatName, {'max-age': 3600*24*31});
+                window.location.reload();
+            });
+        });
+    } catch (e) {
+        console.log(e.stack);
+    }
+
+    try {
+        const catalogFilterForm = document.querySelector('.catalog__filter');
+
+        if (catalogFilterForm) {
+            const catChoose = catalogFilterForm.querySelectorAll('input');
+
+            catChoose.forEach(item => {
+                item.addEventListener('change', () => {
+                    if (window.innerWidth > 1200) catalogFilterForm.submit();
+                });
+            });
+        }
+    } catch (e) {
+        console.log(e.stack);
+    }
+
+    try {
         const catalogList = document.querySelector('.catalog__list'),
               catalogMore = document.querySelector('.catalog__more'),
               catalogRating = document.querySelector('.catalog__rating');
 
         if (catalogList && catalogMore) {
-            let catalogItems = catalogList.querySelectorAll('.catalog__list-item'),
+            let catalogItems = catalogList.querySelectorAll('.catalog-rel-item'),
                 catalogItemsDef = catalogList.innerHTML;
 
             let row = catalogList.classList.contains('four') 
@@ -111,7 +180,7 @@ const catalog = () => {
                     }
 
                     iter = 0;
-                    catalogItems = catalogList.querySelectorAll('.catalog__list-item');
+                    catalogItems = catalogList.querySelectorAll('.catalog-rel-item');
                     showMoreItems();
                 }
 

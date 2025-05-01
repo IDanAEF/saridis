@@ -1327,18 +1327,1102 @@
 [2025-02-27 20:11:49 : INFO] - Cache for URL: https://saridis.local/?page_id=900 has been purged, triggered by action: save_post 
 [2025-02-27 20:13:08 : INFO] - Cache for URL: https://saridis.local/search/ has been purged, triggered by action: save_post 
 [2025-02-27 20:13:14 : INFO] - Cache for URL: https://saridis.local/search/ has been purged, triggered by action: save_post 
-[2025-02-28 18:53:16 : INFO] - Cache for URL: https://saridis.local/orders/efr3m0vdenyandex-ru/ has been purged, triggered by action: save_post 
-[2025-02-28 18:55:12 : INFO] - Cache for URL: https://saridis.local/orders/efr3m0vdenyandex-ru/ has been purged, triggered by action: save_post 
-[2025-02-28 19:02:03 : INFO] - Cache for URL: https://saridis.local/orders/efr3m0vdenyandex-ru/ has been purged, triggered by action: wp_trash_post 
-[2025-02-28 19:02:04 : INFO] - Cache for URL: https://saridis.local/?post_type=orders&p=906 has been purged, triggered by action: save_post 
-[2025-02-28 19:03:06 : INFO] - Cache for URL: https://saridis.local/orders/efr3m0vdenyandex-ru/ has been purged, triggered by action: save_post 
-[2025-02-28 19:43:49 : INFO] - Cache for URL: https://saridis.local/orders/efr3m0vdenyandex-ru-2/ has been purged, triggered by action: save_post 
-[2025-02-28 19:53:56 : INFO] - Cache for URL: https://saridis.local/orders/efr3m0vdenyandex-ru-2/ has been purged, triggered by action: wp_trash_post 
-[2025-02-28 19:53:57 : INFO] - Cache for URL: https://saridis.local/?post_type=orders&p=910 has been purged, triggered by action: save_post 
-[2025-02-28 19:53:57 : INFO] - Cache for URL: https://saridis.local/orders/efr3m0vdenyandex-ru/ has been purged, triggered by action: wp_trash_post 
-[2025-02-28 19:53:58 : INFO] - Cache for URL: https://saridis.local/?post_type=orders&p=908 has been purged, triggered by action: save_post 
-[2025-02-28 19:55:11 : INFO] - Cache for URL: https://saridis.local/orders/efr3m0vdenyandex-ru/ has been purged, triggered by action: save_post 
-[2025-02-28 19:56:38 : INFO] - Cache for URL: https://saridis.local/orders/efr3m0vdenyandex-ru/ has been purged, triggered by action: save_post 
-[2025-02-28 19:56:58 : INFO] - Cache for URL: https://saridis.local/orders/efr3m0vdenyandex-ru/ has been purged, triggered by action: save_post 
-[2025-02-28 20:16:05 : INFO] - Cache for URL: https://saridis.local/orders/efr3m0vdenyandex-ru/ has been purged, triggered by action: save_post 
-[2025-02-28 20:42:38 : INFO] - Cache for URL: https://saridis.local/orders/efr3m0vdenyandex-ru-2/ has been purged, triggered by action: save_post 
+[2025-02-28 13:45:09 : INFO] - Cache for URL: https://saridis2.efremisdenov.ru/?p=902 has been purged, triggered by action: save_post 
+[2025-02-28 13:45:09 : INFO] - Cache for all archives page associated with post_type: post and Title: "Черновик" have been purged, triggered by action: save_post 
+[2025-02-28 16:29:02 : INFO] - Cache for URL: https://saridis2.efremisdenov.ru/ has been purged, triggered by action: save_post 
+[2025-02-28 16:34:06 : INFO] - Cache for URL: https://saridis2.efremisdenov.ru/recipes/bugatsa-grecheskij-pirog-s-myasom-4/ has been purged, triggered by action: save_post 
+[2025-02-28 16:38:45 : INFO] - Cache for URL: https://saridis2.efremisdenov.ru/recipes/bugatsa-grecheskij-pirog-s-myasom-4/ has been purged, triggered by action: save_post 
+[2025-02-28 16:42:55 : INFO] - Cache for URL: https://saridis2.efremisdenov.ru/recipes/bugatsa-grecheskij-pirog-s-myasom-4/ has been purged, triggered by action: save_post 
+[2025-02-28 16:53:38 : INFO] - Cache for URL: https://opt.saridis.ru/recipes/avgolemono-grecheskij-sup/ has been purged, triggered by action: save_post 
+[2025-02-28 16:55:57 : INFO] - Cache for URL: https://opt.saridis.ru/recipes/avgolemono-grecheskij-sup/ has been purged, triggered by action: save_post 
+[2025-02-28 16:59:44 : INFO] - Cache for URL: https://opt.saridis.ru/recipes/musaka-ili-musakas-tradicionnoe-grecheskoe-bludo/ has been purged, triggered by action: save_post 
+[2025-02-28 17:00:17 : INFO] - Cache for URL: https://opt.saridis.ru/recipes/musaka-ili-musakas-tradicionnoe-grecheskoe-bludo/ has been purged, triggered by action: save_post 
+[2025-02-28 17:02:58 : INFO] - Cache for URL: https://opt.saridis.ru/recipes/musaka-ili-musakas-tradicionnoe-grecheskoe-bludo/ has been purged, triggered by action: save_post 
+[2025-02-28 17:16:24 : INFO] - Cache for URL: https://opt.saridis.ru/recipes/bugatsa-grecheskij-pirog-s-myasom/ has been purged, triggered by action: save_post 
+[2025-02-28 17:17:04 : INFO] - Cache for URL: https://opt.saridis.ru/recipes/bugatsa-grecheskij-pirog-s-myasom/ has been purged, triggered by action: save_post 
+[2025-02-28 17:20:11 : INFO] - Cache for URL: https://opt.saridis.ru/recipes/bugatsa-grecheskij-pirog-s-myasom/ has been purged, triggered by action: save_post 
+[2025-02-28 17:20:26 : INFO] - Cache for URL: https://opt.saridis.ru/recipes/picca-s-syrom-feta-i-zharenym-chesnokom/ has been purged, triggered by action: save_post 
+[2025-02-28 17:21:25 : INFO] - Cache for URL: https://opt.saridis.ru/ has been purged, triggered by action: save_post 
+[2025-02-28 17:33:28 : INFO] - Cache for URL: https://opt.saridis.ru/orders/infosaridis-ru/ has been purged, triggered by action: save_post 
+[2025-02-28 20:47:46 : INFO] - Cache for URL: https://opt.saridis.ru/orders/infosaridis-ru/ has been purged, triggered by action: wp_trash_post 
+[2025-02-28 20:47:47 : INFO] - Cache for URL: https://opt.saridis.ru/?post_type=orders&p=925 has been purged, triggered by action: save_post 
+[2025-02-28 20:55:30 : INFO] - Cache for URL: https://opt.saridis.ru/orders/infosaridis-ru/ has been purged, triggered by action: save_post 
+[2025-02-28 20:56:16 : INFO] - Cache for URL: https://opt.saridis.ru/orders/infosaridis-ru/ has been purged, triggered by action: wp_trash_post 
+[2025-02-28 20:56:17 : INFO] - Cache for URL: https://opt.saridis.ru/?post_type=orders&p=932 has been purged, triggered by action: save_post 
+[2025-02-28 20:56:20 : INFO] - Cache for URL: https://opt.saridis.ru/?post_type=orders&p=932 has been purged, triggered by action: save_post 
+[2025-03-03 04:57:16 : INFO] - Cache for URL: https://opt.saridis.ru/?p=933 has been purged, triggered by action: save_post 
+[2025-03-03 04:57:16 : INFO] - Cache for all archives page associated with post_type: post and Title: "Черновик" have been purged, triggered by action: save_post 
+[2025-03-04 09:18:36 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-04 09:18:36 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-04 09:18:36 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-04 09:18:36 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-04 09:18:36 : INFO] - Cache for URL: https://opt.saridis.ru/catalog/timyanovyj-myod-melopeion-fylladitakis-bio-800gr/ has been purged, triggered by action: save_post 
+[2025-03-04 09:21:50 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-04 09:21:50 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-04 09:21:51 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-04 09:21:51 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-04 09:21:51 : INFO] - Cache for URL: https://opt.saridis.ru/catalog/timyanovyj-myod-melopeion-fylladitakis-bio-800gr/ has been purged, triggered by action: save_post 
+[2025-03-04 09:21:58 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-04 09:21:58 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-04 09:21:58 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-04 09:21:58 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-04 09:21:58 : INFO] - Cache for URL: https://opt.saridis.ru/catalog/timyanovyj-myod-melopeion-fylladitakis-bio-800gr/ has been purged, triggered by action: save_post 
+[2025-03-04 09:22:05 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-04 09:22:05 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-04 09:22:05 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-04 09:22:05 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-04 09:22:05 : INFO] - Cache for URL: https://opt.saridis.ru/catalog/timyanovyj-myod-melopeion-fylladitakis-bio-800gr/ has been purged, triggered by action: save_post 
+[2025-03-04 09:23:36 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-04 09:23:36 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-04 09:23:37 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-04 09:23:37 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-04 09:23:37 : INFO] - Cache for URL: https://opt.saridis.ru/catalog/timyanovyj-myod-melopeion-fylladitakis-bio-800gr/ has been purged, triggered by action: save_post 
+[2025-03-04 09:25:23 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-04 09:25:23 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-04 09:25:23 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-04 09:25:23 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-04 09:25:23 : INFO] - Cache for URL: https://opt.saridis.ru/catalog/timyanovyj-myod-melopeion-fylladitakis-bio-800gr/ has been purged, triggered by action: save_post 
+[2025-03-04 09:25:31 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-04 09:25:31 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-04 09:25:31 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-04 09:25:31 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-04 09:25:31 : INFO] - Cache for URL: https://opt.saridis.ru/catalog/timyanovyj-myod-melopeion-fylladitakis-bio-800gr/ has been purged, triggered by action: save_post 
+[2025-03-04 09:25:38 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-04 09:25:38 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-04 09:25:39 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-04 09:25:39 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-04 09:25:39 : INFO] - Cache for URL: https://opt.saridis.ru/catalog/timyanovyj-myod-melopeion-fylladitakis-bio-800gr/ has been purged, triggered by action: save_post 
+[2025-03-04 09:38:54 : INFO] - Cache for URL: https://opt.saridis.ru/?post_type=registers&p=943 has been purged, triggered by action: save_post 
+[2025-03-04 09:39:42 : INFO] - Cache for URL: https://opt.saridis.ru/?post_type=registers&p=945 has been purged, triggered by action: save_post 
+[2025-03-05 10:33:20 : INFO] - Cache for URL: https://opt.saridis.ru/?post_type=recipes&p=946 has been purged, triggered by action: save_post 
+[2025-03-05 10:35:22 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-05 10:35:22 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-05 10:35:23 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-05 10:35:23 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-05 10:35:23 : INFO] - Cache for URL: https://opt.saridis.ru/catalog/olivkovoe-maslo-latzimas-organic-extra-virgin-500ml/ has been purged, triggered by action: save_post 
+[2025-03-05 10:36:53 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-05 10:36:53 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-05 10:36:54 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-05 10:36:54 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-05 10:36:54 : INFO] - Cache for URL: https://opt.saridis.ru/catalog/olivkovoe-maslo-latzimas-organic-extra-virgin-500ml/ has been purged, triggered by action: save_post 
+[2025-03-05 10:37:00 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-05 10:37:00 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-05 10:37:01 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-05 10:37:01 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-05 10:37:01 : INFO] - Cache for URL: https://opt.saridis.ru/catalog/olivkovoe-maslo-latzimas-organic-extra-virgin-500ml/ has been purged, triggered by action: save_post 
+[2025-03-05 10:41:16 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-05 10:41:16 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-05 10:41:16 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-05 10:41:16 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-05 10:41:16 : INFO] - Cache for URL: https://opt.saridis.ru/catalog/olivkovoe-maslo-latzimas-organic-extra-virgin-500ml/ has been purged, triggered by action: save_post 
+[2025-03-05 10:41:21 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-05 10:41:21 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-05 10:41:22 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-05 10:41:22 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-05 10:41:22 : INFO] - Cache for URL: https://opt.saridis.ru/catalog/olivkovoe-maslo-latzimas-organic-extra-virgin-500ml/ has been purged, triggered by action: save_post 
+[2025-03-05 10:41:28 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-05 10:41:28 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-05 10:41:28 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-05 10:41:28 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-05 10:41:28 : INFO] - Cache for URL: https://opt.saridis.ru/catalog/olivkovoe-maslo-latzimas-organic-extra-virgin-500ml/ has been purged, triggered by action: save_post 
+[2025-03-05 12:50:43 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-05 12:50:43 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-05 12:50:43 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-05 12:50:43 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-05 12:50:43 : INFO] - Cache for URL: https://opt.saridis.ru/catalog/timyanovyj-myod-melopeion-fylladitakis-bio-800gr/ has been purged, triggered by action: save_post 
+[2025-03-17 18:57:26 : INFO] - Cache for URL: https://opt.saridis.ru/?p=955 has been purged, triggered by action: save_post 
+[2025-03-17 18:57:26 : INFO] - Cache for all archives page associated with post_type: post and Title: "Черновик" have been purged, triggered by action: save_post 
+[2025-03-29 14:10:16 : INFO] - Cache for URL: https://opt.saridis.ru/?p=956 has been purged, triggered by action: save_post 
+[2025-03-29 14:10:16 : INFO] - Cache for all archives page associated with post_type: post and Title: "Черновик" have been purged, triggered by action: save_post 
+[2025-03-29 14:23:46 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-29 14:23:46 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-29 14:23:46 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-29 14:23:46 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-29 14:23:46 : INFO] - Cache for URL: https://opt.saridis.ru/catalog/timyanovyj-myod-melopeion-fylladitakis-bio-800gr/ has been purged, triggered by action: save_post 
+[2025-03-31 08:57:31 : INFO] - Cache for URL: https://saridis.local/catalog/timyanovyj-myod-melopeion-fylladitakis-bio-800gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:57:32 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=899 has been purged, triggered by action: save_post 
+[2025-03-31 08:57:32 : INFO] - Cache for URL: https://saridis.local/catalog/timyanovyj-myod-melopeion-fylladitakis-bio-400gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:57:33 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=897 has been purged, triggered by action: save_post 
+[2025-03-31 08:57:33 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-latzimas-organic-extra-virgin-500ml/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:57:34 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=895 has been purged, triggered by action: save_post 
+[2025-03-31 08:57:34 : INFO] - Cache for URL: https://saridis.local/catalog/gotovyj-zavtrak-le-petit-dejeuner-tsakiris-family-bez-glyutena-kukuruznye-hlopya-300gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:57:39 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=893 has been purged, triggered by action: save_post 
+[2025-03-31 08:57:39 : INFO] - Cache for URL: https://saridis.local/catalog/gotovyj-zavtrak-le-petit-dejeuner-tsakiris-family-shokoladnyj-ris-500gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:57:40 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=891 has been purged, triggered by action: save_post 
+[2025-03-31 08:57:40 : INFO] - Cache for URL: https://saridis.local/catalog/gotovyj-zavtrak-le-petit-dejeuner-tsakiris-family-medovye-kolcza-500gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:57:41 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=889 has been purged, triggered by action: save_post 
+[2025-03-31 08:57:41 : INFO] - Cache for URL: https://saridis.local/catalog/gotovyj-zavtrak-le-petit-dejeuner-tsakiris-family-shokoladnye-hlopya-500gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:57:42 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=887 has been purged, triggered by action: save_post 
+[2025-03-31 08:57:42 : INFO] - Cache for URL: https://saridis.local/catalog/granola-le-petit-dejeuner-tsakiris-family-s-vysokim-soderzhaniem-belka-350-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:57:43 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=885 has been purged, triggered by action: save_post 
+[2025-03-31 08:57:43 : INFO] - Cache for URL: https://saridis.local/catalog/granola-le-petit-dejeuner-tsakiris-family-bez-sahara-350-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:57:45 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=883 has been purged, triggered by action: save_post 
+[2025-03-31 08:57:45 : INFO] - Cache for URL: https://saridis.local/catalog/granola-le-petit-dejeuner-tsakiris-family-organik-s-kinoa-i-smesyu-semyan-350-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:57:46 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=881 has been purged, triggered by action: save_post 
+[2025-03-31 08:57:46 : INFO] - Cache for URL: https://saridis.local/catalog/granola-le-petit-dejeuner-tsakiris-family-s-shokoladom-350-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:57:47 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=879 has been purged, triggered by action: save_post 
+[2025-03-31 08:57:47 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-bio-origin-of-sitia-extra-virgin-500ml/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:57:48 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=877 has been purged, triggered by action: save_post 
+[2025-03-31 08:57:48 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-bio-origin-of-sitia-extra-virgin-1l/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:57:49 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=875 has been purged, triggered by action: save_post 
+[2025-03-31 08:57:49 : INFO] - Cache for URL: https://saridis.local/catalog/granola-le-petit-dejeuner-tsakiris-family-s-lesnymi-yagodami-350-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:57:50 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=873 has been purged, triggered by action: save_post 
+[2025-03-31 08:57:50 : INFO] - Cache for URL: https://saridis.local/catalog/pechene-gemista-s-klubnichnym-kremom-200-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:57:52 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=871 has been purged, triggered by action: save_post 
+[2025-03-31 08:57:52 : INFO] - Cache for URL: https://saridis.local/catalog/pechene-gemista-s-apelsinovym-kremom-200-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:57:53 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=869 has been purged, triggered by action: save_post 
+[2025-03-31 08:57:53 : INFO] - Cache for URL: https://saridis.local/catalog/pechene-gemista-s-shokoladnym-kremom-200-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:57:54 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=867 has been purged, triggered by action: save_post 
+[2025-03-31 08:57:54 : INFO] - Cache for URL: https://saridis.local/catalog/pechene-gemista-s-vanilnym-kremom-200-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:57:55 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=865 has been purged, triggered by action: save_post 
+[2025-03-31 08:57:55 : INFO] - Cache for URL: https://saridis.local/catalog/pechene-gemista-s-bananovym-kremom-200-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:57:56 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=863 has been purged, triggered by action: save_post 
+[2025-03-31 08:57:56 : INFO] - Cache for URL: https://saridis.local/catalog/myagkoe-pechene-allatini-kings-s-tyomnym-shokoladom-180-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:57:57 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=861 has been purged, triggered by action: save_post 
+[2025-03-31 08:58:03 : INFO] - Cache for URL: https://saridis.local/catalog/myagkoe-pechene-allatini-kings-s-molochnym-shokoladom-180-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:58:04 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=859 has been purged, triggered by action: save_post 
+[2025-03-31 08:58:04 : INFO] - Cache for URL: https://saridis.local/catalog/myagkoe-pechene-allatini-kings-s-trojnym-shokoladom-180-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:58:05 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=857 has been purged, triggered by action: save_post 
+[2025-03-31 08:58:05 : INFO] - Cache for URL: https://saridis.local/catalog/myagkoe-pechene-allatini-kings-s-kokosom-i-belym-shokoladom-180-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:58:06 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=855 has been purged, triggered by action: save_post 
+[2025-03-31 08:58:06 : INFO] - Cache for URL: https://saridis.local/catalog/lukum-meletiadis-co-vkusom-apelsina-300-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:58:08 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=853 has been purged, triggered by action: save_post 
+[2025-03-31 08:58:08 : INFO] - Cache for URL: https://saridis.local/catalog/50-50-praline-i-tahini-meletiadis-400-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:58:09 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=850 has been purged, triggered by action: save_post 
+[2025-03-31 08:58:09 : INFO] - Cache for URL: https://saridis.local/catalog/fuzilli-ellinikos-sitos-500-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:58:10 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=848 has been purged, triggered by action: save_post 
+[2025-03-31 08:58:10 : INFO] - Cache for URL: https://saridis.local/catalog/makarony-orzo-ellinikos-sitos-500-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:58:11 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=846 has been purged, triggered by action: save_post 
+[2025-03-31 08:58:11 : INFO] - Cache for URL: https://saridis.local/catalog/penne-rigate-ellinikos-sitos-500-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:58:12 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=844 has been purged, triggered by action: save_post 
+[2025-03-31 08:58:12 : INFO] - Cache for URL: https://saridis.local/catalog/spagetti-%e2%84%9610-ellinikos-sitos-500-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:58:14 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=842 has been purged, triggered by action: save_post 
+[2025-03-31 08:58:14 : INFO] - Cache for URL: https://saridis.local/catalog/spagetti-%e2%84%966-ellinikos-sitos-500-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:58:15 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=840 has been purged, triggered by action: save_post 
+[2025-03-31 08:58:15 : INFO] - Cache for URL: https://saridis.local/catalog/makarony-dlya-pasticzio-ellinikos-sitos-500-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:58:16 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=838 has been purged, triggered by action: save_post 
+[2025-03-31 08:58:16 : INFO] - Cache for URL: https://saridis.local/catalog/zapechyonnyj-krasnyj-perecz-buono-465-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:58:17 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=834 has been purged, triggered by action: save_post 
+[2025-03-31 08:58:17 : INFO] - Cache for URL: https://saridis.local/catalog/zapechyonnyj-krasnyj-i-zheltyj-perecz-buono-465-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:58:18 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=836 has been purged, triggered by action: save_post 
+[2025-03-31 08:58:18 : INFO] - Cache for URL: https://saridis.local/catalog/gigantskaya-zapechyonnaya-fasol-onassis-280-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:58:19 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=832 has been purged, triggered by action: save_post 
+[2025-03-31 08:58:19 : INFO] - Cache for URL: https://saridis.local/catalog/vyalenye-tomaty-v-masle-so-specziyami-buono-41-kg/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:58:20 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=829 has been purged, triggered by action: save_post 
+[2025-03-31 08:58:20 : INFO] - Cache for URL: https://saridis.local/catalog/grecheskij-gornyj-chaj-malotira-saridis-50-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:58:21 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=826 has been purged, triggered by action: save_post 
+[2025-03-31 08:58:21 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-kalamon-eltha-s-kostochkami-250-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:58:23 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=822 has been purged, triggered by action: save_post 
+[2025-03-31 08:58:23 : INFO] - Cache for URL: https://saridis.local/catalog/miks-olivok-s-kostochkami-zelyonye-i-kalamon-eltha-250-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:58:24 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=820 has been purged, triggered by action: save_post 
+[2025-03-31 08:58:24 : INFO] - Cache for URL: https://saridis.local/catalog/vyalenye-olivki-eltha-c-kostochkoj-500-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:58:25 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=818 has been purged, triggered by action: save_post 
+[2025-03-31 08:58:25 : INFO] - Cache for URL: https://saridis.local/catalog/vyalenye-olivki-eltha-c-kostochkoj-250-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 08:58:26 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=816 has been purged, triggered by action: save_post 
+[2025-03-31 09:03:22 : INFO] - Cache for URL: https://saridis.local/catalog/chyornye-olivki-apollon-bez-kostochek-720-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:03:23 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=814 has been purged, triggered by action: save_post 
+[2025-03-31 09:03:23 : INFO] - Cache for URL: https://saridis.local/catalog/chyornye-olivki-apollon-s-kostochkami-720-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:03:25 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=812 has been purged, triggered by action: save_post 
+[2025-03-31 09:03:25 : INFO] - Cache for URL: https://saridis.local/catalog/zelyonye-olivki-apollon-s-kostochkami-720-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:03:26 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=810 has been purged, triggered by action: save_post 
+[2025-03-31 09:03:26 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-kalamon-apollon-s-kostochkami-360-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:03:27 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=808 has been purged, triggered by action: save_post 
+[2025-03-31 09:03:27 : INFO] - Cache for URL: https://saridis.local/catalog/zelyonye-olivki-apollon-bez-kostochek-360-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:03:28 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=806 has been purged, triggered by action: save_post 
+[2025-03-31 09:03:28 : INFO] - Cache for URL: https://saridis.local/catalog/zelyonye-olivki-apollon-s-kostochkami-360-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:03:29 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=804 has been purged, triggered by action: save_post 
+[2025-03-31 09:03:29 : INFO] - Cache for URL: https://saridis.local/catalog/zelyonye-olivki-latrovalis-farshirovannye-mindalyom-zh-b-425-kg/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:03:31 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=802 has been purged, triggered by action: save_post 
+[2025-03-31 09:03:31 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-kalamon-latrovalis-s-kostochkami-zh-b-425-kg/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:03:32 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=799 has been purged, triggered by action: save_post 
+[2025-03-31 09:03:32 : INFO] - Cache for URL: https://saridis.local/catalog/chyornye-olivki-latrovalis-s-kostochkami-zh-b-425-kg/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:03:33 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=797 has been purged, triggered by action: save_post 
+[2025-03-31 09:03:33 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-kalamon-latrovalis-s-kostochkami-zh-b-810-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:03:34 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=795 has been purged, triggered by action: save_post 
+[2025-03-31 09:03:34 : INFO] - Cache for URL: https://saridis.local/catalog/zelyonye-olivki-latrovalis-bez-kostochek-zh-b-810-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:03:35 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=793 has been purged, triggered by action: save_post 
+[2025-03-31 09:03:35 : INFO] - Cache for URL: https://saridis.local/catalog/zelyonye-olivki-latrovalis-s-kostochkami-zh-b-810-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:03:36 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=791 has been purged, triggered by action: save_post 
+[2025-03-31 09:03:36 : INFO] - Cache for URL: https://saridis.local/catalog/zelyonye-olivki-latrovalis-farshirovannye-chesnokom-390-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:03:37 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=789 has been purged, triggered by action: save_post 
+[2025-03-31 09:03:37 : INFO] - Cache for URL: https://saridis.local/catalog/zelyonye-olivki-latrovalis-farshirovannye-perczem-halapeno-i-chesnokom-390-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:03:38 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=787 has been purged, triggered by action: save_post 
+[2025-03-31 09:03:38 : INFO] - Cache for URL: https://saridis.local/catalog/zelyonye-olivki-latrovalis-farshirovannye-limonom-390-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:03:39 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=785 has been purged, triggered by action: save_post 
+[2025-03-31 09:03:39 : INFO] - Cache for URL: https://saridis.local/catalog/naturalno-sozrevshie-olivki-latrovalis-s-kostochkami-390-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:03:40 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=783 has been purged, triggered by action: save_post 
+[2025-03-31 09:03:40 : INFO] - Cache for URL: https://saridis.local/catalog/zelyonye-olivki-latrovalis-bez-kostochek-390-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:03:41 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=781 has been purged, triggered by action: save_post 
+[2025-03-31 09:03:41 : INFO] - Cache for URL: https://saridis.local/catalog/zelyonye-olivki-latrovalis-s-kostochkami-390-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:03:42 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=779 has been purged, triggered by action: save_post 
+[2025-03-31 09:03:42 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-kalamon-latrovalis-bez-kostochek-390-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:03:44 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=777 has been purged, triggered by action: save_post 
+[2025-03-31 09:03:44 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-kalamon-latrovalis-s-kostochkami-390-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:03:45 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=775 has been purged, triggered by action: save_post 
+[2025-03-31 09:03:55 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-dlya-zharki-saridis-pomace-5l/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:03:57 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=773 has been purged, triggered by action: save_post 
+[2025-03-31 09:03:57 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-dlya-zharki-saridis-pomace-1l/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:03:58 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=770 has been purged, triggered by action: save_post 
+[2025-03-31 09:03:58 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-extra-virgin-vinnyj-uksus-s-travami-i-specziyami-kima-200-200ml/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:00 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=767 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:00 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-s-travami-i-specziyami-penelope-extra-virgin-250ml/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:01 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=765 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:01 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-s-travami-i-specziyami-tzoulia-extra-virgin-250ml/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:02 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=763 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:02 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-gr-estate-kalamata-extra-virgin-1l/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:03 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=761 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:03 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-gr-estate-kalamata-extra-virgin-750ml/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:04 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=759 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:04 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-gr-estate-kalamata-extra-virgin-500ml/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:05 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=757 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:05 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-gold-of-sitia-02-extra-virgin-15l/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:06 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=755 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:06 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-land-of-sitia-02-extra-virgin-15l/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:08 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=753 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:08 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-land-of-sitia-02-extra-virgin-1l/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:09 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=751 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:09 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-land-of-sitia-02-extra-virgin-500ml/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:10 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=749 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:10 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-land-of-sitia-02-extra-virgin-250ml/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:11 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=747 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:11 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-treasure-of-mylopotamos-02-extra-virgin-250ml/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:12 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=745 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:12 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-treasure-of-mylopotamos-02-extra-virgin-1l/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:13 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=743 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:13 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-vorios-mylopotamos-03-extra-virgin-1l/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:14 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=741 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:14 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-saridis-extra-virgin-5l/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:15 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=739 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:15 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-saridis-extra-virgin-3l/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:17 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=736 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:17 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-latzimas-extra-virgin-5l-2/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:18 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=733 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:18 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-latzimas-bio-organic-extra-virgin-1l/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:19 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=731 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:24 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-latzimas-gold-extra-virgin-5l/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:26 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=727 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:26 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-latzimas-bio-organic-extra-virgin-500ml/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:27 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=729 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:27 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-latzimas-gold-extra-virgin-1l/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:28 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=725 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:28 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-latzimas-gold-extra-virgin-zh-b-1l/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:29 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=723 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:29 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-latzimas-extra-virgin-5l/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:30 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=721 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:30 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-latzimas-gold-extra-virgin-750ml/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:31 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=719 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:31 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-latzimas-gold-extra-virgin-zh-b-500ml/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:32 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=717 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:32 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-latzimas-gold-extra-virgin-500ml/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:34 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=715 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:34 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-latzimas-extra-virgin-3l/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:35 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=713 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:35 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-latzimas-extra-virgin-1l/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:36 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=711 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:36 : INFO] - Cache for URL: https://saridis.local/catalog/makedonskij-marinovannyj-perecz-buono-580-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:37 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=709 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:37 : INFO] - Cache for URL: https://saridis.local/catalog/zelyonye-olivki-latrovalis-farshirovannye-ogurczom-390-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:42 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=706 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:42 : INFO] - Cache for URL: https://saridis.local/catalog/chyornye-olivki-latrovalis-bez-kostochek-zh-b-400-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:44 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=704 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:44 : INFO] - Cache for URL: https://saridis.local/catalog/zelyonye-olivki-latrovalis-farshirovannye-pastoj-iz-krasnogo-percza-390-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:45 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=702 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:45 : INFO] - Cache for URL: https://saridis.local/catalog/chyornye-olivki-latrovalis-s-kostochkami-zh-b-810-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:46 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=700 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:46 : INFO] - Cache for URL: https://saridis.local/catalog/chyornye-olivki-latrovalis-bez-kostochek-zh-b-810-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:47 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=698 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:47 : INFO] - Cache for URL: https://saridis.local/catalog/zelyonye-olivki-latrovalis-farshirovannye-perczem-halapeno-390-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:48 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=696 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:48 : INFO] - Cache for URL: https://saridis.local/catalog/tradiczionnyj-grecheskij-molotyj-kofe-melcafe-200-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:50 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=694 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:50 : INFO] - Cache for URL: https://saridis.local/catalog/tradiczionnyj-grecheskij-molotyj-kofe-melcafe-100-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:51 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=692 has been purged, triggered by action: save_post 
+[2025-03-31 09:04:51 : INFO] - Cache for URL: https://saridis.local/catalog/tradiczionnyj-grecheskij-molotyj-kofe-loumidis-papagalos-194-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:04:52 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=690 has been purged, triggered by action: save_post 
+[2025-03-31 09:07:24 : INFO] - Cache for URL: https://saridis.local/catalog/tradiczionnyj-grecheskij-molotyj-kofe-loumidis-papagalos-96-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:07:25 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=687 has been purged, triggered by action: save_post 
+[2025-03-31 09:07:25 : INFO] - Cache for URL: https://saridis.local/catalog/vyalenye-tomaty-v-masle-so-specziyami-buono-365-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:07:26 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=684 has been purged, triggered by action: save_post 
+[2025-03-31 09:07:26 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-kalamon-apollon-s-kostochkami-720-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:07:27 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=681 has been purged, triggered by action: save_post 
+[2025-03-31 09:07:27 : INFO] - Cache for URL: https://saridis.local/catalog/zelyonye-olivki-latrovalis-farshirovannye-mindalyom-390-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:07:28 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=679 has been purged, triggered by action: save_post 
+[2025-03-31 09:07:28 : INFO] - Cache for URL: https://saridis.local/catalog/zelyonye-olivki-apollon-bez-kostochek-720-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:07:29 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=677 has been purged, triggered by action: save_post 
+[2025-03-31 09:07:29 : INFO] - Cache for URL: https://saridis.local/catalog/zelyonye-pikantnye-perchiki-almito-s-nachinkoj-iz-syrnogo-krema-270gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:07:31 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=675 has been purged, triggered by action: save_post 
+[2025-03-31 09:07:31 : INFO] - Cache for URL: https://saridis.local/catalog/krasnye-pikantnye-perchiki-almito-nachinyonnye-syrnym-kremom-280gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:07:32 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=673 has been purged, triggered by action: save_post 
+[2025-03-31 09:07:32 : INFO] - Cache for URL: https://saridis.local/catalog/halva-kunzhutnaya-salonikios-s-kakao-400-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:07:33 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=671 has been purged, triggered by action: save_post 
+[2025-03-31 09:07:33 : INFO] - Cache for URL: https://saridis.local/catalog/halva-kunzhutnaya-salonikios-vanilnaya-400-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:07:34 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=668 has been purged, triggered by action: save_post 
+[2025-03-31 09:07:34 : INFO] - Cache for URL: https://saridis.local/catalog/pasta-orehovaya-melinda-s-kakao-400-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:07:35 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=665 has been purged, triggered by action: save_post 
+[2025-03-31 09:07:35 : INFO] - Cache for URL: https://saridis.local/catalog/lukum-meletiadis-co-vkusom-mastiki-300-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:07:36 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=663 has been purged, triggered by action: save_post 
+[2025-03-31 09:07:36 : INFO] - Cache for URL: https://saridis.local/catalog/lukum-meletiadis-assorti-300-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:07:38 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=660 has been purged, triggered by action: save_post 
+[2025-03-31 09:07:38 : INFO] - Cache for URL: https://saridis.local/catalog/persikovyj-dzhem-la-mel-450-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:07:39 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=657 has been purged, triggered by action: save_post 
+[2025-03-31 09:07:39 : INFO] - Cache for URL: https://saridis.local/catalog/halva-kunzhutnaya-salonikios-s-arahisom-400-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:07:40 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=655 has been purged, triggered by action: save_post 
+[2025-03-31 09:07:40 : INFO] - Cache for URL: https://saridis.local/catalog/halva-kunzhutnaya-salonikios-s-fistashkami-400-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:07:41 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=652 has been purged, triggered by action: save_post 
+[2025-03-31 09:07:41 : INFO] - Cache for URL: https://saridis.local/catalog/vafelnye-trubochki-caprice-s-kremom-iz-lesnogo-oreha-i-kakao-400-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:07:42 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=649 has been purged, triggered by action: save_post 
+[2025-03-31 09:07:42 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-latzimas-extra-virgin-750ml/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:07:43 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=645 has been purged, triggered by action: save_post 
+[2025-03-31 09:07:43 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-latzimas-extra-virgin-500ml/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:07:44 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=643 has been purged, triggered by action: save_post 
+[2025-03-31 09:07:44 : INFO] - Cache for URL: https://saridis.local/catalog/kompot-makedoniki-persiki-polovinki-822gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:07:45 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=641 has been purged, triggered by action: save_post 
+[2025-03-31 09:07:45 : INFO] - Cache for URL: https://saridis.local/catalog/narezannye-tomaty-v-sobstvennom-soku-saridis-400-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:07:46 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=639 has been purged, triggered by action: save_post 
+[2025-03-31 09:10:09 : INFO] - Cache for URL: https://saridis.local/catalog/gigantskaya-zapechyonnaya-fasol-onassis-2-kg/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:10:10 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=637 has been purged, triggered by action: save_post 
+[2025-03-31 09:10:10 : INFO] - Cache for URL: https://saridis.local/catalog/vishnevyj-dzhem-la-mel-450-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:10:12 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=634 has been purged, triggered by action: save_post 
+[2025-03-31 09:10:12 : INFO] - Cache for URL: https://saridis.local/catalog/abrikosovyj-dzhem-la-mel-450-gr/ has been purged, triggered by action: wp_trash_post 
+[2025-03-31 09:10:13 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=632 has been purged, triggered by action: save_post 
+[2025-03-31 09:25:53 : INFO] - Cache for term page with URL: https://saridis.local/brand/papadopoulou/  have been purged, triggered by action: edit_terms 
+[2025-03-31 09:26:05 : INFO] - Cache for term page with URL: https://saridis.local/brand/onasis/  have been purged, triggered by action: edit_terms 
+[2025-03-31 09:46:43 : INFO] - Cache for URL: https://saridis.local/?post_type=catalog&p=1078 has been purged, triggered by action: save_post 
+[2025-03-31 10:31:34 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:34 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:35 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-extra-virgin-latzimas-gold-pdo/ has been purged, triggered by action: save_post 
+[2025-03-31 10:31:35 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:35 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:36 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-extra-virgin-latzimas-gold-pdo-2/ has been purged, triggered by action: save_post 
+[2025-03-31 10:31:36 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:36 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:37 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-extra-virgin-latzimas-pdo/ has been purged, triggered by action: save_post 
+[2025-03-31 10:31:37 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:37 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:38 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-extra-virgin-latzimas-pdo-2/ has been purged, triggered by action: save_post 
+[2025-03-31 10:31:38 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:38 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:40 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-extra-virgin-latzimas-gold-pdo-3/ has been purged, triggered by action: save_post 
+[2025-03-31 10:31:40 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:40 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:41 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-extra-virgin-kalamata-estate-pdo/ has been purged, triggered by action: save_post 
+[2025-03-31 10:31:41 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:41 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:42 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-extra-virgin-kalamata-estate-pdo-2/ has been purged, triggered by action: save_post 
+[2025-03-31 10:31:42 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:42 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:43 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-extra-virgin-kalamata-estate-pdo-3/ has been purged, triggered by action: save_post 
+[2025-03-31 10:31:43 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:43 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:45 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-extra-virgin-kalamata-estate-pdo-4/ has been purged, triggered by action: save_post 
+[2025-03-31 10:31:45 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:45 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:46 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-extra-virgin-saridis-1l-pdo/ has been purged, triggered by action: save_post 
+[2025-03-31 10:31:46 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:46 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:47 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-extra-virgin-saridis-1l-pdo-2/ has been purged, triggered by action: save_post 
+[2025-03-31 10:31:47 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:47 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:48 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-extra-virgin-saridis-1l-pdo-3/ has been purged, triggered by action: save_post 
+[2025-03-31 10:31:48 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:48 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:49 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-extra-virgin-sitia-of-gold-pdo/ has been purged, triggered by action: save_post 
+[2025-03-31 10:31:49 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:49 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:50 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-extra-virgin-sitia-of-gold-pdo-2/ has been purged, triggered by action: save_post 
+[2025-03-31 10:31:50 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:50 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:51 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-extra-virgin-sitia-of-gold-pdo-3/ has been purged, triggered by action: save_post 
+[2025-03-31 10:31:51 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:51 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:53 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-extra-virgin-sitia-of-gold-pdo-4/ has been purged, triggered by action: save_post 
+[2025-03-31 10:31:53 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:53 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:54 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-extra-virgin-mylopotamos-pdo/ has been purged, triggered by action: save_post 
+[2025-03-31 10:31:54 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:54 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:55 : INFO] - Cache for URL: https://saridis.local/catalog/maslo-olivkovoe-pomace-saridis/ has been purged, triggered by action: save_post 
+[2025-03-31 10:31:55 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:55 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:56 : INFO] - Cache for URL: https://saridis.local/catalog/maslo-olivkovoe-pomace-saridis-2/ has been purged, triggered by action: save_post 
+[2025-03-31 10:31:56 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:56 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:57 : INFO] - Cache for URL: https://saridis.local/catalog/maslo-olivkovoe-pomace-saridis-3/ has been purged, triggered by action: save_post 
+[2025-03-31 10:31:57 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:57 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:58 : INFO] - Cache for URL: https://saridis.local/catalog/maslo-olivkovoe-pomace-koko/ has been purged, triggered by action: save_post 
+[2025-03-31 10:31:58 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:58 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:59 : INFO] - Cache for URL: https://saridis.local/catalog/maslo-olivkovoe-pomace-koko-2/ has been purged, triggered by action: save_post 
+[2025-03-31 10:31:59 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:31:59 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:32:01 : INFO] - Cache for URL: https://saridis.local/catalog/maslo-olivkovoe-pomace-koko-3/ has been purged, triggered by action: save_post 
+[2025-03-31 10:32:56 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:32:56 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:32:57 : INFO] - Cache for URL: https://saridis.local/catalog/maslo-kukuruznoe/ has been purged, triggered by action: save_post 
+[2025-03-31 10:32:57 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:32:57 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:32:58 : INFO] - Cache for URL: https://saridis.local/catalog/ketchup-bez-sahara-condito-pl-but/ has been purged, triggered by action: save_post 
+[2025-03-31 10:32:58 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:32:58 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:32:59 : INFO] - Cache for URL: https://saridis.local/catalog/ketchup-so-steviej-condito-pl-but/ has been purged, triggered by action: save_post 
+[2025-03-31 10:32:59 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:32:59 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:00 : INFO] - Cache for URL: https://saridis.local/catalog/gorchicza-myagkaya-mustard-42kg-soft/ has been purged, triggered by action: save_post 
+[2025-03-31 10:33:00 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:00 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:02 : INFO] - Cache for URL: https://saridis.local/catalog/gorchicza-myagkaya-mustard-45kg-soft/ has been purged, triggered by action: save_post 
+[2025-03-31 10:33:02 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:03 : INFO] - Cache for URL: https://saridis.local/catalog/gorchicza-s-medom/ has been purged, triggered by action: save_post 
+[2025-03-31 10:33:03 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:03 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:04 : INFO] - Cache for URL: https://saridis.local/catalog/balzamicheskij-sous-klassicheskij/ has been purged, triggered by action: save_post 
+[2025-03-31 10:33:04 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:04 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:05 : INFO] - Cache for URL: https://saridis.local/catalog/belyj-balzamicheskij-sous/ has been purged, triggered by action: save_post 
+[2025-03-31 10:33:05 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:05 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:06 : INFO] - Cache for URL: https://saridis.local/catalog/sous-balzamicheskij-s-inzhirom/ has been purged, triggered by action: save_post 
+[2025-03-31 10:33:06 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:06 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:07 : INFO] - Cache for URL: https://saridis.local/catalog/balzamicheskij-sous-s-klubnikoj/ has been purged, triggered by action: save_post 
+[2025-03-31 10:33:07 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:07 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:08 : INFO] - Cache for URL: https://saridis.local/catalog/sous-balzamicheskij-s-apelsinom/ has been purged, triggered by action: save_post 
+[2025-03-31 10:33:08 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:08 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:09 : INFO] - Cache for URL: https://saridis.local/catalog/balzamicheskij-sous-sgranatom/ has been purged, triggered by action: save_post 
+[2025-03-31 10:33:09 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:09 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:11 : INFO] - Cache for URL: https://saridis.local/catalog/balzamicheskij-sous-barbekyu/ has been purged, triggered by action: save_post 
+[2025-03-31 10:33:11 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:11 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:12 : INFO] - Cache for URL: https://saridis.local/catalog/balzamicheskij-sous-s-lesnymi-yagodami/ has been purged, triggered by action: save_post 
+[2025-03-31 10:33:12 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:12 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:13 : INFO] - Cache for URL: https://saridis.local/catalog/balzamicheskij-sous-chili/ has been purged, triggered by action: save_post 
+[2025-03-31 10:33:13 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:13 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:14 : INFO] - Cache for URL: https://saridis.local/catalog/balzamicheskij-sous-s-vishnej/ has been purged, triggered by action: save_post 
+[2025-03-31 10:33:14 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:14 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:15 : INFO] - Cache for URL: https://saridis.local/catalog/balzamicheskij-sous-s-limonom/ has been purged, triggered by action: save_post 
+[2025-03-31 10:33:15 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:15 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:16 : INFO] - Cache for URL: https://saridis.local/catalog/balzamicheskij-sous-s-medom/ has been purged, triggered by action: save_post 
+[2025-03-31 10:33:16 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:16 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:18 : INFO] - Cache for URL: https://saridis.local/catalog/balzamicheskij-sous-s-soevym-sousom/ has been purged, triggered by action: save_post 
+[2025-03-31 10:33:18 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:18 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:19 : INFO] - Cache for URL: https://saridis.local/catalog/sous-balzamicheskij-sgranatom-bez-sahara/ has been purged, triggered by action: save_post 
+[2025-03-31 10:33:19 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:19 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:20 : INFO] - Cache for URL: https://saridis.local/catalog/uksus-vinnyj-krasnyj/ has been purged, triggered by action: save_post 
+[2025-03-31 10:33:20 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:20 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:21 : INFO] - Cache for URL: https://saridis.local/catalog/uksus-yablochnyj/ has been purged, triggered by action: save_post 
+[2025-03-31 10:33:21 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:22 : INFO] - Cache for URL: https://saridis.local/catalog/sok-limonyj-konczentrat/ has been purged, triggered by action: save_post 
+[2025-03-31 10:33:56 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:56 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:57 : INFO] - Cache for URL: https://saridis.local/catalog/masliny-s-kostochkoj-v-rassole-atlas-70-90/ has been purged, triggered by action: save_post 
+[2025-03-31 10:33:57 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:57 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:58 : INFO] - Cache for URL: https://saridis.local/catalog/masliny-s-kostochkoj-v-rassole-super-mammouth-91-100/ has been purged, triggered by action: save_post 
+[2025-03-31 10:33:58 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:58 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:59 : INFO] - Cache for URL: https://saridis.local/catalog/masliny-s-kostochkoj-v-rassole-super-mammouth-101-110/ has been purged, triggered by action: save_post 
+[2025-03-31 10:33:59 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:33:59 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:00 : INFO] - Cache for URL: https://saridis.local/catalog/masliny-s-kostochkoj-v-rassole-super-mammouth-111-120/ has been purged, triggered by action: save_post 
+[2025-03-31 10:34:00 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:00 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:02 : INFO] - Cache for URL: https://saridis.local/catalog/masliny-s-kostochkoj-v-rassole-super-mammouth-101-110-2/ has been purged, triggered by action: save_post 
+[2025-03-31 10:34:02 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:02 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:03 : INFO] - Cache for URL: https://saridis.local/catalog/masliny-bez-kostochek-v-rassole-superior-101-110/ has been purged, triggered by action: save_post 
+[2025-03-31 10:34:03 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:03 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:04 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-s-kostochkoj-v-rassole-atlas-71-90/ has been purged, triggered by action: save_post 
+[2025-03-31 10:34:04 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:04 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:05 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-s-kostochkoj-v-rassole-atlas-101-110/ has been purged, triggered by action: save_post 
+[2025-03-31 10:34:05 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:05 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:06 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-bez-kostochek-v-rassole-superior-70-91/ has been purged, triggered by action: save_post 
+[2025-03-31 10:34:06 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:06 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:07 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-bez-kostochek-v-rassole-superior-101-110/ has been purged, triggered by action: save_post 
+[2025-03-31 10:34:07 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:07 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:08 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-kalamon-s-kostochkoj-v-rassole-extra-jumbo-161-180/ has been purged, triggered by action: save_post 
+[2025-03-31 10:34:08 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:08 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:09 : INFO] - Cache for URL: https://saridis.local/catalog/masliny-s-kostochkoj-v-rassole-atlas-70-90-2/ has been purged, triggered by action: save_post 
+[2025-03-31 10:34:09 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:09 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:10 : INFO] - Cache for URL: https://saridis.local/catalog/masliny-s-kostochkami-v-rassole-super-mammouth-91-100/ has been purged, triggered by action: save_post 
+[2025-03-31 10:34:10 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:10 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:12 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-bez-kostochek-v-rassole-superior-70-91-2/ has been purged, triggered by action: save_post 
+[2025-03-31 10:34:12 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:12 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:13 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-s-kostochkoj-v-rassole-atlas-71-90-2/ has been purged, triggered by action: save_post 
+[2025-03-31 10:34:13 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:13 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:14 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-s-kostochkoj-v-rassole-atlas-91-100/ has been purged, triggered by action: save_post 
+[2025-03-31 10:34:14 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:14 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:15 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-s-mindalem-v-rassole/ has been purged, triggered by action: save_post 
+[2025-03-31 10:34:15 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:15 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:16 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-kalamon-s-kostochkoj-v-rassole-extra-jumbo-161-180-2/ has been purged, triggered by action: save_post 
+[2025-03-31 10:34:16 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:16 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:18 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-kalamon-s-kostochkoj-v-rassole-jumbo-181-200/ has been purged, triggered by action: save_post 
+[2025-03-31 10:34:18 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:18 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:19 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-kalamon-bez-kostochki-v-rassole-jumbo-181-201/ has been purged, triggered by action: save_post 
+[2025-03-31 10:34:19 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:19 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:20 : INFO] - Cache for URL: https://saridis.local/catalog/masliny-s-kostochkoj-70-90/ has been purged, triggered by action: save_post 
+[2025-03-31 10:34:20 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:20 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:21 : INFO] - Cache for URL: https://saridis.local/catalog/masliny-bez-kostochek-v-rassole-superior-111-120/ has been purged, triggered by action: save_post 
+[2025-03-31 10:34:21 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:21 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:22 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-s-kostochkoj-101-110/ has been purged, triggered by action: save_post 
+[2025-03-31 10:34:22 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:22 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:23 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-bez-kostochek-v-rassole-mammouth-111-120/ has been purged, triggered by action: save_post 
+[2025-03-31 10:34:24 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:24 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:25 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-kalamata-s-kostochkoj-v-rassole-jumbo-181-200/ has been purged, triggered by action: save_post 
+[2025-03-31 10:34:25 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:25 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:26 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-zelenye-s-kostochkami-s-mammouth-91-100/ has been purged, triggered by action: save_post 
+[2025-03-31 10:34:26 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:26 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:27 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-zelenye-bez-kostocheks-mammouth-91-100/ has been purged, triggered by action: save_post 
+[2025-03-31 10:34:27 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:27 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:28 : INFO] - Cache for URL: https://saridis.local/catalog/masliny-s-kostochkoj-s-mammouth-91-100/ has been purged, triggered by action: save_post 
+[2025-03-31 10:34:28 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:28 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:29 : INFO] - Cache for URL: https://saridis.local/catalog/masliny-bez-kostochek-s-mammouth-91-100/ has been purged, triggered by action: save_post 
+[2025-03-31 10:34:29 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:29 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:30 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-vyalenye-throumba-thassos/ has been purged, triggered by action: save_post 
+[2025-03-31 10:34:30 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:30 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:32 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-vyalenye-throumba-thassos-2/ has been purged, triggered by action: save_post 
+[2025-03-31 10:34:32 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:32 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:33 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-zelenye-i-olivki-kalamata-s-kostochkoj-mix/ has been purged, triggered by action: save_post 
+[2025-03-31 10:34:33 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:33 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:34:34 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-zelenye-i-olivki-kalamata-s-kostochkoj-mix-2/ has been purged, triggered by action: save_post 
+[2025-03-31 10:35:12 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:12 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:13 : INFO] - Cache for URL: https://saridis.local/catalog/vyalenye-tomaty-v-rastitelnom-masle-so-specziyami/ has been purged, triggered by action: save_post 
+[2025-03-31 10:35:13 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:13 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:14 : INFO] - Cache for URL: https://saridis.local/catalog/vyalenye-tomaty-v-rastitelnom-masle-so-specziyami-2/ has been purged, triggered by action: save_post 
+[2025-03-31 10:35:14 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:14 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:15 : INFO] - Cache for URL: https://saridis.local/catalog/vyalenye-tomaty-v-rastitelnom-masle-so-specziyami-3/ has been purged, triggered by action: save_post 
+[2025-03-31 10:35:15 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:15 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:16 : INFO] - Cache for URL: https://saridis.local/catalog/baklazhany-pechenye-v-tomatnom-souse/ has been purged, triggered by action: save_post 
+[2025-03-31 10:35:16 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:16 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:17 : INFO] - Cache for URL: https://saridis.local/catalog/baklazhany-pechenye-pashtet-dlya-melidzanosalata/ has been purged, triggered by action: save_post 
+[2025-03-31 10:35:17 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:17 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:19 : INFO] - Cache for URL: https://saridis.local/catalog/fasol-pechenaya-v-tomatnom-souse/ has been purged, triggered by action: save_post 
+[2025-03-31 10:35:19 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:19 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:20 : INFO] - Cache for URL: https://saridis.local/catalog/fasol-pechenaya-v-tomatnom-souse-2/ has been purged, triggered by action: save_post 
+[2025-03-31 10:35:20 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:20 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:21 : INFO] - Cache for URL: https://saridis.local/catalog/perecz-cherry-krasnyj-18kg/ has been purged, triggered by action: save_post 
+[2025-03-31 10:35:21 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:21 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:22 : INFO] - Cache for URL: https://saridis.local/catalog/perecz-cherry-zheltyj-18kg/ has been purged, triggered by action: save_post 
+[2025-03-31 10:35:22 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:22 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:23 : INFO] - Cache for URL: https://saridis.local/catalog/perecz-cherry-zelenyj-18kg/ has been purged, triggered by action: save_post 
+[2025-03-31 10:35:23 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:23 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:24 : INFO] - Cache for URL: https://saridis.local/catalog/perecz-zolotistyj-marinovanyj-makedoniko-25kg/ has been purged, triggered by action: save_post 
+[2025-03-31 10:35:24 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:24 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:25 : INFO] - Cache for URL: https://saridis.local/catalog/perecz-zolotistyj-marinovanyj-makedoniko-7kg/ has been purged, triggered by action: save_post 
+[2025-03-31 10:35:25 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:25 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:26 : INFO] - Cache for URL: https://saridis.local/catalog/perecz-zolotistyj-marinovanyj-makedoniko/ has been purged, triggered by action: save_post 
+[2025-03-31 10:35:26 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:26 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:27 : INFO] - Cache for URL: https://saridis.local/catalog/perecz-zapechennyj-krasnyj-buono-350gr/ has been purged, triggered by action: save_post 
+[2025-03-31 10:35:27 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:27 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:29 : INFO] - Cache for URL: https://saridis.local/catalog/perecz-zapechennyj-krasnyj-i-zheltyj-buono-350gr-st-b/ has been purged, triggered by action: save_post 
+[2025-03-31 10:35:43 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:43 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:44 : INFO] - Cache for URL: https://saridis.local/catalog/makaronnye-izdeliya-spiral-ellinikos-sitos/ has been purged, triggered by action: save_post 
+[2025-03-31 10:35:44 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:44 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:45 : INFO] - Cache for URL: https://saridis.local/catalog/makaronnye-izdeliya-orzo-ellinikos-sitos/ has been purged, triggered by action: save_post 
+[2025-03-31 10:35:45 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:45 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:46 : INFO] - Cache for URL: https://saridis.local/catalog/makaronye-izdeliya-bucatini-%e2%84%962-ellinikos-sitos/ has been purged, triggered by action: save_post 
+[2025-03-31 10:35:46 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:46 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:47 : INFO] - Cache for URL: https://saridis.local/catalog/makaronye-izdeliya-spaghettini-%e2%84%9610-ellinikos-sitos/ has been purged, triggered by action: save_post 
+[2025-03-31 10:35:47 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:47 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:48 : INFO] - Cache for URL: https://saridis.local/catalog/makaronye-izdeliya-spaghettini-%e2%84%966-ellinikos-sitos/ has been purged, triggered by action: save_post 
+[2025-03-31 10:35:48 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:48 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:49 : INFO] - Cache for URL: https://saridis.local/catalog/makaronye-izdeliya-spaghettini-%e2%84%966-ellinikos-sitos-iz-czelnozernovoj-muki/ has been purged, triggered by action: save_post 
+[2025-03-31 10:35:49 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:49 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:50 : INFO] - Cache for URL: https://saridis.local/catalog/makaronnye-izdeliya-penne-ellinikos-sitos/ has been purged, triggered by action: save_post 
+[2025-03-31 10:35:50 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:50 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:35:51 : INFO] - Cache for URL: https://saridis.local/catalog/makaronnye-izdeliya-ditalini-ellinikos-sitos/ has been purged, triggered by action: save_post 
+[2025-03-31 10:36:06 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:36:06 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:36:07 : INFO] - Cache for URL: https://saridis.local/catalog/vafelnye-trubochki-caprice-s-shokoladym-kremom/ has been purged, triggered by action: save_post 
+[2025-03-31 10:36:07 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:36:07 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:36:08 : INFO] - Cache for URL: https://saridis.local/catalog/shokoladnaya-pasta-melinda/ has been purged, triggered by action: save_post 
+[2025-03-31 10:36:08 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:36:08 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:36:09 : INFO] - Cache for URL: https://saridis.local/catalog/shokoladnaya-pasta-melinda-2/ has been purged, triggered by action: save_post 
+[2025-03-31 10:36:22 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:36:22 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:36:23 : INFO] - Cache for URL: https://saridis.local/catalog/kofe-naturalnyj-molotyj/ has been purged, triggered by action: save_post 
+[2025-03-31 10:36:23 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:36:23 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:36:24 : INFO] - Cache for URL: https://saridis.local/catalog/kofe-naturalnyj-molotyj-2/ has been purged, triggered by action: save_post 
+[2025-03-31 10:36:24 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:36:24 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:36:26 : INFO] - Cache for URL: https://saridis.local/catalog/kofe-naturalnyj-molotyj-3/ has been purged, triggered by action: save_post 
+[2025-03-31 10:36:26 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:36:26 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:36:27 : INFO] - Cache for URL: https://saridis.local/catalog/kofe-naturalnyj-molotyj-mel-cafe/ has been purged, triggered by action: save_post 
+[2025-03-31 10:36:27 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:36:27 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:36:28 : INFO] - Cache for URL: https://saridis.local/catalog/kofe-naturalnyj-molotyj-mel-cafe-gold/ has been purged, triggered by action: save_post 
+[2025-03-31 10:36:28 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:36:28 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:36:29 : INFO] - Cache for URL: https://saridis.local/catalog/kofe-naturalnyj-molotyj-mel-cafe-2/ has been purged, triggered by action: save_post 
+[2025-03-31 10:36:29 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:36:29 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:36:30 : INFO] - Cache for URL: https://saridis.local/catalog/gornyj-chaj-malotira-saridis/ has been purged, triggered by action: save_post 
+[2025-03-31 10:36:52 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:36:52 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:36:54 : INFO] - Cache for URL: https://saridis.local/catalog/priprava-oregano-hlopya/ has been purged, triggered by action: save_post 
+[2025-03-31 10:36:54 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:36:54 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:36:55 : INFO] - Cache for URL: https://saridis.local/catalog/priprava-kurkuma-molotaya/ has been purged, triggered by action: save_post 
+[2025-03-31 10:36:55 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:36:55 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:36:56 : INFO] - Cache for URL: https://saridis.local/catalog/priprava-timyan-chebrecz-hlopya/ has been purged, triggered by action: save_post 
+[2025-03-31 10:36:56 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:36:56 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:36:57 : INFO] - Cache for URL: https://saridis.local/catalog/chernyj-perecz-vysshej-kategorii-molotyj/ has been purged, triggered by action: save_post 
+[2025-03-31 10:36:57 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:36:57 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:36:58 : INFO] - Cache for URL: https://saridis.local/catalog/krasnyj-ostryj-perecz-bukovo-hlopya/ has been purged, triggered by action: save_post 
+[2025-03-31 10:36:58 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:36:58 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:37:00 : INFO] - Cache for URL: https://saridis.local/catalog/paprika-vysshej-kategorii-molotaya/ has been purged, triggered by action: save_post 
+[2025-03-31 10:37:00 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:37:00 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:37:01 : INFO] - Cache for URL: https://saridis.local/catalog/priprava-koriandr-molotyj/ has been purged, triggered by action: save_post 
+[2025-03-31 10:37:01 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:37:01 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:37:02 : INFO] - Cache for URL: https://saridis.local/catalog/priprava-sumah-vysshej-kategorii/ has been purged, triggered by action: save_post 
+[2025-03-31 10:37:02 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:37:02 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:37:03 : INFO] - Cache for URL: https://saridis.local/catalog/priprava-myata-vysshej-kategorii-hlopya/ has been purged, triggered by action: save_post 
+[2025-03-31 10:37:03 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:37:03 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:37:04 : INFO] - Cache for URL: https://saridis.local/catalog/koricza-gold-palochki/ has been purged, triggered by action: save_post 
+[2025-03-31 10:37:04 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-31 10:37:05 : INFO] - Cache for URL: https://saridis.local/catalog/priprava-dlya-kuriczy/ has been purged, triggered by action: save_post 
+[2025-04-03 07:55:24 : INFO] - Cache for term page with URL: https://saridis.local/brand/onasis/  have been purged, triggered by action: edit_terms 
+[2025-04-03 07:55:24 : INFO] - Cache for associated posts for term with URL: https://saridis.local/brand/onasis/ have been purged, triggered by action: edit_terms 
+[2025-04-03 07:55:32 : INFO] - Cache for term page with URL: https://saridis.local/brand/onasis/  have been purged, triggered by action: edit_terms 
+[2025-04-03 07:55:32 : INFO] - Cache for associated posts for term with URL: https://saridis.local/brand/onasis/ have been purged, triggered by action: edit_terms 
+[2025-04-03 07:56:03 : INFO] - Cache for term page with URL: https://saridis.local/brand/papadopoulou/  have been purged, triggered by action: edit_terms 
+[2025-04-03 07:56:03 : INFO] - Cache for associated posts for term with URL: https://saridis.local/brand/papadopoulou/ have been purged, triggered by action: edit_terms 
+[2025-04-03 08:27:16 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:16 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:17 : INFO] - Cache for URL: https://saridis.local/catalog/priprava-oregano-hlopya/ has been purged, triggered by action: save_post 
+[2025-04-03 08:27:17 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:17 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:18 : INFO] - Cache for URL: https://saridis.local/catalog/priprava-kurkuma-molotaya/ has been purged, triggered by action: save_post 
+[2025-04-03 08:27:18 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:18 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:19 : INFO] - Cache for URL: https://saridis.local/catalog/priprava-timyan-chebrecz-hlopya/ has been purged, triggered by action: save_post 
+[2025-04-03 08:27:19 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:19 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:21 : INFO] - Cache for URL: https://saridis.local/catalog/chernyj-perecz-vysshej-kategorii-molotyj/ has been purged, triggered by action: save_post 
+[2025-04-03 08:27:21 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:21 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:22 : INFO] - Cache for URL: https://saridis.local/catalog/krasnyj-ostryj-perecz-bukovo-hlopya/ has been purged, triggered by action: save_post 
+[2025-04-03 08:27:22 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:22 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:23 : INFO] - Cache for URL: https://saridis.local/catalog/paprika-vysshej-kategorii-molotaya/ has been purged, triggered by action: save_post 
+[2025-04-03 08:27:23 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:23 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:24 : INFO] - Cache for URL: https://saridis.local/catalog/priprava-koriandr-molotyj/ has been purged, triggered by action: save_post 
+[2025-04-03 08:27:24 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:24 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:26 : INFO] - Cache for URL: https://saridis.local/catalog/priprava-sumah-vysshej-kategorii/ has been purged, triggered by action: save_post 
+[2025-04-03 08:27:26 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:26 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:27 : INFO] - Cache for URL: https://saridis.local/catalog/priprava-myata-vysshej-kategorii-hlopya/ has been purged, triggered by action: save_post 
+[2025-04-03 08:27:27 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:27 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:28 : INFO] - Cache for URL: https://saridis.local/catalog/koricza-gold-palochki/ has been purged, triggered by action: save_post 
+[2025-04-03 08:27:28 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:29 : INFO] - Cache for URL: https://saridis.local/catalog/priprava-dlya-kuriczy/ has been purged, triggered by action: save_post 
+[2025-04-03 08:27:37 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:37 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:38 : INFO] - Cache for URL: https://saridis.local/catalog/kofe-naturalnyj-molotyj/ has been purged, triggered by action: save_post 
+[2025-04-03 08:27:38 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:38 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:39 : INFO] - Cache for URL: https://saridis.local/catalog/kofe-naturalnyj-molotyj-2/ has been purged, triggered by action: save_post 
+[2025-04-03 08:27:39 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:39 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:41 : INFO] - Cache for URL: https://saridis.local/catalog/kofe-naturalnyj-molotyj-3/ has been purged, triggered by action: save_post 
+[2025-04-03 08:27:41 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:41 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:42 : INFO] - Cache for URL: https://saridis.local/catalog/kofe-naturalnyj-molotyj-mel-cafe/ has been purged, triggered by action: save_post 
+[2025-04-03 08:27:42 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:42 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:43 : INFO] - Cache for URL: https://saridis.local/catalog/kofe-naturalnyj-molotyj-mel-cafe-gold/ has been purged, triggered by action: save_post 
+[2025-04-03 08:27:43 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:43 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:44 : INFO] - Cache for URL: https://saridis.local/catalog/kofe-naturalnyj-molotyj-mel-cafe-2/ has been purged, triggered by action: save_post 
+[2025-04-03 08:27:44 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:44 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:46 : INFO] - Cache for URL: https://saridis.local/catalog/gornyj-chaj-malotira-saridis/ has been purged, triggered by action: save_post 
+[2025-04-03 08:27:55 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:55 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:57 : INFO] - Cache for URL: https://saridis.local/catalog/vafelnye-trubochki-caprice-s-shokoladym-kremom/ has been purged, triggered by action: save_post 
+[2025-04-03 08:27:57 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:57 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:58 : INFO] - Cache for URL: https://saridis.local/catalog/shokoladnaya-pasta-melinda/ has been purged, triggered by action: save_post 
+[2025-04-03 08:27:58 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:58 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:27:59 : INFO] - Cache for URL: https://saridis.local/catalog/shokoladnaya-pasta-melinda-2/ has been purged, triggered by action: save_post 
+[2025-04-03 08:28:10 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:10 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:11 : INFO] - Cache for URL: https://saridis.local/catalog/makaronnye-izdeliya-spiral-ellinikos-sitos/ has been purged, triggered by action: save_post 
+[2025-04-03 08:28:11 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:11 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:13 : INFO] - Cache for URL: https://saridis.local/catalog/makaronnye-izdeliya-orzo-ellinikos-sitos/ has been purged, triggered by action: save_post 
+[2025-04-03 08:28:13 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:13 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:14 : INFO] - Cache for URL: https://saridis.local/catalog/makaronye-izdeliya-bucatini-%e2%84%962-ellinikos-sitos/ has been purged, triggered by action: save_post 
+[2025-04-03 08:28:14 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:14 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:15 : INFO] - Cache for URL: https://saridis.local/catalog/makaronye-izdeliya-spaghettini-%e2%84%9610-ellinikos-sitos/ has been purged, triggered by action: save_post 
+[2025-04-03 08:28:15 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:15 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:16 : INFO] - Cache for URL: https://saridis.local/catalog/makaronye-izdeliya-spaghettini-%e2%84%966-ellinikos-sitos/ has been purged, triggered by action: save_post 
+[2025-04-03 08:28:16 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:16 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:18 : INFO] - Cache for URL: https://saridis.local/catalog/makaronye-izdeliya-spaghettini-%e2%84%966-ellinikos-sitos-iz-czelnozernovoj-muki/ has been purged, triggered by action: save_post 
+[2025-04-03 08:28:18 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:18 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:19 : INFO] - Cache for URL: https://saridis.local/catalog/makaronnye-izdeliya-penne-ellinikos-sitos/ has been purged, triggered by action: save_post 
+[2025-04-03 08:28:19 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:19 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:20 : INFO] - Cache for URL: https://saridis.local/catalog/makaronnye-izdeliya-ditalini-ellinikos-sitos/ has been purged, triggered by action: save_post 
+[2025-04-03 08:28:24 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:24 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:25 : INFO] - Cache for URL: https://saridis.local/catalog/vyalenye-tomaty-v-rastitelnom-masle-so-specziyami/ has been purged, triggered by action: save_post 
+[2025-04-03 08:28:25 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:25 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:26 : INFO] - Cache for URL: https://saridis.local/catalog/vyalenye-tomaty-v-rastitelnom-masle-so-specziyami-2/ has been purged, triggered by action: save_post 
+[2025-04-03 08:28:26 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:26 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:28 : INFO] - Cache for URL: https://saridis.local/catalog/vyalenye-tomaty-v-rastitelnom-masle-so-specziyami-3/ has been purged, triggered by action: save_post 
+[2025-04-03 08:28:28 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:28 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:29 : INFO] - Cache for URL: https://saridis.local/catalog/baklazhany-pechenye-v-tomatnom-souse/ has been purged, triggered by action: save_post 
+[2025-04-03 08:28:29 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:29 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:30 : INFO] - Cache for URL: https://saridis.local/catalog/baklazhany-pechenye-pashtet-dlya-melidzanosalata/ has been purged, triggered by action: save_post 
+[2025-04-03 08:28:30 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:30 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:31 : INFO] - Cache for URL: https://saridis.local/catalog/fasol-pechenaya-v-tomatnom-souse/ has been purged, triggered by action: save_post 
+[2025-04-03 08:28:31 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:31 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:32 : INFO] - Cache for URL: https://saridis.local/catalog/fasol-pechenaya-v-tomatnom-souse-2/ has been purged, triggered by action: save_post 
+[2025-04-03 08:28:32 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:32 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:34 : INFO] - Cache for URL: https://saridis.local/catalog/perecz-cherry-krasnyj-18kg/ has been purged, triggered by action: save_post 
+[2025-04-03 08:28:34 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:34 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:35 : INFO] - Cache for URL: https://saridis.local/catalog/perecz-cherry-zheltyj-18kg/ has been purged, triggered by action: save_post 
+[2025-04-03 08:28:35 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:35 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:36 : INFO] - Cache for URL: https://saridis.local/catalog/perecz-cherry-zelenyj-18kg/ has been purged, triggered by action: save_post 
+[2025-04-03 08:28:36 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:36 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:37 : INFO] - Cache for URL: https://saridis.local/catalog/perecz-zolotistyj-marinovanyj-makedoniko-25kg/ has been purged, triggered by action: save_post 
+[2025-04-03 08:28:37 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:37 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:38 : INFO] - Cache for URL: https://saridis.local/catalog/perecz-zolotistyj-marinovanyj-makedoniko-7kg/ has been purged, triggered by action: save_post 
+[2025-04-03 08:28:38 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:38 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:40 : INFO] - Cache for URL: https://saridis.local/catalog/perecz-zolotistyj-marinovanyj-makedoniko/ has been purged, triggered by action: save_post 
+[2025-04-03 08:28:40 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:40 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:41 : INFO] - Cache for URL: https://saridis.local/catalog/perecz-zapechennyj-krasnyj-buono-350gr/ has been purged, triggered by action: save_post 
+[2025-04-03 08:28:41 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:41 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:42 : INFO] - Cache for URL: https://saridis.local/catalog/perecz-zapechennyj-krasnyj-i-zheltyj-buono-350gr-st-b/ has been purged, triggered by action: save_post 
+[2025-04-03 08:28:46 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:46 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:47 : INFO] - Cache for URL: https://saridis.local/catalog/masliny-s-kostochkoj-v-rassole-atlas-70-90/ has been purged, triggered by action: save_post 
+[2025-04-03 08:28:47 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:47 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:48 : INFO] - Cache for URL: https://saridis.local/catalog/masliny-s-kostochkoj-v-rassole-super-mammouth-91-100/ has been purged, triggered by action: save_post 
+[2025-04-03 08:28:48 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:48 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:50 : INFO] - Cache for URL: https://saridis.local/catalog/masliny-s-kostochkoj-v-rassole-super-mammouth-101-110/ has been purged, triggered by action: save_post 
+[2025-04-03 08:28:50 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:50 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:51 : INFO] - Cache for URL: https://saridis.local/catalog/masliny-s-kostochkoj-v-rassole-super-mammouth-111-120/ has been purged, triggered by action: save_post 
+[2025-04-03 08:28:51 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:51 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:52 : INFO] - Cache for URL: https://saridis.local/catalog/masliny-s-kostochkoj-v-rassole-super-mammouth-101-110-2/ has been purged, triggered by action: save_post 
+[2025-04-03 08:28:52 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:52 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:53 : INFO] - Cache for URL: https://saridis.local/catalog/masliny-bez-kostochek-v-rassole-superior-101-110/ has been purged, triggered by action: save_post 
+[2025-04-03 08:28:53 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:53 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:55 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-s-kostochkoj-v-rassole-atlas-71-90/ has been purged, triggered by action: save_post 
+[2025-04-03 08:28:55 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:55 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:56 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-s-kostochkoj-v-rassole-atlas-101-110/ has been purged, triggered by action: save_post 
+[2025-04-03 08:28:56 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:56 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:57 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-bez-kostochek-v-rassole-superior-70-91/ has been purged, triggered by action: save_post 
+[2025-04-03 08:28:57 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:57 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:58 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-bez-kostochek-v-rassole-superior-101-110/ has been purged, triggered by action: save_post 
+[2025-04-03 08:28:58 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:58 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:28:59 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-kalamon-s-kostochkoj-v-rassole-extra-jumbo-161-180/ has been purged, triggered by action: save_post 
+[2025-04-03 08:28:59 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:00 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:01 : INFO] - Cache for URL: https://saridis.local/catalog/masliny-s-kostochkoj-v-rassole-atlas-70-90-2/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:01 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:01 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:02 : INFO] - Cache for URL: https://saridis.local/catalog/masliny-s-kostochkami-v-rassole-super-mammouth-91-100/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:02 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:02 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:03 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-bez-kostochek-v-rassole-superior-70-91-2/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:03 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:03 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:04 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-s-kostochkoj-v-rassole-atlas-71-90-2/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:04 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:04 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:06 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-s-kostochkoj-v-rassole-atlas-91-100/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:06 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:06 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:07 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-s-mindalem-v-rassole/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:07 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:07 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:08 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-kalamon-s-kostochkoj-v-rassole-extra-jumbo-161-180-2/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:08 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:08 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:09 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-kalamon-s-kostochkoj-v-rassole-jumbo-181-200/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:09 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:09 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:11 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-kalamon-bez-kostochki-v-rassole-jumbo-181-201/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:11 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:11 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:12 : INFO] - Cache for URL: https://saridis.local/catalog/masliny-s-kostochkoj-70-90/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:12 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:12 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:13 : INFO] - Cache for URL: https://saridis.local/catalog/masliny-bez-kostochek-v-rassole-superior-111-120/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:13 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:13 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:14 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-s-kostochkoj-101-110/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:14 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:14 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:15 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-bez-kostochek-v-rassole-mammouth-111-120/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:16 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:16 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:17 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-kalamata-s-kostochkoj-v-rassole-jumbo-181-200/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:17 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:17 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:18 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-zelenye-s-kostochkami-s-mammouth-91-100/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:18 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:18 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:19 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-zelenye-bez-kostocheks-mammouth-91-100/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:19 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:19 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:20 : INFO] - Cache for URL: https://saridis.local/catalog/masliny-s-kostochkoj-s-mammouth-91-100/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:20 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:20 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:21 : INFO] - Cache for URL: https://saridis.local/catalog/masliny-bez-kostochek-s-mammouth-91-100/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:21 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:21 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:23 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-vyalenye-throumba-thassos/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:23 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:23 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:24 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-vyalenye-throumba-thassos-2/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:24 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:24 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:25 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-zelenye-i-olivki-kalamata-s-kostochkoj-mix/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:25 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:25 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:26 : INFO] - Cache for URL: https://saridis.local/catalog/olivki-zelenye-i-olivki-kalamata-s-kostochkoj-mix-2/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:37 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:37 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:39 : INFO] - Cache for URL: https://saridis.local/catalog/maslo-kukuruznoe/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:39 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:39 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:40 : INFO] - Cache for URL: https://saridis.local/catalog/ketchup-bez-sahara-condito-pl-but/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:40 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:40 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:41 : INFO] - Cache for URL: https://saridis.local/catalog/ketchup-so-steviej-condito-pl-but/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:41 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:41 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:42 : INFO] - Cache for URL: https://saridis.local/catalog/gorchicza-myagkaya-mustard-42kg-soft/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:42 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:42 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:43 : INFO] - Cache for URL: https://saridis.local/catalog/gorchicza-myagkaya-mustard-45kg-soft/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:43 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:44 : INFO] - Cache for URL: https://saridis.local/catalog/gorchicza-s-medom/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:44 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:44 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:46 : INFO] - Cache for URL: https://saridis.local/catalog/balzamicheskij-sous-klassicheskij/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:46 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:46 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:47 : INFO] - Cache for URL: https://saridis.local/catalog/belyj-balzamicheskij-sous/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:47 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:47 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:48 : INFO] - Cache for URL: https://saridis.local/catalog/sous-balzamicheskij-s-inzhirom/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:48 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:48 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:49 : INFO] - Cache for URL: https://saridis.local/catalog/balzamicheskij-sous-s-klubnikoj/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:49 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:49 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:51 : INFO] - Cache for URL: https://saridis.local/catalog/sous-balzamicheskij-s-apelsinom/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:51 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:51 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:52 : INFO] - Cache for URL: https://saridis.local/catalog/balzamicheskij-sous-sgranatom/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:52 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:52 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:53 : INFO] - Cache for URL: https://saridis.local/catalog/balzamicheskij-sous-barbekyu/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:53 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:53 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:54 : INFO] - Cache for URL: https://saridis.local/catalog/balzamicheskij-sous-s-lesnymi-yagodami/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:54 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:54 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:55 : INFO] - Cache for URL: https://saridis.local/catalog/balzamicheskij-sous-chili/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:55 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:55 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:56 : INFO] - Cache for URL: https://saridis.local/catalog/balzamicheskij-sous-s-vishnej/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:56 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:56 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:58 : INFO] - Cache for URL: https://saridis.local/catalog/balzamicheskij-sous-s-limonom/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:58 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:58 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:59 : INFO] - Cache for URL: https://saridis.local/catalog/balzamicheskij-sous-s-medom/ has been purged, triggered by action: save_post 
+[2025-04-03 08:29:59 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:29:59 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:00 : INFO] - Cache for URL: https://saridis.local/catalog/balzamicheskij-sous-s-soevym-sousom/ has been purged, triggered by action: save_post 
+[2025-04-03 08:30:00 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:00 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:01 : INFO] - Cache for URL: https://saridis.local/catalog/sous-balzamicheskij-sgranatom-bez-sahara/ has been purged, triggered by action: save_post 
+[2025-04-03 08:30:01 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:01 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:02 : INFO] - Cache for URL: https://saridis.local/catalog/uksus-vinnyj-krasnyj/ has been purged, triggered by action: save_post 
+[2025-04-03 08:30:02 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:02 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:03 : INFO] - Cache for URL: https://saridis.local/catalog/uksus-yablochnyj/ has been purged, triggered by action: save_post 
+[2025-04-03 08:30:03 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:05 : INFO] - Cache for URL: https://saridis.local/catalog/sok-limonyj-konczentrat/ has been purged, triggered by action: save_post 
+[2025-04-03 08:30:17 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:17 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:18 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-extra-virgin-latzimas-gold-pdo/ has been purged, triggered by action: save_post 
+[2025-04-03 08:30:18 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:18 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:20 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-extra-virgin-latzimas-gold-pdo-2/ has been purged, triggered by action: save_post 
+[2025-04-03 08:30:20 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:20 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:21 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-extra-virgin-latzimas-pdo/ has been purged, triggered by action: save_post 
+[2025-04-03 08:30:21 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:21 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:22 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-extra-virgin-latzimas-pdo-2/ has been purged, triggered by action: save_post 
+[2025-04-03 08:30:22 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:22 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:23 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-extra-virgin-latzimas-gold-pdo-3/ has been purged, triggered by action: save_post 
+[2025-04-03 08:30:23 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:23 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:24 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-extra-virgin-kalamata-estate-pdo/ has been purged, triggered by action: save_post 
+[2025-04-03 08:30:24 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:24 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:25 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-extra-virgin-kalamata-estate-pdo-2/ has been purged, triggered by action: save_post 
+[2025-04-03 08:30:25 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:25 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:27 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-extra-virgin-kalamata-estate-pdo-3/ has been purged, triggered by action: save_post 
+[2025-04-03 08:30:27 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:27 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:28 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-extra-virgin-kalamata-estate-pdo-4/ has been purged, triggered by action: save_post 
+[2025-04-03 08:30:28 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:28 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:29 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-extra-virgin-saridis-1-l-pdo/ has been purged, triggered by action: save_post 
+[2025-04-03 08:30:29 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:29 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:30 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-extra-virgin-saridis-1-l-pdo-2/ has been purged, triggered by action: save_post 
+[2025-04-03 08:30:30 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:30 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:31 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-extra-virgin-saridis-1-l-pdo-3/ has been purged, triggered by action: save_post 
+[2025-04-03 08:30:31 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:31 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:33 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-extra-virgin-sitia-of-gold-pdo/ has been purged, triggered by action: save_post 
+[2025-04-03 08:30:33 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:33 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:34 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-extra-virgin-sitia-of-gold-pdo-2/ has been purged, triggered by action: save_post 
+[2025-04-03 08:30:34 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:34 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:35 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-extra-virgin-sitia-of-gold-pdo-3/ has been purged, triggered by action: save_post 
+[2025-04-03 08:30:35 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:35 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:36 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-extra-virgin-sitia-of-gold-pdo-4/ has been purged, triggered by action: save_post 
+[2025-04-03 08:30:36 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:36 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:37 : INFO] - Cache for URL: https://saridis.local/catalog/olivkovoe-maslo-extra-virgin-mylopotamos-pdo/ has been purged, triggered by action: save_post 
+[2025-04-03 08:30:37 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:37 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:38 : INFO] - Cache for URL: https://saridis.local/catalog/maslo-olivkovoe-pomace-saridis/ has been purged, triggered by action: save_post 
+[2025-04-03 08:30:38 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:38 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:40 : INFO] - Cache for URL: https://saridis.local/catalog/maslo-olivkovoe-pomace-saridis-2/ has been purged, triggered by action: save_post 
+[2025-04-03 08:30:40 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:40 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:41 : INFO] - Cache for URL: https://saridis.local/catalog/maslo-olivkovoe-pomace-saridis-3/ has been purged, triggered by action: save_post 
+[2025-04-03 08:30:41 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:41 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:42 : INFO] - Cache for URL: https://saridis.local/catalog/maslo-olivkovoe-pomace-koko/ has been purged, triggered by action: save_post 
+[2025-04-03 08:30:42 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:42 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:43 : INFO] - Cache for URL: https://saridis.local/catalog/maslo-olivkovoe-pomace-koko-2/ has been purged, triggered by action: save_post 
+[2025-04-03 08:30:43 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:43 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-04-03 08:30:45 : INFO] - Cache for URL: https://saridis.local/catalog/maslo-olivkovoe-pomace-koko-3/ has been purged, triggered by action: save_post 
